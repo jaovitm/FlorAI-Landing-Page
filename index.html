@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FlorAI — Sua câmera agora entende plantas</title>
+  <meta name="description" content="Tire uma foto. Descubra sua planta. Aprenda a cuidar dela. O FlorAI usa inteligência artificial para identificar plantas e ajudar você a cuidar delas." />
+  <meta name="theme-color" content="#070b09" />
+  <meta property="og:title" content="FlorAI — Sua câmera agora entende plantas" />
+  <meta property="og:description" content="Tire uma foto. Descubra sua planta. Aprenda a cuidar dela." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Ícones -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="17" height="15" rx="3"/><circle cx="9" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></symbol>
+    <symbol id="i-scan" viewBox="0 0 24 24"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2"/><path d="M4 12h16"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></symbol>
+    <symbol id="i-explore" viewBox="0 0 24 24"><path d="M4 7V5a1 1 0 0 1 1-1h2M17 4h2a1 1 0 0 1 1 1v2M20 17v2a1 1 0 0 1-1 1h-2M7 20H5a1 1 0 0 1-1-1v-2"/><circle cx="11.5" cy="11.5" r="3.5"/><path d="M14 14l2.5 2.5"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4.5 4-6.5 8-6.5s7 2 8 6.5"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16v-5a6 6 0 0 1 12 0v5l1.5 2h-15z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-thermo" viewBox="0 0 24 24"><path d="M10 14V5a2 2 0 0 1 4 0v9a4 4 0 1 1-4 0z"/></symbol>
+    <symbol id="i-pot" viewBox="0 0 24 24"><path d="M5 11h14l-2 9H7z"/><path d="M12 11V7m0 0c0-2 2-3.5 4.5-3.5 0 2-2 3.5-4.5 3.5zm0 0c0-2-2-3.5-4.5-3.5 0 2 2 3.5 4.5 3.5z"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 16l.7 1.8 1.8.7-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7z"/></symbol>
+    <symbol id="i-stetho" viewBox="0 0 24 24"><path d="M6 3v6a4 4 0 0 0 8 0V3"/><path d="M10 13v2a5 5 0 0 0 10 0v-2"/><circle cx="20" cy="11" r="2"/></symbol>
+    <symbol id="i-flash-off" viewBox="0 0 24 24"><path d="M13 3L6 13h5l-1 8 7-10h-5z"/><path d="M4 4l16 16"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3.5 7a2 2 0 0 1 2-2h4l2 2h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v4.5M12 16h.01"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.8.8 1 1.5 1 2.5h6c0-1 .2-1.7 1-2.5A6 6 0 0 0 12 3z"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner container">
+    <a class="brand" href="#topo" aria-label="FlorAI — início">
+      <span class="brand__mark"><svg class="i"><use href="#i-leaf"/></svg></span>
+      <span class="brand__name">Flor<span>AI</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Principal">
+      <a href="#produto">Produto</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#planos">Planos</a>
+    </nav>
+    <a class="btn btn--primary btn--sm nav__cta" href="#comecar">Começar agora</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+      <svg class="i"><use href="#i-menu"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <a href="#produto">Produto</a>
+    <a href="#como-funciona">Como funciona</a>
+    <a href="#recursos">Recursos</a>
+    <a href="#planos">Planos</a>
+    <a class="btn btn--primary" href="#comecar">Começar agora <svg class="i"><use href="#i-arrow-right"/></svg></a>
+  </div>
+</header>
+
+<main id="topo">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow reveal">Identifique. Descubra. Cuide.</p>
+      <h1 class="display reveal" style="--d:.08s">Sua câmera agora <em>entende</em> plantas.</h1>
+      <p class="lead reveal" style="--d:.16s">Aponte para qualquer planta. A inteligência artificial do FlorAI reconhece a espécie e mostra, em instantes, tudo o que você precisa para cuidar dela.</p>
+      <div class="hero__ctas reveal" style="--d:.24s">
+        <a class="btn btn--primary btn--lg" href="#comecar"><svg class="i"><use href="#i-camera"/></svg> Identificar uma planta</a>
+        <a class="btn btn--ghost btn--lg" href="#como-funciona">Conhecer o aplicativo</a>
+      </div>
+      <p class="hero__note reveal" style="--d:.32s"><span class="dot"></span> Comece grátis — 3 identificações por dia.</p>
+    </div>
+
+    <div class="hero__visual" data-parallax>
+      <figure class="hero__photo" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1689036459575-29f45130f3ce?auto=format&fit=crop&w=1200&q=80" alt="" />
+      </figure>
+
+      <div class="phone phone--hero" data-tilt>
+        <div class="screen scr-camera is-looping">
+          <div class="sb"><span>9:41</span><span class="sb__icons"><i></i><i></i><i></i></span></div>
+          <div class="scr-camera__top">
+            <svg class="i"><use href="#i-arrow-left"/></svg>
+            <svg class="i"><use href="#i-flash-off"/></svg>
+          </div>
+          <div class="viewfinder">
+            <img src="https://images.unsplash.com/photo-1768424694491-a78da1496f07?auto=format&fit=crop&w=700&q=80" alt="Vênus papa-moscas vista pela câmera do aplicativo" />
+            <span class="bracket tl"></span><span class="bracket tr"></span><span class="bracket bl"></span><span class="bracket br"></span>
+            <span class="scanline"></span>
+            <span class="pin" style="--x:38%;--y:44%"></span>
+            <span class="pin" style="--x:62%;--y:30%;--pd:.3s"></span>
+            <span class="pin" style="--x:55%;--y:66%;--pd:.6s"></span>
+          </div>
+          <div class="scr-camera__caption">
+            <strong>Tire uma foto da planta</strong>
+            <span>Nossa IA vai identificar e te mostrar todas as informações.</span>
+          </div>
+          <div class="scr-camera__controls">
+            <span class="ctl"><svg class="i"><use href="#i-image"/></svg></span>
+            <span class="shutter"><span></span></span>
+            <span class="ctl"><svg class="i"><use href="#i-scan"/></svg></span>
+          </div>
+          <div class="result-sheet">
+            <span class="result-sheet__grab"></span>
+            <div class="result-sheet__row">
+              <img src="https://images.unsplash.com/photo-1756776486387-ae89bb180147?auto=format&fit=crop&w=200&h=200&q=80" alt="" />
+              <div>
+                <small>Planta identificada</small>
+                <strong>Dionaea muscipula</strong>
+                <span>Dionéia · Vênus papa-moscas</span>
+              </div>
+            </div>
+            <div class="conf"><span>Confiança</span><div class="conf__bar"><i style="--v:97%"></i></div><b>97%</b></div>
+            <span class="result-sheet__btn">Ver detalhes</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="float-chip float-chip--a" aria-hidden="true">
+        <span class="pulse"></span> Analisando forma, cor e textura…
+      </div>
+      <div class="float-chip float-chip--b" aria-hidden="true">
+        <svg class="i"><use href="#i-sparkle"/></svg>
+        <span><b>Planta carnívora</b><small>Luz direta · Rega com água sem cloro</small></span>
+      </div>
+    </div>
+  </div>
+
+  <a class="hero__scroll" href="#como-funciona" aria-label="Rolar para Como funciona"><span></span></a>
+</section>
+
+<!-- ============ COMO FUNCIONA ============ -->
+<section class="section steps" id="como-funciona">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow reveal">Como funciona</p>
+      <h2 class="h2 reveal" style="--d:.06s">Quatro passos.<br /><span class="muted">Nenhum manual.</span></h2>
+    </header>
+
+    <ol class="steps__track">
+      <li class="step reveal" style="--d:0s">
+        <div class="phone phone--mini">
+          <div class="screen scr-camera">
+            <div class="sb"><span>9:41</span><span class="sb__icons"><i></i><i></i><i></i></span></div>
+            <div class="scr-camera__top"><svg class="i"><use href="#i-arrow-left"/></svg><svg class="i"><use href="#i-flash-off"/></svg></div>
+            <div class="viewfinder">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1582893272956-e441d561b20a?auto=format&fit=crop&w=500&q=75" alt="" />
+              <span class="bracket tl"></span><span class="bracket tr"></span><span class="bracket bl"></span><span class="bracket br"></span>
+            </div>
+            <div class="scr-camera__caption"><strong>Tire uma foto da planta</strong></div>
+            <div class="scr-camera__controls">
+              <span class="ctl"><svg class="i"><use href="#i-image"/></svg></span>
+              <span class="shutter"><span></span></span>
+              <span class="ctl"><svg class="i"><use href="#i-scan"/></svg></span>
+            </div>
+          </div>
+        </div>
+        <div class="step__text">
+          <span class="step__n">01</span>
+          <h3>Fotografe</h3>
+          <p>Aponte a câmera ou escolha uma imagem da galeria.</p>
+        </div>
+      </li>
+
+      <li class="step reveal" style="--d:.1s">
+        <div class="phone phone--mini">
+          <div class="screen scr-analysis">
+            <div class="sb"><span>9:41</span><span class="sb__icons"><i></i><i></i><i></i></span></div>
+            <div class="scr-analysis__img">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1582893272956-e441d561b20a?auto=format&fit=crop&w=500&q=75" alt="" />
+              <svg class="mesh" viewBox="0 0 100 140" preserveAspectRatio="none" aria-hidden="true">
+                <polyline points="30,40 48,28 66,42 58,66 40,72 30,40" />
+                <path d="M48 28L58 66M40 72L50 96L62 88L58 66" />
+                <circle cx="30" cy="40" r="1.6"/><circle cx="48" cy="28" r="1.6"/><circle cx="66" cy="42" r="1.6"/><circle cx="58" cy="66" r="1.6"/><circle cx="40" cy="72" r="1.6"/><circle cx="50" cy="96" r="1.6"/><circle cx="62" cy="88" r="1.6"/>
+              </svg>
+              <span class="scanline"></span>
+            </div>
+            <div class="scr-analysis__pill"><span class="spinner"></span> Analisando a imagem…</div>
+          </div>
+        </div>
+        <div class="step__text">
+          <span class="step__n">02</span>
+          <h3>A IA analisa</h3>
+          <p>Folhas, formato, cor e textura são comparados em instantes.</p>
+        </div>
+      </li>
+
+      <li class="step reveal" style="--d:.2s">
+        <div class="phone phone--mini">
+          <div class="screen scr-detail">
+            <div class="scr-detail__hero">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1582893272956-e441d561b20a?auto=format&fit=crop&w=500&q=75" alt="" />
+              <div class="sb"><span>9:41</span><span class="sb__icons"><i></i><i></i><i></i></span></div>
+            </div>
+            <div class="scr-detail__body">
+              <strong class="t-name">Monstera deliciosa</strong>
+              <span class="t-sci">Costela-de-adão</span>
+              <span class="tag">Planta tropical</span>
+              <div class="conf conf--sm"><span>Confiança</span><div class="conf__bar"><i style="--v:98%"></i></div><b>98%</b></div>
+              <p class="t-p">Nativa das florestas tropicais do México e da América Central.</p>
+              <span class="scr-btn scr-btn--inline">Adicionar à minha coleção</span>
+            </div>
+          </div>
+        </div>
+        <div class="step__text">
+          <span class="step__n">03</span>
+          <h3>Descubra</h3>
+          <p>Nome comum, nome científico e o que torna essa planta única.</p>
+        </div>
+      </li>
+
+      <li class="step reveal" style="--d:.3s">
+        <div class="phone phone--mini">
+          <div class="screen scr-care">
+            <div class="sb"><span>9:41</span><span class="sb__icons"><i></i><i></i><i></i></span></div>
+            <strong class="scr-title">Cuidados</strong>
+            <div class="tiles">
+              <div class="tile"><svg class="i"><use href="#i-sun"/></svg><b>Luz</b><span>Indireta</span></div>
+              <div class="tile"><svg class="i"><use href="#i-drop"/></svg><b>Rega</b><span>Moderada</span></div>
+              <div class="tile"><svg class="i"><use href="#i-leaf"/></svg><b>Nível</b><span>Fácil</span></div>
+            </div>
+            <ul class="care-list">
+              <li><svg class="i"><use href="#i-thermo"/></svg><div><b>Temperatura</b><span>18 °C – 30 °C</span></div></li>
+              <li><svg class="i"><use href="#i-pot"/></svg><div><b>Solo</b><span>Bem drenado e rico em matéria orgânica</span></div></li>
+              <li><svg class="i"><use href="#i-drop"/></svg><div><b>Rega</b><span>Quando os primeiros centímetros secarem</span></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class="step__text">
+          <span class="step__n">04</span>
+          <h3>Aprenda a cuidar</h3>
+          <p>Luz, rega e cuidados essenciais, direto ao ponto.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ IDENTIFIQUE ============ -->
+<section class="section identify" id="produto">
+  <div class="container">
+    <header class="section__head section__head--split">
+      <div>
+        <p class="eyebrow reveal">Identifique qualquer planta</p>
+        <h2 class="h2 reveal" style="--d:.06s">Uma foto.<br />Todas as <em>respostas</em>.</h2>
+      </div>
+      <p class="section__lead reveal" style="--d:.12s">Escolha uma planta abaixo e veja o que o FlorAI mostra depois de uma única foto.</p>
+    </header>
+
+    <div class="id-demo reveal" id="idDemo">
+      <div class="id-demo__stage" data-state="done">
+        <img class="id-demo__img" id="idImg" src="https://images.unsplash.com/photo-1755547721683-9b3d7c084083?auto=format&fit=crop&w=1100&q=80" alt="Vênus papa-moscas" />
+        <span class="bracket tl"></span><span class="bracket tr"></span><span class="bracket bl"></span><span class="bracket br"></span>
+        <span class="scanline"></span>
+        <div class="id-demo__status">
+          <span class="status-scan"><span class="spinner"></span> Analisando…</span>
+          <span class="status-done"><svg class="i"><use href="#i-check"/></svg> Identificada</span>
+        </div>
+        <div class="id-demo__picker" role="tablist" aria-label="Exemplos de plantas">
+          <button role="tab" aria-selected="true" data-plant="0">Dionéia</button>
+          <button role="tab" aria-selected="false" data-plant="1">Costela-de-adão</button>
+          <button role="tab" aria-selected="false" data-plant="2">Zamioculca</button>
+          <button role="tab" aria-selected="false" data-plant="3">Espada-de-são-jorge</button>
+        </div>
+      </div>
+
+      <div class="id-demo__result" aria-live="polite">
+        <div class="id-demo__fade">
+          <span class="tag" id="idTag">Planta carnívora</span>
+          <h3 class="id-name" id="idName">Dionaea muscipula</h3>
+          <p class="id-common" id="idCommon">Dionéia · Vênus papa-moscas</p>
+
+          <div class="id-conf">
+            <div class="id-conf__top"><span>Confiança da identificação</span><b id="idConfNum">97%</b></div>
+            <div class="conf__bar conf__bar--lg"><i id="idConfBar" style="--v:97%"></i></div>
+          </div>
+
+          <div class="id-tabs" role="tablist" aria-label="Detalhes">
+            <button role="tab" aria-selected="true" data-tab="info">Informações</button>
+            <button role="tab" aria-selected="false" data-tab="care">Cuidados</button>
+          </div>
+
+          <div class="id-panel" data-panel="info">
+            <p id="idAbout">Captura pequenos insetos com folhas modificadas que se fecham rapidamente quando estimuladas.</p>
+            <dl class="id-facts">
+              <div><dt>Família</dt><dd id="idFamily">Droseraceae</dd></div>
+              <div><dt>Origem</dt><dd id="idOrigin">Carolinas, EUA</dd></div>
+            </dl>
+          </div>
+          <div class="id-panel" data-panel="care" hidden>
+            <ul class="id-care">
+              <li><svg class="i"><use href="#i-sun"/></svg><div><b>Luz</b><span id="idLight">Sol direto ou meia-sombra</span></div></li>
+              <li><svg class="i"><use href="#i-drop"/></svg><div><b>Rega</b><span id="idWater">Substrato sempre úmido, com água sem cloro</span></div></li>
+              <li><svg class="i"><use href="#i-leaf"/></svg><div><b>Dificuldade</b><span id="idLevel">Média</span></div></li>
+            </ul>
+          </div>
+        </div>
+        <a class="btn btn--primary btn--block" href="#comecar"><svg class="i"><use href="#i-plus"/></svg> Adicionar à minha coleção</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IA ============ -->
+<section class="section ai" id="ia">
+  <div class="container">
+    <header class="section__head section__head--center">
+      <p class="eyebrow reveal">Inteligência artificial</p>
+      <h2 class="h2 reveal" style="--d:.06s">Você vê uma folha.<br /><span class="muted">A IA vê formato, cor, textura e padrão.</span></h2>
+      <p class="section__lead reveal" style="--d:.12s">O FlorAI analisa a imagem, compara as características com as espécies que conhece e apresenta a identificação mais provável — junto com informações úteis sobre ela.</p>
+    </header>
+
+    <div class="pipeline">
+      <div class="pipe reveal" style="--d:0s">
+        <div class="pipe__vis">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1727552081878-4adc69939ab6?auto=format&fit=crop&w=600&h=600&q=75" alt="Folha de costela-de-adão" />
+        </div>
+        <span class="pipe__n">01</span><h3>Imagem</h3>
+        <p>Uma foto comum, tirada na hora ou vinda da galeria.</p>
+      </div>
+      <div class="pipe reveal" style="--d:.1s">
+        <div class="pipe__vis pipe__vis--analysis">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1727552081878-4adc69939ab6?auto=format&fit=crop&w=600&h=600&q=75" alt="" />
+          <svg class="mesh" viewBox="0 0 100 100" aria-hidden="true">
+            <polyline points="22,30 44,18 70,26 78,52 60,76 34,70 22,30" />
+            <path d="M44 18L50 48L78 52M50 48L34 70M50 48L60 76" />
+            <circle cx="22" cy="30" r="1.4"/><circle cx="44" cy="18" r="1.4"/><circle cx="70" cy="26" r="1.4"/><circle cx="78" cy="52" r="1.4"/><circle cx="60" cy="76" r="1.4"/><circle cx="34" cy="70" r="1.4"/><circle cx="50" cy="48" r="1.8"/>
+          </svg>
+          <span class="scanline"></span>
+        </div>
+        <span class="pipe__n">02</span><h3>Análise por IA</h3>
+        <p>Formato das folhas, nervuras, cor e textura são avaliados em conjunto.</p>
+      </div>
+      <div class="pipe reveal" style="--d:.2s">
+        <div class="pipe__vis pipe__vis--list">
+          <ul class="candidates">
+            <li class="is-top"><span>Monstera deliciosa</span><b>98%</b><i style="--v:98%"></i></li>
+            <li><span>Monstera adansonii</span><b>1%</b><i style="--v:6%"></i></li>
+            <li><span>Thaumatophyllum bipinnatifidum</span><b>&lt;1%</b><i style="--v:3%"></i></li>
+          </ul>
+        </div>
+        <span class="pipe__n">03</span><h3>Identificação</h3>
+        <p>As possibilidades são ordenadas e a mais provável vem primeiro.</p>
+      </div>
+      <div class="pipe reveal" style="--d:.3s">
+        <div class="pipe__vis pipe__vis--info">
+          <strong>Costela-de-adão</strong>
+          <small>Monstera deliciosa</small>
+          <div class="mini-rows">
+            <span><svg class="i"><use href="#i-sun"/></svg> Luz indireta</span>
+            <span><svg class="i"><use href="#i-drop"/></svg> Rega moderada</span>
+            <span><svg class="i"><use href="#i-thermo"/></svg> 18 °C – 30 °C</span>
+          </div>
+        </div>
+        <span class="pipe__n">04</span><h3>Informações e cuidados</h3>
+        <p>O resultado chega pronto para usar, sem termos complicados.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ JORNADA ============ -->
+<section class="section journey" id="recursos">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow reveal">Da identificação ao cuidado</p>
+      <h2 class="h2 reveal" style="--d:.06s">A descoberta é só<br />o <em>começo</em>.</h2>
+    </header>
+
+    <ol class="journey__list">
+      <li class="reveal" style="--d:0s"><span class="journey__n">01</span><h3>Identifique</h3><p>Descubra qual planta está diante de você.</p></li>
+      <li class="reveal" style="--d:.08s"><span class="journey__n">02</span><h3>Salve</h3><p>Guarde suas descobertas na sua coleção.</p></li>
+      <li class="reveal" style="--d:.16s"><span class="journey__n">03</span><h3>Organize</h3><p>Crie coleções para organizar suas plantas.</p></li>
+      <li class="reveal" style="--d:.24s"><span class="journey__n">04</span><h3>Cuide</h3><p>Receba informações e lembretes para cuidar delas.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ COLEÇÃO ============ -->
+<section class="section feature" id="colecao">
+  <div class="container feature__grid">
+    <div class="feature__copy">
+      <p class="eyebrow reveal">Coleção pessoal</p>
+      <h2 class="h2 reveal" style="--d:.06s">Sua biblioteca<br />de plantas.</h2>
+      <p class="section__lead reveal" style="--d:.12s">Cada planta identificada pode ficar salva com foto, nome e nome científico. Separe por ambientes, por gosto ou do jeito que fizer sentido para você.</p>
+      <ul class="chips reveal" style="--d:.18s" aria-label="Exemplos de coleções">
+        <li><svg class="i"><use href="#i-folder"/></svg> Sala de estar</li>
+        <li><svg class="i"><use href="#i-folder"/></svg> Varanda</li>
+        <li><svg class="i"><use href="#i-folder"/></svg> Escritório</li>
+        <li class="chips__add"><svg class="i"><use href="#i-plus"/></svg> Nova coleção</li>
+      </ul>
+    </div>
+
+    <div class="feature__visual reveal" style="--d:.1s">
+      <div class="feature__backdrop" aria-hidden="true">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1533563906091-fdfdffc3e3c4?auto=format&fit=crop&w=1000&q=70" alt="" />
+      </div>
+      <div class="phone phone--feature float">
+        <div class="screen scr-collection">
+          <div class="sb"><span>9:41</span><span class="sb__icons"><i></i><i></i><i></i></span></div>
+          <div class="scr-head"><strong class="scr-title">Minha coleção</strong><span class="round"><svg class="i"><use href="#i-plus"/></svg></span></div>
+          <div class="seg"><span class="on">Todas</span><span>Sala</span><span>Varanda</span></div>
+          <div class="search"><svg class="i"><use href="#i-search"/></svg> Buscar na sua coleção…</div>
+          <div class="grid2">
+            <div class="pcard"><div class="pcard__img"><img loading="lazy" src="https://images.unsplash.com/photo-1768424694491-a78da1496f07?auto=format&fit=crop&w=300&h=240&q=70" alt="" /><span class="fav"><svg class="i"><use href="#i-heart"/></svg></span></div><b>Dionaea muscipula</b><span>Dionéia</span><small>Varanda</small></div>
+            <div class="pcard"><div class="pcard__img"><img loading="lazy" src="https://images.unsplash.com/photo-1686893043633-465fe4383769?auto=format&fit=crop&w=300&h=240&q=70" alt="" /><span class="fav on"><svg class="i"><use href="#i-heart"/></svg></span></div><b>Zamioculcas zamiifolia</b><span>Zamioculca</span><small>Escritório</small></div>
+            <div class="pcard"><div class="pcard__img"><img loading="lazy" src="https://images.unsplash.com/photo-1582893272956-e441d561b20a?auto=format&fit=crop&w=300&h=240&q=70" alt="" /><span class="fav"><svg class="i"><use href="#i-heart"/></svg></span></div><b>Monstera deliciosa</b><span>Costela-de-adão</span><small>Sala</small></div>
+            <div class="pcard"><div class="pcard__img"><img loading="lazy" src="https://images.unsplash.com/photo-1565626929866-e11c64e607cf?auto=format&fit=crop&w=300&h=240&q=70" alt="" /><span class="fav on"><svg class="i"><use href="#i-heart"/></svg></span></div><b>Sansevieria trifasciata</b><span>Espada-de-são-jorge</span><small>Sala</small></div>
+          </div>
+          <nav class="tabbar"><span><svg class="i"><use href="#i-home"/></svg>Início</span><span class="on"><svg class="i"><use href="#i-leaf"/></svg>Coleção</span><span><svg class="i"><use href="#i-explore"/></svg>Explorar</span><span><svg class="i"><use href="#i-user"/></svg>Perfil</span></nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CUIDADOS ============ -->
+<section class="section feature feature--reverse" id="cuidados">
+  <div class="container feature__grid">
+    <div class="feature__copy">
+      <p class="eyebrow reveal">Cuidados e lembretes</p>
+      <h2 class="h2 reveal" style="--d:.06s">Saiba quando regar.<br /><span class="muted">E não esqueça.</span></h2>
+      <p class="section__lead reveal" style="--d:.12s">Luz, rega, temperatura e solo: o essencial de cada planta, sem excesso. Nos planos pagos, o FlorAI ainda avisa quando chegar a hora de regar.</p>
+      <ul class="bullets reveal" style="--d:.18s">
+        <li><svg class="i"><use href="#i-drop"/></svg> Quando regar cada planta</li>
+        <li><svg class="i"><use href="#i-sun"/></svg> Luz e ambiente ideais</li>
+        <li><svg class="i"><use href="#i-bell"/></svg> Lembretes de rega <span class="pill">a partir de R$ 9,99</span></li>
+      </ul>
+    </div>
+
+    <div class="feature__visual reveal" style="--d:.1s">
+      <div class="feature__backdrop" aria-hidden="true">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1701694496626-b1807697cdb6?auto=format&fit=crop&w=1000&q=70" alt="" />
+      </div>
+      <div class="phone phone--feature float">
+        <div class="screen scr-care scr-care--full">
+          <div class="sb"><span>9:41</span><span class="sb__icons"><i></i><i></i><i></i></span></div>
+          <strong class="scr-title">Cuidados</strong>
+          <div class="plant-row">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1582893272956-e441d561b20a?auto=format&fit=crop&w=160&h=160&q=70" alt="" />
+            <div><b>Costela-de-adão</b><span>Monstera deliciosa</span></div>
+            <svg class="i"><use href="#i-chev"/></svg>
+          </div>
+          <span class="scr-sub">Próximas regas</span>
+          <ul class="tasks">
+            <li class="done"><span class="ico"><svg class="i"><use href="#i-drop"/></svg></span><div><b>Costela-de-adão</b><span>Hoje</span></div><span class="ck"><svg class="i"><use href="#i-check"/></svg></span></li>
+            <li><span class="ico"><svg class="i"><use href="#i-drop"/></svg></span><div><b>Zamioculca</b><span>Em 6 dias</span></div><span class="ck"></span></li>
+            <li><span class="ico"><svg class="i"><use href="#i-drop"/></svg></span><div><b>Espada-de-são-jorge</b><span>Em 12 dias</span></div><span class="ck"></span></li>
+          </ul>
+          <span class="scr-btn">Ver todos os cuidados</span>
+          <div class="tip">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1768424694491-a78da1496f07?auto=format&fit=crop&w=160&h=160&q=70" alt="" />
+            <div><b><svg class="i"><use href="#i-bulb"/></svg> Dica</b>Plantas carnívoras preferem água sem cloro, como a da chuva.</div>
+          </div>
+          <nav class="tabbar"><span><svg class="i"><use href="#i-home"/></svg>Início</span><span><svg class="i"><use href="#i-leaf"/></svg>Coleção</span><span><svg class="i"><use href="#i-explore"/></svg>Explorar</span><span><svg class="i"><use href="#i-user"/></svg>Perfil</span></nav>
+        </div>
+      </div>
+      <div class="notif" aria-hidden="true">
+        <span class="notif__icon"><svg class="i"><use href="#i-leaf"/></svg></span>
+        <div><b>FlorAI <small>agora</small></b><span>Hora de regar a sua Costela-de-adão.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MÉDICO DE IA ============ -->
+<section class="section doctor" id="medico">
+  <div class="container">
+    <div class="doctor__panel reveal">
+      <div class="doctor__head">
+        <span class="badge-premium"><svg class="i"><use href="#i-sparkle"/></svg> Premium</span>
+        <h2 class="h2">Médico de IA.</h2>
+        <p class="section__lead">Folhas manchadas, amareladas ou sem vida? Envie uma foto e receba uma análise dos sinais visíveis, com orientações sobre o que observar e o que fazer.</p>
+      </div>
+
+      <div class="doctor__flow">
+        <figure class="doctor__photo">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1769613637793-1d497f0fedf0?auto=format&fit=crop&w=900&q=75" alt="Folha com manchas marrons" />
+          <span class="spot" style="--x:40%;--y:40%"></span>
+          <span class="spot" style="--x:58%;--y:58%;--pd:.4s"></span>
+          <span class="scanline"></span>
+          <figcaption><span class="spinner"></span> Análise da imagem</figcaption>
+        </figure>
+
+        <ol class="doctor__steps">
+          <li>
+            <span class="ds-ico"><svg class="i"><use href="#i-camera"/></svg></span>
+            <div><small>Foto da planta</small><b>Folha com manchas marrons</b></div>
+          </li>
+          <li>
+            <span class="ds-ico"><svg class="i"><use href="#i-scan"/></svg></span>
+            <div><small>Análise</small><b>Manchas irregulares com bordas amareladas</b></div>
+          </li>
+          <li>
+            <span class="ds-ico ds-ico--warn"><svg class="i"><use href="#i-alert"/></svg></span>
+            <div><small>Possível problema</small><b>Sinais compatíveis com mancha foliar, geralmente associada a excesso de umidade</b></div>
+          </li>
+          <li>
+            <span class="ds-ico ds-ico--ok"><svg class="i"><use href="#i-bulb"/></svg></span>
+            <div><small>Orientação</small><b>Remova as folhas mais afetadas, evite molhar as folhas e melhore a ventilação.</b></div>
+          </li>
+        </ol>
+      </div>
+      <p class="doctor__disclaimer">Exemplo ilustrativo. As análises do Médico de IA são orientações baseadas na imagem e não substituem a avaliação de um especialista.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PLANOS ============ -->
+<section class="section pricing" id="planos">
+  <div class="container">
+    <header class="section__head section__head--center">
+      <p class="eyebrow reveal">Planos</p>
+      <h2 class="h2 reveal" style="--d:.06s">Comece grátis.<br /><span class="muted">Cresça com o seu jardim.</span></h2>
+    </header>
+
+    <div class="plans">
+      <article class="plan reveal" style="--d:0s">
+        <h3>Gratuito</h3>
+        <p class="plan__price"><b>R$ 0</b></p>
+        <p class="plan__desc">Para conhecer o FlorAI.</p>
+        <ul>
+          <li><svg class="i"><use href="#i-check"/></svg> 3 identificações por dia</li>
+          <li><svg class="i"><use href="#i-check"/></svg> 1 coleção</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Até 3 plantas</li>
+        </ul>
+        <a class="btn btn--primary btn--block" href="#comecar">Começar grátis</a>
+      </article>
+
+      <article class="plan reveal" style="--d:.08s">
+        <h3>Essencial</h3>
+        <p class="plan__price"><b>R$ 9,99</b><span>/mês</span></p>
+        <p class="plan__desc">Para montar o seu jardim.</p>
+        <ul>
+          <li><svg class="i"><use href="#i-check"/></svg> 10 identificações por dia</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Coleções ilimitadas</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Até 20 plantas</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Lembretes de rega</li>
+        </ul>
+        <a class="btn btn--ghost btn--block" href="#comecar">Assinar</a>
+      </article>
+
+      <article class="plan reveal" style="--d:.16s">
+        <h3>Plus</h3>
+        <p class="plan__price"><b>R$ 19,99</b><span>/mês</span></p>
+        <p class="plan__desc">Para quem já perdeu a conta.</p>
+        <ul>
+          <li><svg class="i"><use href="#i-check"/></svg> 20 identificações por dia</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Coleções ilimitadas</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Plantas ilimitadas</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Lembretes de rega</li>
+        </ul>
+        <a class="btn btn--ghost btn--block" href="#comecar">Assinar</a>
+      </article>
+
+      <article class="plan plan--premium reveal" style="--d:.24s">
+        <h3>Premium <span class="badge-premium badge-premium--sm"><svg class="i"><use href="#i-sparkle"/></svg> Médico de IA</span></h3>
+        <p class="plan__price"><b>R$ 49,99</b><span>/mês</span></p>
+        <p class="plan__desc">A experiência completa.</p>
+        <ul>
+          <li><svg class="i"><use href="#i-check"/></svg> 80 identificações por dia</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Coleções ilimitadas</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Plantas ilimitadas</li>
+          <li><svg class="i"><use href="#i-check"/></svg> Lembretes de rega</li>
+          <li class="hl"><svg class="i"><use href="#i-sparkle"/></svg> Médico de IA</li>
+        </ul>
+        <a class="btn btn--primary btn--block" href="#comecar">Assinar Premium</a>
+      </article>
+    </div>
+    <p class="pricing__note reveal">Valores mensais em reais.</p>
+  </div>
+</section>
+
+<!-- ============ FINAL ============ -->
+<section class="final" id="comecar">
+  <div class="final__bg" aria-hidden="true">
+    <img loading="lazy" src="https://images.unsplash.com/photo-1493673272479-a20888bcee10?auto=format&fit=crop&w=1800&q=75" alt="" />
+  </div>
+  <div class="container final__grid">
+    <div class="final__copy">
+      <h2 class="display display--final reveal">Toda planta tem uma história.<br /><em>Comece descobrindo o nome dela.</em></h2>
+      <div class="hero__ctas reveal" style="--d:.1s">
+        <a class="btn btn--primary btn--lg" href="#"><svg class="i"><use href="#i-camera"/></svg> Identificar minha primeira planta</a>
+      </div>
+      <p class="hero__note reveal" style="--d:.16s"><span class="dot"></span> Grátis para começar. Sem complicação.</p>
+    </div>
+    <div class="final__visual reveal" style="--d:.12s">
+      <div class="phone phone--final float">
+        <div class="screen scr-detail scr-detail--full">
+          <div class="scr-detail__hero">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1756776486387-ae89bb180147?auto=format&fit=crop&w=600&q=75" alt="" />
+            <div class="sb"><span>9:41</span><span class="sb__icons"><i></i><i></i><i></i></span></div>
+            <div class="scr-detail__nav"><span class="round"><svg class="i"><use href="#i-arrow-left"/></svg></span><span class="round"><svg class="i"><use href="#i-bookmark"/></svg></span></div>
+          </div>
+          <div class="scr-detail__body">
+            <strong class="t-name">Dionaea muscipula</strong>
+            <span class="t-sci">Dionéia · Vênus papa-moscas</span>
+            <span class="tag">Planta carnívora</span>
+            <div class="tiles">
+              <div class="tile"><svg class="i"><use href="#i-sun"/></svg><b>Luz</b><span>Sol direto</span></div>
+              <div class="tile"><svg class="i"><use href="#i-drop"/></svg><b>Rega</b><span>Sem cloro</span></div>
+              <div class="tile"><svg class="i"><use href="#i-leaf"/></svg><b>Nível</b><span>Média</span></div>
+            </div>
+            <b class="t-h">Sobre a planta</b>
+            <p class="t-p">A <em>Dionaea muscipula</em> é uma planta carnívora que captura pequenos insetos fechando suas folhas rapidamente.</p>
+            <span class="scr-btn">Adicionar à minha coleção</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <a class="brand" href="#topo" aria-label="FlorAI — início">
+      <span class="brand__mark"><svg class="i"><use href="#i-leaf"/></svg></span>
+      <span class="brand__name">Flor<span>AI</span></span>
+    </a>
+    <nav class="footer__links" aria-label="Rodapé">
+      <a href="#produto">Produto</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#planos">Planos</a>
+    </nav>
+    <p class="footer__copy">© <span id="year">2026</span> FlorAI. Fotografias: Unsplash.</p>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
