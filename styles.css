@@ -670,6 +670,8 @@ h1, h2, h3, p, figure, dl, dd { margin: 0; }
 .plan ul { display: flex; flex-direction: column; gap: 12px; margin: 24px 0 32px; flex: 1; }
 .plan li { display: flex; align-items: center; gap: 10px; font-size: 15px; }
 .plan li .i { color: var(--accent); width: 16px; height: 16px; stroke-width: 2.2; }
+.plan li.off { color: var(--dim); }
+.plan li.off .i { color: var(--dim); }
 .plan li.hl { color: #f1d993; font-weight: 500; }
 .plan li.hl .i { color: #f1d993; }
 .plan--premium {
