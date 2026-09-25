@@ -700,7 +700,7 @@ h1, h2, h3, p, figure, dl, dd { margin: 0; }
 /* ---------- Footer ---------- */
 .footer { border-top: 1px solid var(--line); padding: 36px 0; }
 .footer__inner { display: flex; align-items: center; gap: 32px; flex-wrap: wrap; }
-.footer__links { display: flex; gap: 24px; font-size: 14px; color: var(--muted); }
+.footer__links { display: flex; flex-wrap: wrap; gap: 12px 24px; font-size: 14px; color: var(--muted); }
 .footer__links a:hover { color: var(--text); }
 .footer__copy { margin-left: auto; font-size: 13px; color: var(--dim); }
 
