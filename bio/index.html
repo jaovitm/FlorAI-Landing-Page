@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FlorAI — Baixe o app</title>
+  <meta name="description" content="Baixe o FlorAI: identifique plantas com uma foto e receba cuidados personalizados. Disponível para Android e iPhone." />
+  <meta name="theme-color" content="#070b09" />
+
+  <!-- Redireciona para a loja certa antes de renderizar a página.
+       Links configurados em bio.js (STORE_LINKS). Use ?ficar=1 para ver a página sem redirecionar. -->
+  <script src="bio.js"></script>
+
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="bio.css" />
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+    <symbol id="i-apple" viewBox="0 0 24 24"><path d="M16.37 12.64c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.19-1.73-1.36-.14-2.65.8-3.34.8-.69 0-1.75-.78-2.88-.76-1.48.02-2.85.86-3.61 2.19-1.54 2.67-.39 6.62 1.11 8.79.73 1.06 1.6 2.25 2.74 2.21 1.1-.04 1.52-.71 2.85-.71 1.33 0 1.7.71 2.87.69 1.18-.02 1.93-1.08 2.66-2.14.84-1.23 1.18-2.42 1.2-2.48-.03-.01-2.3-.88-2.32-3.5zM14.18 6.2c.61-.74 1.02-1.76.9-2.78-.88.04-1.94.58-2.57 1.32-.56.65-1.06 1.69-.93 2.69.98.08 1.98-.5 2.6-1.23z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M4.6 2.9c-.2.23-.33.58-.33 1.03v16.14c0 .45.13.8.34 1.03l.05.05 9.04-9.04v-.22L4.65 2.85l-.05.05z"/><path d="M16.7 15.13l-3.01-3.02v-.22l3.01-3.02.07.04 3.57 2.03c1.02.58 1.02 1.53 0 2.11l-3.57 2.03-.07.05z"/><path d="M16.77 15.09L13.69 12 4.6 21.1c.34.36.9.4 1.52.05l10.65-6.06"/><path d="M16.77 8.91L6.12 2.86C5.5 2.5 4.94 2.55 4.6 2.9L13.69 12l3.08-3.09z"/></symbol>
+  </defs>
+</svg>
+
+<main class="bio">
+  <div class="bio__card">
+    <span class="bio__logo"><svg class="i"><use href="#i-leaf"/></svg></span>
+    <h1 class="bio__name">Flor<span>AI</span></h1>
+    <p class="bio__tagline">Identifique plantas com uma foto e <em>cuide melhor</em> de cada uma.</p>
+
+    <p class="bio__redirect" id="bioRedirect" hidden>Abrindo a loja…</p>
+
+    <nav class="bio__links" aria-label="Links">
+      <a class="bio-link bio-link--store" data-store="android" href="#">
+        <svg class="i i--fill"><use href="#i-play"/></svg>
+        <span><small>Baixar no</small>Google Play</span>
+        <svg class="i bio-link__chev"><use href="#i-chev"/></svg>
+      </a>
+      <a class="bio-link bio-link--store" data-store="ios" href="#">
+        <svg class="i i--fill"><use href="#i-apple"/></svg>
+        <span><small>Baixar na</small>App Store</span>
+        <svg class="i bio-link__chev"><use href="#i-chev"/></svg>
+      </a>
+      <a class="bio-link" href="../index.html">
+        <span>Conhecer o FlorAI</span>
+        <svg class="i bio-link__chev"><use href="#i-chev"/></svg>
+      </a>
+    </nav>
+
+    <footer class="bio__foot">
+      <a href="../privacidade.html">Privacidade</a>
+      <span aria-hidden="true">·</span>
+      <a href="../termos.html">Termos de Uso</a>
+    </footer>
+  </div>
+</main>
+
+</body>
+</html>

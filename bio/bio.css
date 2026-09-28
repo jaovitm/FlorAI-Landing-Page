@@ -1,0 +1,87 @@
+/* =========================================================
+   FlorAI — /bio (página de links)
+   Depende das variáveis e componentes de styles.css
+   ========================================================= */
+
+.bio {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: 48px 16px;
+  background:
+    radial-gradient(60% 45% at 50% 0%, rgba(143, 227, 171, .14), transparent 70%),
+    var(--bg);
+}
+
+.bio__card {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bio__logo {
+  display: grid; place-items: center;
+  width: 76px; height: 76px;
+  border-radius: 24px;
+  background: linear-gradient(160deg, var(--accent), var(--accent-2));
+  color: var(--accent-ink);
+  box-shadow: 0 18px 48px -16px rgba(143, 227, 171, .6);
+}
+.bio__logo .i { width: 38px; height: 38px; stroke-width: 1.9; }
+
+.bio__name {
+  margin-top: 20px;
+  font-family: var(--font-display);
+  font-size: 30px; font-weight: 600; letter-spacing: -.03em;
+}
+.bio__name span { color: var(--accent); }
+
+.bio__tagline { margin-top: 8px; max-width: 30ch; color: var(--muted); font-size: 16px; }
+.bio__tagline em { font-family: var(--font-serif); font-size: 1.15em; color: var(--text); }
+
+.bio__redirect { margin-top: 20px; font-size: 14px; color: var(--accent); }
+
+.bio__links { margin-top: 36px; width: 100%; display: grid; gap: 12px; }
+
+.bio-link {
+  display: flex; align-items: center; gap: 14px;
+  min-height: 64px;
+  padding: 12px 18px 12px 20px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line-2);
+  background: var(--surface);
+  text-align: left;
+  font-family: var(--font-display);
+  font-size: 17px; font-weight: 600;
+  transition: transform .25s var(--ease), border-color .2s, background .2s;
+}
+.bio-link > span { flex: 1; display: flex; flex-direction: column; line-height: 1.2; }
+.bio-link small { font-family: var(--font-body); font-size: 12px; font-weight: 500; color: var(--muted); }
+.bio-link .i { width: 24px; height: 24px; }
+.bio-link .i--fill { fill: currentColor; stroke: none; }
+.bio-link__chev { color: var(--dim); width: 18px !important; height: 18px !important; }
+
+a.bio-link[href]:hover { transform: translateY(-2px); border-color: rgba(143, 227, 171, .4); background: var(--surface-2); }
+
+.bio-link.is-primary {
+  background: var(--accent);
+  border-color: transparent;
+  color: var(--accent-ink);
+}
+.bio-link.is-primary small,
+.bio-link.is-primary .bio-link__chev { color: rgba(6, 32, 15, .7); }
+a.bio-link.is-primary[href]:hover { background: var(--accent); filter: brightness(1.05); }
+
+.bio-link.is-soon { opacity: .55; cursor: default; }
+.bio-link.is-soon .bio-link__chev { display: none; }
+
+.bio__foot {
+  margin-top: 40px;
+  display: flex; gap: 10px;
+  font-size: 13px; color: var(--dim);
+}
+.bio__foot a:hover { color: var(--text); }

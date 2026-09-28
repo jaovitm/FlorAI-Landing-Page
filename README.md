@@ -16,6 +16,7 @@ Abra http://localhost:5173.
 - `styles.css` — identidade visual, layout e animações
 - `main.js` — navegação, animações de scroll, parallax e demo interativa de identificação
 - `assets/favicon.svg`
+- `bio/` — página de links (`/bio`) para a bio das redes sociais; redireciona Android → Google Play e iPhone/iPad → App Store. Links em `bio/bio.js` (`STORE_LINKS`); `/bio/?ficar=1` exibe a página sem redirecionar.
 
 ## Antes de publicar
 
