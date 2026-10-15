@@ -6,7 +6,7 @@
 
 // Preencha quando o app for publicado. Link vazio = botão "Em breve" e sem redirecionamento.
 var STORE_LINKS = {
-  android: "", // ex.: https://play.google.com/store/apps/details?id=com.florai.app
+  android: "https://play.google.com/store/apps/details?id=com.florai",
   ios: ""      // ex.: https://apps.apple.com/app/id0000000000
 };
 
