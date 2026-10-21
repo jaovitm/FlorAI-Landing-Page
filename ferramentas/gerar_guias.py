@@ -233,6 +233,9 @@ def pagina_planta(p, por_slug, atualizado):
     titulo = f"{nome_cap}: como cuidar, quando regar e adubar | FlorAI"
     descricao = (f"Quando regar, quanta luz e como adubar {g.o_nome} ({sci_curto(p)}). "
                  f"Resposta rápida, problemas comuns e cuidados por região do Brasil.")
+    if len(descricao) > 160:  # limite de exibição do Google e do Bing
+        descricao = (f"Quando regar, quanta luz e como adubar {g.o_nome}. "
+                     f"Resposta rápida, problemas comuns e cuidados por região do Brasil.")
     r = p["resumo"]
 
     faq_schema = [
@@ -619,8 +622,8 @@ def pagina_indice(plantas, artigos, atualizado):
     raiz = "../"
     url = f"{SITE}/guia/"
     titulo = "Guias de cuidados de plantas: rega, luz e adubo | FlorAI"
-    descricao = ("Guias práticos para cuidar de plantas de casa no Brasil: quando regar, quanta luz, como adubar, "
-                 "pragas, folhas amarelas e os melhores apps para identificar plantas e lembrar de regar.")
+    descricao = ("Guias para cuidar de plantas de casa no Brasil: rega, luz, adubo, pragas, folhas amarelas "
+                 "e os melhores apps para identificar plantas.")
     itens = [(a["curto"], a["slug"]) for a in artigos] + [(cap(p["nome"]), p["slug"]) for p in plantas]
 
     schema = {

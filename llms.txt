@@ -17,18 +17,18 @@
 
 ## Dicas, problemas e comparativos de apps
 
-- [Melhor app para identificar plantas](https://florai.cc/guia/melhor-app-para-identificar-plantas/): Comparativo dos apps para identificar plantas por foto: FlorAI, PictureThis, PlantNet, Google Lens e iNaturalist. Qual é grátis, qual mostra os cuidados e qual escolher.
-- [Melhor app para lembrar de regar](https://florai.cc/guia/melhor-app-para-lembrar-de-regar-plantas/): Apps que lembram de regar as plantas: FlorAI, Planta, Blossom, PictureThis e os lembretes do próprio celular. Como escolher e como configurar lembretes que funcionam.
-- [Doenças e pragas pela foto](https://florai.cc/guia/como-identificar-doencas-de-plantas/): Como reconhecer doenças e pragas de plantas por uma foto da folha: o que cada sinal indica, como fotografar, apps que fazem diagnóstico e os problemas mais comuns em plantas de casa.
+- [Melhor app para identificar plantas](https://florai.cc/guia/melhor-app-para-identificar-plantas/): Comparativo dos apps para identificar plantas por foto: FlorAI, PictureThis, PlantNet, Google Lens e iNaturalist. Qual é grátis e qual escolher.
+- [Melhor app para lembrar de regar](https://florai.cc/guia/melhor-app-para-lembrar-de-regar-plantas/): Apps que lembram de regar as plantas: FlorAI, Planta, Blossom, PictureThis e os lembretes do celular. Como escolher e configurar.
+- [Doenças e pragas pela foto](https://florai.cc/guia/como-identificar-doencas-de-plantas/): Como reconhecer doenças e pragas pela foto da folha: o que cada sinal indica, como fotografar e quais apps fazem o diagnóstico.
 - [Como identificar planta pela foto](https://florai.cc/guia/como-identificar-planta-pela-foto/): Como descobrir o nome de uma planta pela foto do celular: passo a passo, como tirar a foto certa, por que os apps erram e outras formas de identificar.
-- [Folhas amarelas: causas e soluções](https://florai.cc/guia/folhas-amarelas/): Por que as folhas da planta ficam amarelas e o que fazer: excesso de água, falta de luz, falta de adubo, sol forte, pragas e envelhecimento. Tabela para descobrir a causa.
-- [Como acabar com cochonilha](https://florai.cc/guia/como-acabar-com-cochonilha/): Como reconhecer e acabar com cochonilha em suculentas, orquídeas e folhagens: passo a passo com álcool 70%, sabão neutro e óleo de neem, receitas caseiras e como evitar.
+- [Folhas amarelas: causas e soluções](https://florai.cc/guia/folhas-amarelas/): Por que as folhas ficam amarelas: excesso de água, pouca luz, falta de adubo, sol forte ou pragas. Tabela para descobrir a causa.
+- [Como acabar com cochonilha](https://florai.cc/guia/como-acabar-com-cochonilha/): Como reconhecer e acabar com cochonilha em suculentas, orquídeas e folhagens: passo a passo com álcool 70%, sabão neutro e óleo de neem.
 - [Mosquinhas na terra do vaso](https://florai.cc/guia/mosquinhas-na-terra-do-vaso/): As mosquinhas pretas que voam em volta do vaso são mosquitos-dos-fungos. Veja por que aparecem, como acabar com elas e se têm relação com o mosquito da dengue.
-- [Plantas para pouca luz](https://florai.cc/guia/plantas-para-apartamento-com-pouca-luz/): As 10 melhores plantas para apartamento e escritório com pouca luz, como saber quanta luz o seu cômodo tem, cuidados no ambiente escuro e quais são seguras para pets.
+- [Plantas para pouca luz](https://florai.cc/guia/plantas-para-apartamento-com-pouca-luz/): As 10 melhores plantas para apartamento com pouca luz, como medir a luz do cômodo e quais delas são seguras para gatos e cachorros.
 - [Plantas tóxicas para gatos e cachorros](https://florai.cc/guia/plantas-toxicas-para-gatos-e-cachorros/): Lista das plantas de casa tóxicas para gatos e cachorros e das plantas seguras, sintomas de intoxicação e o que fazer se o pet comer uma planta.
 - [Como regar plantas nas férias](https://florai.cc/guia/como-regar-plantas-nas-ferias/): Como manter as plantas regadas durante viagens: rega por pavio, garrafa PET, bacia com toalha e outros métodos, e quanto tempo cada planta aguenta sem água.
 - [Adubo caseiro: o que funciona](https://florai.cc/guia/adubo-caseiro/): Casca de ovo, borra de café, casca de banana e cinzas funcionam como adubo? O que cada um fornece, como usar, mitos e como fazer composto em apartamento.
-- [Como trocar a planta de vaso](https://florai.cc/guia/como-trocar-planta-de-vaso/): Quando e como trocar a planta de vaso: sinais de que é hora, passo a passo, qual vaso escolher (barro, plástico, cerâmica ou cachepô) e erros que matam a planta.
+- [Como trocar a planta de vaso](https://florai.cc/guia/como-trocar-planta-de-vaso/): Quando e como trocar a planta de vaso: sinais de que é hora, passo a passo, qual vaso escolher e os erros que matam a planta.
 
 ## Guias de cuidados por planta
 

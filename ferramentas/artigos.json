@@ -3,11 +3,11 @@
     {
       "slug": "melhor-app-para-identificar-plantas",
       "curto": "Melhor app para identificar plantas",
-      "titulo": "Melhor app para identificar plantas pela foto (comparativo 2026)",
+      "titulo": "Melhor app para identificar plantas pela foto em 2026",
       "h1": "Qual o melhor app para identificar plantas?",
       "pergunta": "Qual o melhor app para identificar plantas pela foto?",
       "eyebrow": "Comparativo de apps",
-      "descricao": "Comparativo dos apps para identificar plantas por foto: FlorAI, PictureThis, PlantNet, Google Lens e iNaturalist. Qual é grátis, qual mostra os cuidados e qual escolher.",
+      "descricao": "Comparativo dos apps para identificar plantas por foto: FlorAI, PictureThis, PlantNet, Google Lens e iNaturalist. Qual é grátis e qual escolher.",
       "intro": "Quase todo app de identificação acerta as plantas mais comuns. A diferença está no que acontece depois de descobrir o nome: se o app mostra como cuidar, se lembra de regar, se funciona bem em português e com as plantas que temos no Brasil.",
       "aviso": "Este comparativo foi escrito pela equipe do FlorAI. Procuramos ser justos e listamos também os limites do nosso app. Preços e recursos dos outros apps mudam com frequência; confira na loja antes de assinar.",
       "resposta": "Depende do que você quer depois da identificação. Para descobrir o nome e já saber como cuidar da planta, em português, com coleção e lembretes de rega, o **FlorAI** foi feito para isso (Android, grátis para começar). Para identificar plantas silvestres com rigor científico e de graça, o **PlantNet** é a melhor escolha. Para uma consulta rápida sem instalar nada, o **Google Lens** resolve. O **PictureThis** é o mais completo entre os internacionais, mas boa parte dos recursos exige assinatura.",
@@ -16,97 +16,169 @@
           "id": "comparativo",
           "h2": "Comparativo rápido",
           "blocos": [
-            {"tabela": {
-              "cab": ["App", "Preço", "Mostra cuidados", "Lembrete de rega", "Melhor para"],
-              "linhas": [
-                ["FlorAI", "Grátis (3 identificações/dia); planos a partir de R$ 9,99/mês", "Sim, por espécie", "Sim, nos planos pagos", "Plantas de casa, varanda e horta no Brasil"],
-                ["PictureThis", "Gratuito com limites e assinatura", "Sim", "Sim", "Quem quer um app completo e não se importa em assinar"],
-                ["PlantNet", "Gratuito", "Não, foco na identificação", "Não", "Plantas silvestres e nativas"],
-                ["Google Lens", "Gratuito", "Não, mostra resultados de busca", "Não", "Consulta rápida sem instalar outro app"],
-                ["iNaturalist", "Gratuito", "Não", "Não", "Registrar biodiversidade com ajuda da comunidade"]
-              ]
-            }}
+            {
+              "tabela": {
+                "cab": [
+                  "App",
+                  "Preço",
+                  "Mostra cuidados",
+                  "Lembrete de rega",
+                  "Melhor para"
+                ],
+                "linhas": [
+                  [
+                    "FlorAI",
+                    "Grátis (3 identificações/dia); planos a partir de R$ 9,99/mês",
+                    "Sim, por espécie",
+                    "Sim, nos planos pagos",
+                    "Plantas de casa, varanda e horta no Brasil"
+                  ],
+                  [
+                    "PictureThis",
+                    "Gratuito com limites e assinatura",
+                    "Sim",
+                    "Sim",
+                    "Quem quer um app completo e não se importa em assinar"
+                  ],
+                  [
+                    "PlantNet",
+                    "Gratuito",
+                    "Não, foco na identificação",
+                    "Não",
+                    "Plantas silvestres e nativas"
+                  ],
+                  [
+                    "Google Lens",
+                    "Gratuito",
+                    "Não, mostra resultados de busca",
+                    "Não",
+                    "Consulta rápida sem instalar outro app"
+                  ],
+                  [
+                    "iNaturalist",
+                    "Gratuito",
+                    "Não",
+                    "Não",
+                    "Registrar biodiversidade com ajuda da comunidade"
+                  ]
+                ]
+              }
+            }
           ]
         },
         {
           "id": "criterios",
           "h2": "Como comparamos",
           "blocos": [
-            {"ul": [
-              "**Acerto em plantas ornamentais** — as que compramos em floriculturas e viveiros, não só as silvestres.",
-              "**O que vem depois do nome** — cuidados de luz e rega, coleção de plantas e lembretes.",
-              "**Português e Brasil** — nomes populares usados aqui, como espada-de-são-jorge e comigo-ninguém-pode, e dicas para o nosso clima.",
-              "**O que é realmente gratuito** — e o que exige assinatura."
-            ]}
+            {
+              "ul": [
+                "**Acerto em plantas ornamentais** — as que compramos em floriculturas e viveiros, não só as silvestres.",
+                "**O que vem depois do nome** — cuidados de luz e rega, coleção de plantas e lembretes.",
+                "**Português e Brasil** — nomes populares usados aqui, como espada-de-são-jorge e comigo-ninguém-pode, e dicas para o nosso clima.",
+                "**O que é realmente gratuito** — e o que exige assinatura."
+              ]
+            }
           ]
         },
         {
           "id": "florai",
           "h2": "FlorAI",
           "blocos": [
-            {"p": "O FlorAI é um app brasileiro que identifica a planta por foto da câmera ou da galeria e mostra nome popular, nome científico, grau de confiança e os cuidados da espécie: luz, rega, temperatura e solo. As plantas ficam salvas em coleções (sala, varanda, escritório), e os planos pagos enviam lembretes de rega. O diagnóstico de pragas e doenças pela foto (Médico de IA) está em desenvolvimento."},
-            {"p": "**Limites:** por enquanto, só para Android; o plano gratuito tem 3 identificações por dia e até 3 plantas salvas; lembretes de rega só nos planos pagos."},
-            {"p": "[Baixar o FlorAI no Google Play](play)"}
+            {
+              "p": "O FlorAI é um app brasileiro que identifica a planta por foto da câmera ou da galeria e mostra nome popular, nome científico, grau de confiança e os cuidados da espécie: luz, rega, temperatura e solo. As plantas ficam salvas em coleções (sala, varanda, escritório), e os planos pagos enviam lembretes de rega. O diagnóstico de pragas e doenças pela foto (Médico de IA) está em desenvolvimento."
+            },
+            {
+              "p": "**Limites:** por enquanto, só para Android; o plano gratuito tem 3 identificações por dia e até 3 plantas salvas; lembretes de rega só nos planos pagos."
+            },
+            {
+              "p": "[Baixar o FlorAI no Google Play](play)"
+            }
           ]
         },
         {
           "id": "picturethis",
           "h2": "PictureThis",
           "blocos": [
-            {"p": "Um dos apps de identificação mais conhecidos do mundo, disponível para Android e iPhone e com interface em português. Identifica por foto, mostra cuidados, toxicidade e tem lembretes. Na versão gratuita, vários recursos são limitados, e o app incentiva bastante a assinatura."}
+            {
+              "p": "Um dos apps de identificação mais conhecidos do mundo, disponível para Android e iPhone e com interface em português. Identifica por foto, mostra cuidados, toxicidade e tem lembretes. Na versão gratuita, vários recursos são limitados, e o app incentiva bastante a assinatura."
+            }
           ]
         },
         {
           "id": "plantnet",
           "h2": "PlantNet",
           "blocos": [
-            {"p": "Gratuito e desenvolvido por um consórcio de instituições científicas francesas. Pede que você indique a parte fotografada (folha, flor, fruto ou casca) e funciona muito bem com plantas silvestres e nativas. Com plantas ornamentais e híbridos de floricultura, acerta menos, e não oferece rotina de cuidados."}
+            {
+              "p": "Gratuito e desenvolvido por um consórcio de instituições científicas francesas. Pede que você indique a parte fotografada (folha, flor, fruto ou casca) e funciona muito bem com plantas silvestres e nativas. Com plantas ornamentais e híbridos de floricultura, acerta menos, e não oferece rotina de cuidados."
+            }
           ]
         },
         {
           "id": "google-lens",
           "h2": "Google Lens",
           "blocos": [
-            {"p": "Já vem no Android e no app do Google para iPhone. Aponte a câmera e ele mostra páginas sobre a planta. É ótimo para uma consulta rápida, mas não organiza suas plantas, não mostra uma ficha de cuidados e pode confundir espécies parecidas."}
+            {
+              "p": "Já vem no Android e no app do Google para iPhone. Aponte a câmera e ele mostra páginas sobre a planta. É ótimo para uma consulta rápida, mas não organiza suas plantas, não mostra uma ficha de cuidados e pode confundir espécies parecidas."
+            }
           ]
         },
         {
           "id": "inaturalist",
           "h2": "iNaturalist",
           "blocos": [
-            {"p": "Projeto da Academia de Ciências da Califórnia com a National Geographic. As fotos ficam registradas em um mapa e a comunidade ajuda a confirmar a espécie. É excelente para quem gosta de trilhas e biodiversidade, não para cuidar de plantas de casa."}
+            {
+              "p": "Projeto da Academia de Ciências da Califórnia com a National Geographic. As fotos ficam registradas em um mapa e a comunidade ajuda a confirmar a espécie. É excelente para quem gosta de trilhas e biodiversidade, não para cuidar de plantas de casa."
+            }
           ]
         },
         {
           "id": "dicas",
           "h2": "Como acertar a identificação em qualquer app",
           "blocos": [
-            {"ol": [
-              "Fotografe com luz natural, sem flash.",
-              "Enquadre uma folha inteira, nítida, ocupando boa parte da foto.",
-              "Se houver flor ou fruto, faça outra foto deles.",
-              "Use um fundo neutro e uma planta por foto.",
-              "Confira o grau de confiança e as alternativas sugeridas; se estiver baixo, fotografe outras partes."
-            ]}
+            {
+              "ol": [
+                "Fotografe com luz natural, sem flash.",
+                "Enquadre uma folha inteira, nítida, ocupando boa parte da foto.",
+                "Se houver flor ou fruto, faça outra foto deles.",
+                "Use um fundo neutro e uma planta por foto.",
+                "Confira o grau de confiança e as alternativas sugeridas; se estiver baixo, fotografe outras partes."
+              ]
+            }
           ]
         }
       ],
       "faqs": [
-        ["Existe app grátis para identificar plantas?", "Sim. PlantNet, iNaturalist e Google Lens são gratuitos. O FlorAI tem plano gratuito com 3 identificações por dia, que já inclui os cuidados de cada planta."],
-        ["O Google Lens identifica plantas?", "Identifica e costuma acertar as plantas mais comuns. Mas ele mostra resultados de busca, não uma ficha de cuidados nem lembretes. Em plantas muito parecidas, como costela-de-adão e guaimbê, vale confirmar em um app especializado."],
-        ["Qual app identifica plantas em português?", "O FlorAI foi feito no Brasil, em português, com os nomes populares usados aqui e dicas para o clima de cada região. PictureThis e Google Lens também têm interface em português."],
-        ["App de identificar planta acerta sempre?", "Não. Fotos ruins, plantas jovens, híbridos e espécies muito parecidas causam erros. Por isso os bons apps mostram um grau de confiança e alternativas. Antes de comer uma planta ou usá-la como remédio, confirme com um especialista."]
+        [
+          "Existe app grátis para identificar plantas?",
+          "Sim. PlantNet, iNaturalist e Google Lens são gratuitos. O FlorAI tem plano gratuito com 3 identificações por dia, que já inclui os cuidados de cada planta."
+        ],
+        [
+          "O Google Lens identifica plantas?",
+          "Identifica e costuma acertar as plantas mais comuns. Mas ele mostra resultados de busca, não uma ficha de cuidados nem lembretes. Em plantas muito parecidas, como costela-de-adão e guaimbê, vale confirmar em um app especializado."
+        ],
+        [
+          "Qual app identifica plantas em português?",
+          "O FlorAI foi feito no Brasil, em português, com os nomes populares usados aqui e dicas para o clima de cada região. PictureThis e Google Lens também têm interface em português."
+        ],
+        [
+          "App de identificar planta acerta sempre?",
+          "Não. Fotos ruins, plantas jovens, híbridos e espécies muito parecidas causam erros. Por isso os bons apps mostram um grau de confiança e alternativas. Antes de comer uma planta ou usá-la como remédio, confirme com um especialista."
+        ]
       ],
-      "relacionadas": ["como-identificar-planta-pela-foto", "melhor-app-para-lembrar-de-regar-plantas", "como-identificar-doencas-de-plantas"]
+      "relacionadas": [
+        "como-identificar-planta-pela-foto",
+        "melhor-app-para-lembrar-de-regar-plantas",
+        "como-identificar-doencas-de-plantas"
+      ]
     },
     {
       "slug": "melhor-app-para-lembrar-de-regar-plantas",
       "curto": "Melhor app para lembrar de regar",
-      "titulo": "Melhor app para lembrar de regar as plantas (comparativo 2026)",
+      "titulo": "Melhor app para lembrar de regar as plantas em 2026",
       "h1": "Qual o melhor app para lembrar de regar as plantas?",
       "pergunta": "Qual o melhor app para lembrar de regar as plantas?",
       "eyebrow": "Comparativo de apps",
-      "descricao": "Apps que lembram de regar as plantas: FlorAI, Planta, Blossom, PictureThis e os lembretes do próprio celular. Como escolher e como configurar lembretes que funcionam.",
+      "descricao": "Apps que lembram de regar as plantas: FlorAI, Planta, Blossom, PictureThis e os lembretes do celular. Como escolher e configurar.",
       "intro": "Esquecer de regar mata plantas, mas regar no automático também. Um bom lembrete leva em conta a espécie, a estação e o vaso. Veja as opções e quando cada uma faz sentido.",
       "aviso": "Este comparativo foi escrito pela equipe do FlorAI. Listamos também os limites do nosso app. Preços e recursos dos outros apps mudam; confira na loja antes de assinar.",
       "resposta": "Se você quer que o app saiba qual é a planta e sugira a rega certa, use um app de cuidados que identifica a espécie, como o **FlorAI** (lembretes nos planos pagos, a partir de R$ 9,99/mês), o **Planta** ou o **Blossom**. Se você já sabe de quanto em quanto tempo regar e só quer um aviso, os **lembretes do próprio celular** ou a Google Agenda resolvem de graça.",
@@ -115,69 +187,136 @@
           "id": "comparativo",
           "h2": "Comparativo rápido",
           "blocos": [
-            {"tabela": {
-              "cab": ["App", "Identifica a planta", "Lembrete de rega", "Preço", "Melhor para"],
-              "linhas": [
-                ["FlorAI", "Sim, por foto", "Sim, nos planos pagos", "Grátis para identificar; lembretes a partir de R$ 9,99/mês", "Quem quer identificar, aprender os cuidados e ser lembrado, em português"],
-                ["Planta", "Sim", "Sim", "Gratuito com limites e assinatura", "Rotinas de cuidado detalhadas"],
-                ["Blossom", "Sim, por foto", "Sim", "Recursos completos na assinatura", "Identificação e lembretes no mesmo app"],
-                ["PictureThis", "Sim, por foto", "Sim", "Gratuito com limites e assinatura", "Quem já usa o app para identificar"],
-                ["Lembretes do celular / Google Agenda", "Não", "Sim, configurado à mão", "Gratuito", "Quem já sabe a frequência de cada planta"]
-              ]
-            }}
+            {
+              "tabela": {
+                "cab": [
+                  "App",
+                  "Identifica a planta",
+                  "Lembrete de rega",
+                  "Preço",
+                  "Melhor para"
+                ],
+                "linhas": [
+                  [
+                    "FlorAI",
+                    "Sim, por foto",
+                    "Sim, nos planos pagos",
+                    "Grátis para identificar; lembretes a partir de R$ 9,99/mês",
+                    "Quem quer identificar, aprender os cuidados e ser lembrado, em português"
+                  ],
+                  [
+                    "Planta",
+                    "Sim",
+                    "Sim",
+                    "Gratuito com limites e assinatura",
+                    "Rotinas de cuidado detalhadas"
+                  ],
+                  [
+                    "Blossom",
+                    "Sim, por foto",
+                    "Sim",
+                    "Recursos completos na assinatura",
+                    "Identificação e lembretes no mesmo app"
+                  ],
+                  [
+                    "PictureThis",
+                    "Sim, por foto",
+                    "Sim",
+                    "Gratuito com limites e assinatura",
+                    "Quem já usa o app para identificar"
+                  ],
+                  [
+                    "Lembretes do celular / Google Agenda",
+                    "Não",
+                    "Sim, configurado à mão",
+                    "Gratuito",
+                    "Quem já sabe a frequência de cada planta"
+                  ]
+                ]
+              }
+            }
           ]
         },
         {
           "id": "lembrete-fixo",
           "h2": "Por que “regar toda segunda” não funciona",
           "blocos": [
-            {"p": "A mesma planta precisa de muito mais água no verão do que no inverno, em vaso de barro do que de plástico, e em Fortaleza do que em Curitiba. Um lembrete fixo faz você regar uma suculenta encharcada em julho ou esquecer a samambaia em janeiro."},
-            {"p": "Use o lembrete como aviso para **conferir** a planta, não como ordem para regar. Antes de molhar, faça o teste do dedo: enfie de 3 a 5 cm no substrato e regue só se estiver seco (ou se a espécie gostar de terra sempre úmida). Os [guias de cuidados](guia:) mostram a regra de cada planta."}
+            {
+              "p": "A mesma planta precisa de muito mais água no verão do que no inverno, em vaso de barro do que de plástico, e em Fortaleza do que em Curitiba. Um lembrete fixo faz você regar uma suculenta encharcada em julho ou esquecer a samambaia em janeiro."
+            },
+            {
+              "p": "Use o lembrete como aviso para **conferir** a planta, não como ordem para regar. Antes de molhar, faça o teste do dedo: enfie de 3 a 5 cm no substrato e regue só se estiver seco (ou se a espécie gostar de terra sempre úmida). Os [guias de cuidados](guia:) mostram a regra de cada planta."
+            }
           ]
         },
         {
           "id": "configurar",
           "h2": "Como configurar lembretes de rega que funcionam",
           "blocos": [
-            {"ol": [
-              "**Descubra a espécie.** Sem saber qual é a planta, qualquer frequência é chute.",
-              "**Agrupe por necessidade.** Suculentas e cactos num grupo, folhagens tropicais em outro, samambaias e lírio-da-paz em outro.",
-              "**Ajuste por estação.** Do outono ao inverno, espace os lembretes em 30% a 50%.",
-              "**Confira antes de regar.** O lembrete chega, você testa o substrato e só então rega.",
-              "**Observe a planta.** Folhas murchas ou amarelas pedem ajuste na frequência."
-            ]}
+            {
+              "ol": [
+                "**Descubra a espécie.** Sem saber qual é a planta, qualquer frequência é chute.",
+                "**Agrupe por necessidade.** Suculentas e cactos num grupo, folhagens tropicais em outro, samambaias e lírio-da-paz em outro.",
+                "**Ajuste por estação.** Do outono ao inverno, espace os lembretes em 30% a 50%.",
+                "**Confira antes de regar.** O lembrete chega, você testa o substrato e só então rega.",
+                "**Observe a planta.** Folhas murchas ou amarelas pedem ajuste na frequência."
+              ]
+            }
           ]
         },
         {
           "id": "florai",
           "h2": "FlorAI",
           "blocos": [
-            {"p": "Você fotografa a planta, o FlorAI identifica a espécie e mostra os cuidados de luz, rega, temperatura e solo. Salva na coleção, a planta entra na lista de próximas regas, e nos planos pagos o app envia a notificação na hora certa (“Hora de regar a sua costela-de-adão”)."},
-            {"p": "**Limites:** só para Android por enquanto; lembretes de rega disponíveis a partir do plano Básico (R$ 9,99/mês). O plano gratuito identifica e mostra os cuidados, sem alertas."},
-            {"p": "[Baixar o FlorAI no Google Play](play)"}
+            {
+              "p": "Você fotografa a planta, o FlorAI identifica a espécie e mostra os cuidados de luz, rega, temperatura e solo. Salva na coleção, a planta entra na lista de próximas regas, e nos planos pagos o app envia a notificação na hora certa (“Hora de regar a sua costela-de-adão”)."
+            },
+            {
+              "p": "**Limites:** só para Android por enquanto; lembretes de rega disponíveis a partir do plano Básico (R$ 9,99/mês). O plano gratuito identifica e mostra os cuidados, sem alertas."
+            },
+            {
+              "p": "[Baixar o FlorAI no Google Play](play)"
+            }
           ]
         },
         {
           "id": "outros",
           "h2": "Planta, Blossom e PictureThis",
           "blocos": [
-            {"p": "O **Planta**, criado na Suécia, monta um calendário de cuidados para cada planta, com rega, adubação e outras tarefas, e libera os recursos avançados na assinatura. O **Blossom** identifica por foto e lembra de regar, adubar e trocar de vaso, com a maior parte das funções na versão paga. O **PictureThis** também tem lembretes de cuidado para as plantas salvas no seu jardim virtual."}
+            {
+              "p": "O **Planta**, criado na Suécia, monta um calendário de cuidados para cada planta, com rega, adubação e outras tarefas, e libera os recursos avançados na assinatura. O **Blossom** identifica por foto e lembra de regar, adubar e trocar de vaso, com a maior parte das funções na versão paga. O **PictureThis** também tem lembretes de cuidado para as plantas salvas no seu jardim virtual."
+            }
           ]
         },
         {
           "id": "sem-app",
           "h2": "Sem app: lembretes do celular",
           "blocos": [
-            {"p": "Crie um lembrete recorrente por grupo de plantas (por exemplo, “conferir suculentas” a cada 10 dias). É gratuito e funciona, mas você mesmo precisa saber a frequência certa e lembrar de mudá-la no inverno."}
+            {
+              "p": "Crie um lembrete recorrente por grupo de plantas (por exemplo, “conferir suculentas” a cada 10 dias). É gratuito e funciona, mas você mesmo precisa saber a frequência certa e lembrar de mudá-la no inverno."
+            }
           ]
         }
       ],
       "faqs": [
-        ["Existe app grátis que lembra de regar plantas?", "Os lembretes do próprio celular e a Google Agenda são gratuitos, mas você define a frequência sozinho. Apps de cuidados como FlorAI, Planta e Blossom adaptam os cuidados à espécie, e os lembretes costumam fazer parte dos planos pagos."],
-        ["Com que frequência devo regar plantas de apartamento?", "Não existe uma frequência única. A maioria das folhagens precisa de água quando os 3 a 5 cm de cima do substrato secam, o que leva de 5 a 10 dias no verão. Suculentas e zamioculca aguentam de 10 a 20 dias; samambaias, 2 a 3 dias."],
-        ["Como não esquecer de regar as plantas quando viajo?", "Para viagens curtas, regue bem na véspera e afaste do sol. Para mais tempo, use rega por pavio ou garrafa PET. Veja o guia de como regar plantas nas férias."]
+        [
+          "Existe app grátis que lembra de regar plantas?",
+          "Os lembretes do próprio celular e a Google Agenda são gratuitos, mas você define a frequência sozinho. Apps de cuidados como FlorAI, Planta e Blossom adaptam os cuidados à espécie, e os lembretes costumam fazer parte dos planos pagos."
+        ],
+        [
+          "Com que frequência devo regar plantas de apartamento?",
+          "Não existe uma frequência única. A maioria das folhagens precisa de água quando os 3 a 5 cm de cima do substrato secam, o que leva de 5 a 10 dias no verão. Suculentas e zamioculca aguentam de 10 a 20 dias; samambaias, 2 a 3 dias."
+        ],
+        [
+          "Como não esquecer de regar as plantas quando viajo?",
+          "Para viagens curtas, regue bem na véspera e afaste do sol. Para mais tempo, use rega por pavio ou garrafa PET. Veja o guia de como regar plantas nas férias."
+        ]
       ],
-      "relacionadas": ["como-regar-plantas-nas-ferias", "melhor-app-para-identificar-plantas", "plantas-para-apartamento-com-pouca-luz"]
+      "relacionadas": [
+        "como-regar-plantas-nas-ferias",
+        "melhor-app-para-identificar-plantas",
+        "plantas-para-apartamento-com-pouca-luz"
+      ]
     },
     {
       "slug": "como-identificar-doencas-de-plantas",
@@ -186,7 +325,7 @@
       "h1": "Como identificar doenças e pragas de plantas pela foto",
       "pergunta": "Como identificar doença de planta pela foto?",
       "eyebrow": "Diagnóstico",
-      "descricao": "Como reconhecer doenças e pragas de plantas por uma foto da folha: o que cada sinal indica, como fotografar, apps que fazem diagnóstico e os problemas mais comuns em plantas de casa.",
+      "descricao": "Como reconhecer doenças e pragas pela foto da folha: o que cada sinal indica, como fotografar e quais apps fazem o diagnóstico.",
       "intro": "Folha manchada, pó branco, bolinhas que parecem algodão: muitas vezes uma foto já mostra o que está acontecendo. Veja o que cada sinal costuma indicar, o que uma foto não mostra e o que fazer em cada caso.",
       "resposta": "Fotografe de perto a folha mais afetada, dos dois lados, e compare os sinais: **manchas com halo amarelo** indicam mancha foliar; **pó branco**, oídio; **algodãozinho ou carapaças**, cochonilha; **pontinhos e teias finas**, ácaro; **folhas amarelas e moles**, excesso de água. Apps como o **Plantix** (gratuito, focado em hortas e lavouras) e o **PictureThis** (na assinatura) fazem esse diagnóstico pela foto. No FlorAI, o diagnóstico (Médico de IA) está em desenvolvimento; hoje o app identifica a espécie, o primeiro passo para saber o que é normal para aquela planta. Em plantações comerciais ou casos graves, consulte um engenheiro agrônomo.",
       "secoes": [
@@ -194,70 +333,123 @@
           "id": "o-que-ve",
           "h2": "O que a foto consegue mostrar",
           "blocos": [
-            {"ul": [
-              "**Manchas marrons ou pretas com halo amarelo** — mancha foliar causada por fungos ou bactérias.",
-              "**Pó branco sobre as folhas** — oídio, um fungo comum em rosas, begônias e abobrinhas.",
-              "**Algodãozinho branco ou carapaças marrons** — cochonilhas.",
-              "**Pontinhos amarelados e teias finas no verso** — ácaros.",
-              "**Folhas amarelas e moles** — geralmente excesso de água.",
-              "**Bordas secas e queimadas** — sol forte, excesso de adubo ou ar seco."
-            ]},
-            {"p": "O que a foto **não** mostra: raízes podres, pH do solo e pragas dentro do substrato. Se a planta piora sem sinais visíveis nas folhas, tire-a do vaso e confira as raízes: brancas e firmes estão saudáveis; marrons e moles indicam podridão."}
+            {
+              "ul": [
+                "**Manchas marrons ou pretas com halo amarelo** — mancha foliar causada por fungos ou bactérias.",
+                "**Pó branco sobre as folhas** — oídio, um fungo comum em rosas, begônias e abobrinhas.",
+                "**Algodãozinho branco ou carapaças marrons** — cochonilhas.",
+                "**Pontinhos amarelados e teias finas no verso** — ácaros.",
+                "**Folhas amarelas e moles** — geralmente excesso de água.",
+                "**Bordas secas e queimadas** — sol forte, excesso de adubo ou ar seco."
+              ]
+            },
+            {
+              "p": "O que a foto **não** mostra: raízes podres, pH do solo e pragas dentro do substrato. Se a planta piora sem sinais visíveis nas folhas, tire-a do vaso e confira as raízes: brancas e firmes estão saudáveis; marrons e moles indicam podridão."
+            }
           ]
         },
         {
           "id": "foto",
           "h2": "Como tirar a foto para o diagnóstico",
           "blocos": [
-            {"ol": [
-              "Use luz natural, sem flash, e evite sol direto na hora da foto.",
-              "Fotografe de perto a folha mais afetada, com a mancha bem nítida.",
-              "Faça outra foto do verso da folha, onde ficam ácaros e cochonilhas.",
-              "Faça uma foto da planta inteira, para mostrar se o problema está espalhado."
-            ]}
+            {
+              "ol": [
+                "Use luz natural, sem flash, e evite sol direto na hora da foto.",
+                "Fotografe de perto a folha mais afetada, com a mancha bem nítida.",
+                "Faça outra foto do verso da folha, onde ficam ácaros e cochonilhas.",
+                "Faça uma foto da planta inteira, para mostrar se o problema está espalhado."
+              ]
+            }
           ]
         },
         {
           "id": "problemas",
           "h2": "Problemas mais comuns em plantas de casa",
           "blocos": [
-            {"tabela": {
-              "cab": ["Sinal", "Causa provável", "Primeiro passo"],
-              "linhas": [
-                ["Folhas de baixo amarelas e moles", "Excesso de água", "Espace as regas e confira o furo do vaso. [Veja as causas de folhas amarelas](guia:folhas-amarelas)."],
-                ["Pó branco", "Oídio", "Retire as folhas afetadas, melhore a ventilação e não molhe as folhas."],
-                ["Algodão branco nas folhas e caules", "Cochonilha", "Limpe com cotonete e álcool 70%. [Veja como acabar com cochonilha](guia:como-acabar-com-cochonilha)."],
-                ["Pontinhos e teias finas", "Ácaro-rajado", "Lave as folhas com água e aumente a umidade do ar."],
-                ["Manchas marrons com halo amarelo", "Mancha foliar", "Remova as folhas afetadas e regue só a terra."],
-                ["Mosquinhas pretas voando no vaso", "Mosquito-dos-fungos", "Deixe a terra secar. [Veja como acabar com as mosquinhas](guia:mosquinhas-na-terra-do-vaso)."]
-              ]
-            }}
+            {
+              "tabela": {
+                "cab": [
+                  "Sinal",
+                  "Causa provável",
+                  "Primeiro passo"
+                ],
+                "linhas": [
+                  [
+                    "Folhas de baixo amarelas e moles",
+                    "Excesso de água",
+                    "Espace as regas e confira o furo do vaso. [Veja as causas de folhas amarelas](guia:folhas-amarelas)."
+                  ],
+                  [
+                    "Pó branco",
+                    "Oídio",
+                    "Retire as folhas afetadas, melhore a ventilação e não molhe as folhas."
+                  ],
+                  [
+                    "Algodão branco nas folhas e caules",
+                    "Cochonilha",
+                    "Limpe com cotonete e álcool 70%. [Veja como acabar com cochonilha](guia:como-acabar-com-cochonilha)."
+                  ],
+                  [
+                    "Pontinhos e teias finas",
+                    "Ácaro-rajado",
+                    "Lave as folhas com água e aumente a umidade do ar."
+                  ],
+                  [
+                    "Manchas marrons com halo amarelo",
+                    "Mancha foliar",
+                    "Remova as folhas afetadas e regue só a terra."
+                  ],
+                  [
+                    "Mosquinhas pretas voando no vaso",
+                    "Mosquito-dos-fungos",
+                    "Deixe a terra secar. [Veja como acabar com as mosquinhas](guia:mosquinhas-na-terra-do-vaso)."
+                  ]
+                ]
+              }
+            }
           ]
         },
         {
           "id": "apps",
           "h2": "Apps que ajudam no diagnóstico",
           "blocos": [
-            {"ul": [
-              "**Plantix**: gratuito e voltado para hortas, frutíferas e lavouras; identifica doenças, pragas e deficiências pela foto.",
-              "**PictureThis**: faz diagnóstico de problemas em plantas ornamentais; o recurso completo fica na assinatura.",
-              "**FlorAI**: identifica a espécie pela foto e mostra os cuidados de luz, rega, temperatura e solo. O Médico de IA, para diagnosticar pragas e doenças, está em desenvolvimento e será incluído no plano Premium."
-            ]},
-            {"p": "Comece pela espécie: uma folha que amarela por envelhecimento natural numa planta pode ser sinal de rega errada em outra. [Identificar a planta no FlorAI](play)."}
+            {
+              "ul": [
+                "**Plantix**: gratuito e voltado para hortas, frutíferas e lavouras; identifica doenças, pragas e deficiências pela foto.",
+                "**PictureThis**: faz diagnóstico de problemas em plantas ornamentais; o recurso completo fica na assinatura.",
+                "**FlorAI**: identifica a espécie pela foto e mostra os cuidados de luz, rega, temperatura e solo. O Médico de IA, para diagnosticar pragas e doenças, está em desenvolvimento e será incluído no plano Premium."
+              ]
+            },
+            {
+              "p": "Comece pela espécie: uma folha que amarela por envelhecimento natural numa planta pode ser sinal de rega errada em outra. [Identificar a planta no FlorAI](play)."
+            }
           ]
         }
       ],
       "faqs": [
-        ["O diagnóstico por IA substitui um agrônomo?", "Não. Ele ajuda a reconhecer problemas comuns de plantas de casa e jardim. Em lavouras, pomares comerciais ou quando há risco de espalhar uma doença, procure um engenheiro agrônomo."],
-        ["Como saber se a planta está morrendo ou só dormente?", "Raspe de leve o caule com a unha: se estiver verde e úmido por baixo, está vivo. Plantas como rosa-do-deserto e hortênsia perdem folhas no inverno e voltam a brotar na primavera."],
-        ["Planta doente contamina as outras?", "Fungos e pragas como cochonilha, ácaro e pulgão passam de uma planta para outra. Isole a planta doente até o problema acabar e lave as mãos e as tesouras depois de manuseá-la."]
+        [
+          "O diagnóstico por IA substitui um agrônomo?",
+          "Não. Ele ajuda a reconhecer problemas comuns de plantas de casa e jardim. Em lavouras, pomares comerciais ou quando há risco de espalhar uma doença, procure um engenheiro agrônomo."
+        ],
+        [
+          "Como saber se a planta está morrendo ou só dormente?",
+          "Raspe de leve o caule com a unha: se estiver verde e úmido por baixo, está vivo. Plantas como rosa-do-deserto e hortênsia perdem folhas no inverno e voltam a brotar na primavera."
+        ],
+        [
+          "Planta doente contamina as outras?",
+          "Fungos e pragas como cochonilha, ácaro e pulgão passam de uma planta para outra. Isole a planta doente até o problema acabar e lave as mãos e as tesouras depois de manuseá-la."
+        ]
       ],
-      "relacionadas": ["folhas-amarelas", "como-acabar-com-cochonilha", "mosquinhas-na-terra-do-vaso"]
+      "relacionadas": [
+        "folhas-amarelas",
+        "como-acabar-com-cochonilha",
+        "mosquinhas-na-terra-do-vaso"
+      ]
     },
     {
       "slug": "como-identificar-planta-pela-foto",
       "curto": "Como identificar planta pela foto",
-      "titulo": "Como identificar uma planta pela foto do celular (passo a passo)",
+      "titulo": "Como identificar planta pela foto do celular: passo a passo",
       "h1": "Como identificar uma planta pela foto do celular",
       "pergunta": "Como identificar uma planta pela foto?",
       "eyebrow": "Passo a passo",
@@ -269,62 +461,85 @@
           "id": "passo-a-passo",
           "h2": "Passo a passo no FlorAI",
           "blocos": [
-            {"ol": [
-              "[Baixe o FlorAI no Google Play](play) e crie sua conta.",
-              "Toque para identificar e aponte a câmera para a planta, ou escolha uma foto da galeria.",
-              "Aguarde a análise: a IA compara formato, cor, nervuras e textura das folhas.",
-              "Veja o nome popular, o nome científico e o grau de confiança.",
-              "Abra a aba de cuidados para saber a luz, a rega, a temperatura e o solo ideais.",
-              "Salve a planta em uma coleção para consultar depois."
-            ]},
-            {"p": "O plano gratuito permite 3 identificações por dia."}
+            {
+              "ol": [
+                "[Baixe o FlorAI no Google Play](play) e crie sua conta.",
+                "Toque para identificar e aponte a câmera para a planta, ou escolha uma foto da galeria.",
+                "Aguarde a análise: a IA compara formato, cor, nervuras e textura das folhas.",
+                "Veja o nome popular, o nome científico e o grau de confiança.",
+                "Abra a aba de cuidados para saber a luz, a rega, a temperatura e o solo ideais.",
+                "Salve a planta em uma coleção para consultar depois."
+              ]
+            },
+            {
+              "p": "O plano gratuito permite 3 identificações por dia."
+            }
           ]
         },
         {
           "id": "foto",
           "h2": "Como tirar a foto certa",
           "blocos": [
-            {"ul": [
-              "Luz natural, sem flash e sem contraluz.",
-              "Uma folha inteira, do pecíolo à ponta, ocupando boa parte da imagem.",
-              "Foto da flor ou do fruto, se houver: é o que mais diferencia espécies parecidas.",
-              "Fundo neutro e uma planta por vez.",
-              "Câmera parada e foco na folha, não no fundo."
-            ]}
+            {
+              "ul": [
+                "Luz natural, sem flash e sem contraluz.",
+                "Uma folha inteira, do pecíolo à ponta, ocupando boa parte da imagem.",
+                "Foto da flor ou do fruto, se houver: é o que mais diferencia espécies parecidas.",
+                "Fundo neutro e uma planta por vez.",
+                "Câmera parada e foco na folha, não no fundo."
+              ]
+            }
           ]
         },
         {
           "id": "erros",
           "h2": "Por que o app pode errar",
           "blocos": [
-            {"ul": [
-              "Plantas jovens, que ainda não têm a forma adulta (a costela-de-adão jovem não tem recortes).",
-              "Híbridos de floricultura, com cores e formas diferentes da espécie original.",
-              "Espécies muito parecidas: [jiboia](guia:jiboia) e filodendro-brasil, [costela-de-adão](guia:costela-de-adao) e guaimbê, [babosa](guia:babosa) e outras espécies de Aloe.",
-              "Fotos escuras, tremidas ou com várias plantas misturadas.",
-              "Folhas muito danificadas por pragas ou doenças."
-            ]}
+            {
+              "ul": [
+                "Plantas jovens, que ainda não têm a forma adulta (a costela-de-adão jovem não tem recortes).",
+                "Híbridos de floricultura, com cores e formas diferentes da espécie original.",
+                "Espécies muito parecidas: [jiboia](guia:jiboia) e filodendro-brasil, [costela-de-adão](guia:costela-de-adao) e guaimbê, [babosa](guia:babosa) e outras espécies de Aloe.",
+                "Fotos escuras, tremidas ou com várias plantas misturadas.",
+                "Folhas muito danificadas por pragas ou doenças."
+              ]
+            }
           ]
         },
         {
           "id": "sem-app",
           "h2": "Outras formas de identificar uma planta",
           "blocos": [
-            {"ul": [
-              "**Google Lens**, que já vem em muitos celulares Android.",
-              "**Grupos e fóruns de jardinagem**, enviando fotos de várias partes da planta.",
-              "**Viveiros, hortos e jardins botânicos** da sua cidade.",
-              "**Observação de características**: formato e borda da folha, flor, cheiro ao amassar e presença de seiva leitosa."
-            ]}
+            {
+              "ul": [
+                "**Google Lens**, que já vem em muitos celulares Android.",
+                "**Grupos e fóruns de jardinagem**, enviando fotos de várias partes da planta.",
+                "**Viveiros, hortos e jardins botânicos** da sua cidade.",
+                "**Observação de características**: formato e borda da folha, flor, cheiro ao amassar e presença de seiva leitosa."
+              ]
+            }
           ]
         }
       ],
       "faqs": [
-        ["Dá para identificar planta por uma foto da galeria?", "Dá. No FlorAI você pode escolher uma imagem da galeria em vez de usar a câmera. Prefira fotos nítidas e com boa luz."],
-        ["Como identificar uma planta que não tem flor?", "Fotografe uma folha inteira dos dois lados, o caule e o jeito como as folhas se distribuem nele. Muitas plantas de interior, como jiboia e zamioculca, são identificadas só pelas folhas."],
-        ["Identificar pela foto é seguro para saber se a planta é tóxica?", "O app ajuda, mas não é garantia. Com crianças ou animais em casa, na dúvida trate a planta como tóxica e mantenha fora do alcance até ter certeza da espécie."]
+        [
+          "Dá para identificar planta por uma foto da galeria?",
+          "Dá. No FlorAI você pode escolher uma imagem da galeria em vez de usar a câmera. Prefira fotos nítidas e com boa luz."
+        ],
+        [
+          "Como identificar uma planta que não tem flor?",
+          "Fotografe uma folha inteira dos dois lados, o caule e o jeito como as folhas se distribuem nele. Muitas plantas de interior, como jiboia e zamioculca, são identificadas só pelas folhas."
+        ],
+        [
+          "Identificar pela foto é seguro para saber se a planta é tóxica?",
+          "O app ajuda, mas não é garantia. Com crianças ou animais em casa, na dúvida trate a planta como tóxica e mantenha fora do alcance até ter certeza da espécie."
+        ]
       ],
-      "relacionadas": ["melhor-app-para-identificar-plantas", "plantas-toxicas-para-gatos-e-cachorros", "como-identificar-doencas-de-plantas"]
+      "relacionadas": [
+        "melhor-app-para-identificar-plantas",
+        "plantas-toxicas-para-gatos-e-cachorros",
+        "como-identificar-doencas-de-plantas"
+      ]
     },
     {
       "slug": "folhas-amarelas",
@@ -333,7 +548,7 @@
       "h1": "Folhas amarelas: por que acontece e como resolver",
       "pergunta": "Por que as folhas da planta ficam amarelas?",
       "eyebrow": "Problemas comuns",
-      "descricao": "Por que as folhas da planta ficam amarelas e o que fazer: excesso de água, falta de luz, falta de adubo, sol forte, pragas e envelhecimento. Tabela para descobrir a causa.",
+      "descricao": "Por que as folhas ficam amarelas: excesso de água, pouca luz, falta de adubo, sol forte ou pragas. Tabela para descobrir a causa.",
       "intro": "Folhas amarelas são o sintoma mais comum em plantas de vaso, e o jeito como a folha amarela diz muito sobre a causa. Use a tabela abaixo para descobrir o que está acontecendo.",
       "resposta": "Em plantas de vaso, a causa mais comum de folhas amarelas é **excesso de água**: as raízes ficam sem ar e param de funcionar. Confira primeiro se o substrato está encharcado e se o vaso tem furo. Outras causas são pouca luz, falta de nutrientes (principalmente nitrogênio), sol forte demais, frio, pragas e o envelhecimento natural das folhas mais baixas.",
       "secoes": [
@@ -341,64 +556,117 @@
           "id": "causa",
           "h2": "Como descobrir a causa pela folha",
           "blocos": [
-            {"tabela": {
-              "cab": ["Como está a folha", "Causa mais provável", "O que fazer"],
-              "linhas": [
-                ["Amarela e mole, começando pelas de baixo, com a terra úmida", "Excesso de água", "Pare de regar até o substrato secar e confira a drenagem."],
-                ["Amarela, seca e enrugada, com a terra seca", "Falta de água", "Regue bem até escorrer e mantenha uma frequência regular."],
-                ["Amarela por igual nas folhas mais velhas", "Falta de nitrogênio", "Adube com NPK 10-10-10 ou húmus na primavera e no verão."],
-                ["Amarela entre as nervuras, que continuam verdes, nas folhas novas", "Falta de ferro ou magnésio (clorose)", "Use adubo com micronutrientes e evite água muito calcária."],
-                ["Manchas amarelas ou esbranquiçadas do lado virado para a janela", "Queimadura de sol", "Afaste a planta do sol direto."],
-                ["Amarela com pontinhos e teias finas no verso", "Ácaros", "Lave as folhas e aumente a umidade do ar."],
-                ["Só uma folha velha de vez em quando", "Envelhecimento natural", "Retire a folha; não é um problema."]
-              ]
-            }}
+            {
+              "tabela": {
+                "cab": [
+                  "Como está a folha",
+                  "Causa mais provável",
+                  "O que fazer"
+                ],
+                "linhas": [
+                  [
+                    "Amarela e mole, começando pelas de baixo, com a terra úmida",
+                    "Excesso de água",
+                    "Pare de regar até o substrato secar e confira a drenagem."
+                  ],
+                  [
+                    "Amarela, seca e enrugada, com a terra seca",
+                    "Falta de água",
+                    "Regue bem até escorrer e mantenha uma frequência regular."
+                  ],
+                  [
+                    "Amarela por igual nas folhas mais velhas",
+                    "Falta de nitrogênio",
+                    "Adube com NPK 10-10-10 ou húmus na primavera e no verão."
+                  ],
+                  [
+                    "Amarela entre as nervuras, que continuam verdes, nas folhas novas",
+                    "Falta de ferro ou magnésio (clorose)",
+                    "Use adubo com micronutrientes e evite água muito calcária."
+                  ],
+                  [
+                    "Manchas amarelas ou esbranquiçadas do lado virado para a janela",
+                    "Queimadura de sol",
+                    "Afaste a planta do sol direto."
+                  ],
+                  [
+                    "Amarela com pontinhos e teias finas no verso",
+                    "Ácaros",
+                    "Lave as folhas e aumente a umidade do ar."
+                  ],
+                  [
+                    "Só uma folha velha de vez em quando",
+                    "Envelhecimento natural",
+                    "Retire a folha; não é um problema."
+                  ]
+                ]
+              }
+            }
           ]
         },
         {
           "id": "volta",
           "h2": "Folha amarela volta a ficar verde?",
           "blocos": [
-            {"p": "Na maioria dos casos, não. Quando a causa é corrigida, as folhas novas nascem verdes, mas as amarelas tendem a continuar assim. Retire a folha quando ela estiver mais amarela do que verde, cortando rente ao caule com uma tesoura limpa."}
+            {
+              "p": "Na maioria dos casos, não. Quando a causa é corrigida, as folhas novas nascem verdes, mas as amarelas tendem a continuar assim. Retire a folha quando ela estiver mais amarela do que verde, cortando rente ao caule com uma tesoura limpa."
+            }
           ]
         },
         {
           "id": "plantas",
           "h2": "Folhas amarelas em plantas populares",
           "blocos": [
-            {"ul": [
-              "[Costela-de-adão](guia:costela-de-adao): quase sempre excesso de água ou vaso sem drenagem.",
-              "[Jiboia](guia:jiboia): excesso de rega; uma folha velha de vez em quando é normal.",
-              "[Zamioculca](guia:zamioculca): rizomas apodrecendo por rega demais.",
-              "[Lírio-da-paz](guia:lirio-da-paz): excesso de água ou folhas velhas.",
-              "[Orquídea](guia:orquidea): raízes podres; se for só a folha mais baixa, é envelhecimento.",
-              "[Espada-de-são-jorge](guia:espada-de-sao-jorge): base mole e amarela indica podridão."
-            ]}
+            {
+              "ul": [
+                "[Costela-de-adão](guia:costela-de-adao): quase sempre excesso de água ou vaso sem drenagem.",
+                "[Jiboia](guia:jiboia): excesso de rega; uma folha velha de vez em quando é normal.",
+                "[Zamioculca](guia:zamioculca): rizomas apodrecendo por rega demais.",
+                "[Lírio-da-paz](guia:lirio-da-paz): excesso de água ou folhas velhas.",
+                "[Orquídea](guia:orquidea): raízes podres; se for só a folha mais baixa, é envelhecimento.",
+                "[Espada-de-são-jorge](guia:espada-de-sao-jorge): base mole e amarela indica podridão."
+              ]
+            }
           ]
         },
         {
           "id": "foto",
           "h2": "Diagnóstico pela foto",
           "blocos": [
-            {"p": "Se você não sabe qual é a planta, comece por aí: os cuidados mudam muito entre espécies, e a rega certa para uma pode amarelar outra. O FlorAI identifica a planta pela foto e mostra a rega e a luz indicadas para ela."}
+            {
+              "p": "Se você não sabe qual é a planta, comece por aí: os cuidados mudam muito entre espécies, e a rega certa para uma pode amarelar outra. O FlorAI identifica a planta pela foto e mostra a rega e a luz indicadas para ela."
+            }
           ]
         }
       ],
       "faqs": [
-        ["Devo cortar as folhas amarelas?", "Sim, quando estiverem mais amarelas do que verdes. Elas não voltam a ficar verdes e podem acumular fungos. Corte rente ao caule com tesoura limpa."],
-        ["Folha amarela é falta de adubo?", "Pode ser, mas é menos comum do que excesso de água. Falta de nitrogênio amarela as folhas mais velhas por igual. Antes de adubar, confira se o substrato não está encharcado."],
-        ["Por que minha planta amarela no inverno?", "No frio, a planta cresce menos e usa menos água, mas muita gente continua regando como no verão. O substrato fica úmido por mais tempo e as raízes sofrem. Espace as regas no outono e no inverno."]
+        [
+          "Devo cortar as folhas amarelas?",
+          "Sim, quando estiverem mais amarelas do que verdes. Elas não voltam a ficar verdes e podem acumular fungos. Corte rente ao caule com tesoura limpa."
+        ],
+        [
+          "Folha amarela é falta de adubo?",
+          "Pode ser, mas é menos comum do que excesso de água. Falta de nitrogênio amarela as folhas mais velhas por igual. Antes de adubar, confira se o substrato não está encharcado."
+        ],
+        [
+          "Por que minha planta amarela no inverno?",
+          "No frio, a planta cresce menos e usa menos água, mas muita gente continua regando como no verão. O substrato fica úmido por mais tempo e as raízes sofrem. Espace as regas no outono e no inverno."
+        ]
       ],
-      "relacionadas": ["como-identificar-doencas-de-plantas", "adubo-caseiro", "mosquinhas-na-terra-do-vaso"]
+      "relacionadas": [
+        "como-identificar-doencas-de-plantas",
+        "adubo-caseiro",
+        "mosquinhas-na-terra-do-vaso"
+      ]
     },
     {
       "slug": "como-acabar-com-cochonilha",
       "curto": "Como acabar com cochonilha",
-      "titulo": "Como acabar com cochonilha nas plantas: passo a passo e receitas",
+      "titulo": "Como acabar com cochonilha: passo a passo e receitas",
       "h1": "Como acabar com cochonilha nas plantas",
       "pergunta": "Como acabar com cochonilha nas plantas?",
       "eyebrow": "Pragas",
-      "descricao": "Como reconhecer e acabar com cochonilha em suculentas, orquídeas e folhagens: passo a passo com álcool 70%, sabão neutro e óleo de neem, receitas caseiras e como evitar.",
+      "descricao": "Como reconhecer e acabar com cochonilha em suculentas, orquídeas e folhagens: passo a passo com álcool 70%, sabão neutro e óleo de neem.",
       "intro": "A cochonilha é a praga mais comum em plantas de casa. Ela suga a seiva, enfraquece a planta e se espalha rápido para os vasos vizinhos. A boa notícia: dá para eliminar com produtos simples, desde que você repita o tratamento.",
       "resposta": "Para acabar com cochonilha, isole a planta, retire os insetos com um cotonete ou escova macia molhados em **álcool 70%** e depois pulverize toda a planta, inclusive o verso das folhas, com **água e sabão neutro** (1 colher de sopa por litro) ou **óleo de neem** diluído conforme a embalagem. Repita a cada 7 dias por pelo menos 3 semanas, porque os ovos sobrevivem à primeira aplicação.",
       "secoes": [
@@ -406,64 +674,87 @@
           "id": "reconhecer",
           "h2": "Como reconhecer a cochonilha",
           "blocos": [
-            {"ul": [
-              "**Algodãozinho branco** nas axilas das folhas, nos caules e nas raízes: cochonilha-farinhenta.",
-              "**Pequenas carapaças marrons ou cinzas** grudadas nas folhas e caules, que saem raspando com a unha: cochonilha-de-carapaça.",
-              "**Folhas meladas e brilhantes**, com uma substância pegajosa.",
-              "**Fumagina**: uma camada preta, como fuligem, que cresce sobre o melado.",
-              "**Formigas** subindo e descendo pela planta, atraídas pelo melado."
-            ]}
+            {
+              "ul": [
+                "**Algodãozinho branco** nas axilas das folhas, nos caules e nas raízes: cochonilha-farinhenta.",
+                "**Pequenas carapaças marrons ou cinzas** grudadas nas folhas e caules, que saem raspando com a unha: cochonilha-de-carapaça.",
+                "**Folhas meladas e brilhantes**, com uma substância pegajosa.",
+                "**Fumagina**: uma camada preta, como fuligem, que cresce sobre o melado.",
+                "**Formigas** subindo e descendo pela planta, atraídas pelo melado."
+              ]
+            }
           ]
         },
         {
           "id": "passo-a-passo",
           "h2": "Passo a passo para eliminar",
           "blocos": [
-            {"ol": [
-              "Isole a planta das outras.",
-              "Corte as partes muito infestadas e descarte em saco fechado.",
-              "Passe cotonete ou escova de dentes macia com álcool 70% em cada colônia visível.",
-              "Pulverize a planta inteira, inclusive o verso das folhas e os caules, com água e sabão neutro ou óleo de neem.",
-              "Aplique no fim da tarde, longe do sol, para não queimar as folhas.",
-              "Repita a cada 7 dias por 3 a 4 semanas, mesmo que não veja mais insetos.",
-              "Em plantas de vaso muito atacadas, confira as raízes: a cochonilha-farinhenta também vive na terra."
-            ]}
+            {
+              "ol": [
+                "Isole a planta das outras.",
+                "Corte as partes muito infestadas e descarte em saco fechado.",
+                "Passe cotonete ou escova de dentes macia com álcool 70% em cada colônia visível.",
+                "Pulverize a planta inteira, inclusive o verso das folhas e os caules, com água e sabão neutro ou óleo de neem.",
+                "Aplique no fim da tarde, longe do sol, para não queimar as folhas.",
+                "Repita a cada 7 dias por 3 a 4 semanas, mesmo que não veja mais insetos.",
+                "Em plantas de vaso muito atacadas, confira as raízes: a cochonilha-farinhenta também vive na terra."
+              ]
+            }
           ]
         },
         {
           "id": "receitas",
           "h2": "Receitas caseiras: o que funciona",
           "blocos": [
-            {"ul": [
-              "**Álcool 70%**: funciona por contato. Use com cotonete, pontualmente.",
-              "**Água com sabão neutro ou sabão de coco**: funciona por contato e é seguro. Teste antes em uma folha.",
-              "**Óleo de neem**: inseticida de origem vegetal, funciona bem com aplicações semanais.",
-              "**Óleo mineral com detergente** (1 colher de sopa de cada por litro): sufoca a cochonilha-de-carapaça.",
-              "**Evite a calda de fumo**: a nicotina é tóxica para pessoas e animais.",
-              "**Evite vinagre puro**: queima as folhas."
-            ]}
+            {
+              "ul": [
+                "**Álcool 70%**: funciona por contato. Use com cotonete, pontualmente.",
+                "**Água com sabão neutro ou sabão de coco**: funciona por contato e é seguro. Teste antes em uma folha.",
+                "**Óleo de neem**: inseticida de origem vegetal, funciona bem com aplicações semanais.",
+                "**Óleo mineral com detergente** (1 colher de sopa de cada por litro): sufoca a cochonilha-de-carapaça.",
+                "**Evite a calda de fumo**: a nicotina é tóxica para pessoas e animais.",
+                "**Evite vinagre puro**: queima as folhas."
+              ]
+            }
           ]
         },
         {
           "id": "evitar",
           "h2": "Como evitar que volte",
           "blocos": [
-            {"ul": [
-              "Inspecione plantas novas antes de juntar às outras e deixe em quarentena por 2 semanas.",
-              "Não exagere no adubo rico em nitrogênio, que deixa os brotos tenros e atraentes.",
-              "Mantenha os ambientes ventilados.",
-              "Limpe as folhas com pano úmido de vez em quando e olhe o verso."
-            ]},
-            {"p": "Plantas que mais sofrem com cochonilha: [suculentas](guia:suculentas), [cactos](guia:cactos), [orquídeas](guia:orquidea), [rosa-do-deserto](guia:rosa-do-deserto) e [costela-de-adão](guia:costela-de-adao)."}
+            {
+              "ul": [
+                "Inspecione plantas novas antes de juntar às outras e deixe em quarentena por 2 semanas.",
+                "Não exagere no adubo rico em nitrogênio, que deixa os brotos tenros e atraentes.",
+                "Mantenha os ambientes ventilados.",
+                "Limpe as folhas com pano úmido de vez em quando e olhe o verso."
+              ]
+            },
+            {
+              "p": "Plantas que mais sofrem com cochonilha: [suculentas](guia:suculentas), [cactos](guia:cactos), [orquídeas](guia:orquidea), [rosa-do-deserto](guia:rosa-do-deserto) e [costela-de-adão](guia:costela-de-adao)."
+            }
           ]
         }
       ],
       "faqs": [
-        ["Cochonilha mata a planta?", "Pode matar se não for tratada: ela suga a seiva continuamente e abre espaço para fungos. Plantas pequenas, como suculentas, morrem mais rápido."],
-        ["Cochonilha passa para outras plantas?", "Passa. As formas jovens caminham e são levadas pelo vento, pelas mãos e pelas formigas. Isole a planta atacada até o tratamento terminar."],
-        ["Álcool queima a planta?", "Aplicado pontualmente com cotonete, não. Evite pulverizar álcool na planta inteira ou no sol. Teste antes em uma folha, principalmente em samambaias e plantas de folhas finas."]
+        [
+          "Cochonilha mata a planta?",
+          "Pode matar se não for tratada: ela suga a seiva continuamente e abre espaço para fungos. Plantas pequenas, como suculentas, morrem mais rápido."
+        ],
+        [
+          "Cochonilha passa para outras plantas?",
+          "Passa. As formas jovens caminham e são levadas pelo vento, pelas mãos e pelas formigas. Isole a planta atacada até o tratamento terminar."
+        ],
+        [
+          "Álcool queima a planta?",
+          "Aplicado pontualmente com cotonete, não. Evite pulverizar álcool na planta inteira ou no sol. Teste antes em uma folha, principalmente em samambaias e plantas de folhas finas."
+        ]
       ],
-      "relacionadas": ["como-identificar-doencas-de-plantas", "mosquinhas-na-terra-do-vaso", "folhas-amarelas"]
+      "relacionadas": [
+        "como-identificar-doencas-de-plantas",
+        "mosquinhas-na-terra-do-vaso",
+        "folhas-amarelas"
+      ]
     },
     {
       "slug": "mosquinhas-na-terra-do-vaso",
@@ -480,54 +771,75 @@
           "id": "por-que",
           "h2": "Por que as mosquinhas aparecem",
           "blocos": [
-            {"ul": [
-              "Rega em excesso, que mantém a superfície da terra sempre úmida.",
-              "Substrato com muita matéria orgânica em decomposição, como húmus, borra de café e cascas de fruta.",
-              "Água parada no pratinho.",
-              "Plantas novas que já chegam do viveiro com larvas na terra."
-            ]}
+            {
+              "ul": [
+                "Rega em excesso, que mantém a superfície da terra sempre úmida.",
+                "Substrato com muita matéria orgânica em decomposição, como húmus, borra de café e cascas de fruta.",
+                "Água parada no pratinho.",
+                "Plantas novas que já chegam do viveiro com larvas na terra."
+              ]
+            }
           ]
         },
         {
           "id": "passo-a-passo",
           "h2": "Passo a passo para acabar com elas",
           "blocos": [
-            {"ol": [
-              "Espace as regas até os 2 a 3 cm de cima do substrato secarem totalmente.",
-              "Esvazie o pratinho depois de cada rega.",
-              "Espete armadilhas adesivas amarelas no vaso para capturar os adultos.",
-              "Cubra a terra com 1 cm de areia grossa ou pedriscos, que secam rápido e impedem a postura de ovos.",
-              "Para conferir se há larvas, deixe rodelas de batata crua sobre a terra por 2 dias: as larvas se juntam embaixo delas.",
-              "Em casos graves, regue com produto à base de BTI ou troque a camada de cima do substrato."
-            ]}
+            {
+              "ol": [
+                "Espace as regas até os 2 a 3 cm de cima do substrato secarem totalmente.",
+                "Esvazie o pratinho depois de cada rega.",
+                "Espete armadilhas adesivas amarelas no vaso para capturar os adultos.",
+                "Cubra a terra com 1 cm de areia grossa ou pedriscos, que secam rápido e impedem a postura de ovos.",
+                "Para conferir se há larvas, deixe rodelas de batata crua sobre a terra por 2 dias: as larvas se juntam embaixo delas.",
+                "Em casos graves, regue com produto à base de BTI ou troque a camada de cima do substrato."
+              ]
+            }
           ]
         },
         {
           "id": "dengue",
           "h2": "É o mosquito da dengue?",
           "blocos": [
-            {"p": "Não. O *Aedes aegypti* põe ovos em água parada, não na terra. Mas pratinhos com água acumulada e plantas que guardam água, como a [bromélia](guia:bromelia), podem virar criadouros. Esvazie os pratinhos ou encha-os com areia, e troque a água das plantas pelo menos uma vez por semana."}
+            {
+              "p": "Não. O *Aedes aegypti* põe ovos em água parada, não na terra. Mas pratinhos com água acumulada e plantas que guardam água, como a [bromélia](guia:bromelia), podem virar criadouros. Esvazie os pratinhos ou encha-os com areia, e troque a água das plantas pelo menos uma vez por semana."
+            }
           ]
         },
         {
           "id": "caseiros",
           "h2": "Remédios caseiros",
           "blocos": [
-            {"ul": [
-              "**Deixar a terra secar**: é o que mais funciona, e é de graça.",
-              "**Água oxigenada 10 volumes** diluída (1 parte para 4 de água): mata larvas na superfície por contato. Use só de vez em quando.",
-              "**Canela em pó** na superfície: efeito fraco; ajuda pouco sozinha.",
-              "**Vinagre de maçã com detergente** num copinho: atrai e afoga os adultos, mas não resolve as larvas."
-            ]}
+            {
+              "ul": [
+                "**Deixar a terra secar**: é o que mais funciona, e é de graça.",
+                "**Água oxigenada 10 volumes** diluída (1 parte para 4 de água): mata larvas na superfície por contato. Use só de vez em quando.",
+                "**Canela em pó** na superfície: efeito fraco; ajuda pouco sozinha.",
+                "**Vinagre de maçã com detergente** num copinho: atrai e afoga os adultos, mas não resolve as larvas."
+              ]
+            }
           ]
         }
       ],
       "faqs": [
-        ["As mosquinhas do vaso fazem mal para as pessoas?", "Não picam e não transmitem doenças. São incômodas e, em grande quantidade, as larvas podem danificar raízes de mudas e plantas pequenas."],
-        ["Por que apareceram mosquinhas depois que usei borra de café?", "A borra úmida sobre a terra é matéria orgânica que fermenta e mofa, o ambiente ideal para as larvas. Use borra seca, em camada fina, ou coloque-a na composteira."],
-        ["Como saber se tem larva na terra?", "Deixe rodelas de batata crua sobre o substrato por um ou dois dias. Se houver larvas, elas aparecem embaixo das rodelas: são pequenas, brancas e com cabeça preta."]
+        [
+          "As mosquinhas do vaso fazem mal para as pessoas?",
+          "Não picam e não transmitem doenças. São incômodas e, em grande quantidade, as larvas podem danificar raízes de mudas e plantas pequenas."
+        ],
+        [
+          "Por que apareceram mosquinhas depois que usei borra de café?",
+          "A borra úmida sobre a terra é matéria orgânica que fermenta e mofa, o ambiente ideal para as larvas. Use borra seca, em camada fina, ou coloque-a na composteira."
+        ],
+        [
+          "Como saber se tem larva na terra?",
+          "Deixe rodelas de batata crua sobre o substrato por um ou dois dias. Se houver larvas, elas aparecem embaixo das rodelas: são pequenas, brancas e com cabeça preta."
+        ]
       ],
-      "relacionadas": ["folhas-amarelas", "como-acabar-com-cochonilha", "adubo-caseiro"]
+      "relacionadas": [
+        "folhas-amarelas",
+        "como-acabar-com-cochonilha",
+        "adubo-caseiro"
+      ]
     },
     {
       "slug": "plantas-para-apartamento-com-pouca-luz",
@@ -536,7 +848,7 @@
       "h1": "Plantas para apartamento com pouca luz",
       "pergunta": "Quais plantas gostam de pouca luz para ter em apartamento?",
       "eyebrow": "Escolha de plantas",
-      "descricao": "As 10 melhores plantas para apartamento e escritório com pouca luz, como saber quanta luz o seu cômodo tem, cuidados no ambiente escuro e quais são seguras para pets.",
+      "descricao": "As 10 melhores plantas para apartamento com pouca luz, como medir a luz do cômodo e quais delas são seguras para gatos e cachorros.",
       "intro": "Apartamento com pouca janela não é sentença de morte para as plantas. Algumas espécies vêm do chão sombreado das florestas tropicais e se adaptam bem. O segredo é escolher a planta certa e regar menos.",
       "resposta": "As plantas que melhor toleram pouca luz em apartamento são **zamioculca, espada-de-são-jorge, jiboia, lírio-da-paz, palmeira-ráfis, comigo-ninguém-pode, aglaonema, maranta, peperômia e bambu-da-sorte**. “Pouca luz” ainda é luz natural: um ambiente onde dá para ler durante o dia sem acender a lâmpada. Sem nenhuma janela, nenhuma planta vive muito tempo sem luz artificial de cultivo.",
       "secoes": [
@@ -544,58 +856,79 @@
           "id": "medir",
           "h2": "Como saber quanta luz o seu cômodo tem",
           "blocos": [
-            {"ul": [
-              "**Teste da sombra**: ao meio-dia, coloque a mão a 30 cm de uma folha de papel no lugar da planta. Sombra nítida indica luz forte; sombra borrada, luz média; quase nenhuma sombra, pouca luz.",
-              "**Distância da janela**: a luz cai muito a cada metro. A 3 metros da janela, a claridade é uma fração da que existe junto ao vidro.",
-              "**Direção da janela**: no Brasil, janelas voltadas para o norte recebem mais sol ao longo do ano; as voltadas para o sul recebem pouco sol direto."
-            ]}
+            {
+              "ul": [
+                "**Teste da sombra**: ao meio-dia, coloque a mão a 30 cm de uma folha de papel no lugar da planta. Sombra nítida indica luz forte; sombra borrada, luz média; quase nenhuma sombra, pouca luz.",
+                "**Distância da janela**: a luz cai muito a cada metro. A 3 metros da janela, a claridade é uma fração da que existe junto ao vidro.",
+                "**Direção da janela**: no Brasil, janelas voltadas para o norte recebem mais sol ao longo do ano; as voltadas para o sul recebem pouco sol direto."
+              ]
+            }
           ]
         },
         {
           "id": "lista",
           "h2": "As 10 melhores plantas para pouca luz",
           "blocos": [
-            {"ol": [
-              "[Zamioculca](guia:zamioculca): a mais resistente; guarda água nos rizomas e aguenta esquecimento.",
-              "[Espada-de-são-jorge](guia:espada-de-sao-jorge): tolera pouca luz e rega a cada 20 a 30 dias.",
-              "[Jiboia](guia:jiboia): pendente, cresce até em banheiro com janela pequena.",
-              "[Lírio-da-paz](guia:lirio-da-paz): fica verde na meia-sombra, mas floresce mais com claridade.",
-              "[Palmeira-ráfis](guia:palmeira-rafis): palmeira de interior que aceita ambientes sombreados.",
-              "[Comigo-ninguém-pode](guia:comigo-ninguem-pode): folhas grandes e manchadas, tolera sombra (tóxica para pets).",
-              "Aglaonema: folhagem colorida, muito usada em escritórios.",
-              "[Maranta e calatheas](guia:maranta): gostam de sombra e umidade; seguras para pets.",
-              "[Peperômia](guia:peperomia): compacta, para mesas e prateleiras; segura para pets.",
-              "[Bambu-da-sorte](guia:bambu-da-sorte): vive na água ou na terra, longe do sol direto."
-            ]}
+            {
+              "ol": [
+                "[Zamioculca](guia:zamioculca): a mais resistente; guarda água nos rizomas e aguenta esquecimento.",
+                "[Espada-de-são-jorge](guia:espada-de-sao-jorge): tolera pouca luz e rega a cada 20 a 30 dias.",
+                "[Jiboia](guia:jiboia): pendente, cresce até em banheiro com janela pequena.",
+                "[Lírio-da-paz](guia:lirio-da-paz): fica verde na meia-sombra, mas floresce mais com claridade.",
+                "[Palmeira-ráfis](guia:palmeira-rafis): palmeira de interior que aceita ambientes sombreados.",
+                "[Comigo-ninguém-pode](guia:comigo-ninguem-pode): folhas grandes e manchadas, tolera sombra (tóxica para pets).",
+                "Aglaonema: folhagem colorida, muito usada em escritórios.",
+                "[Maranta e calatheas](guia:maranta): gostam de sombra e umidade; seguras para pets.",
+                "[Peperômia](guia:peperomia): compacta, para mesas e prateleiras; segura para pets.",
+                "[Bambu-da-sorte](guia:bambu-da-sorte): vive na água ou na terra, longe do sol direto."
+              ]
+            }
           ]
         },
         {
           "id": "cuidados",
           "h2": "Cuidados em ambiente com pouca luz",
           "blocos": [
-            {"ul": [
-              "**Regue menos**: com pouca luz, a planta usa menos água e o substrato demora mais para secar. É aqui que a maioria erra.",
-              "**Limpe as folhas** com pano úmido a cada 15 dias; poeira bloqueia a pouca luz que chega.",
-              "**Gire o vaso** a cada 2 semanas para a planta não crescer torta.",
-              "**Adube menos**: metade da dose e com menos frequência.",
-              "**Espere crescimento lento**: é normal e não é sinal de problema."
-            ]}
+            {
+              "ul": [
+                "**Regue menos**: com pouca luz, a planta usa menos água e o substrato demora mais para secar. É aqui que a maioria erra.",
+                "**Limpe as folhas** com pano úmido a cada 15 dias; poeira bloqueia a pouca luz que chega.",
+                "**Gire o vaso** a cada 2 semanas para a planta não crescer torta.",
+                "**Adube menos**: metade da dose e com menos frequência.",
+                "**Espere crescimento lento**: é normal e não é sinal de problema."
+              ]
+            }
           ]
         },
         {
           "id": "sem-janela",
           "h2": "E se o cômodo não tiver janela?",
           "blocos": [
-            {"p": "Use uma luminária LED de cultivo (espectro completo) a 30 a 50 cm da planta, ligada por 10 a 12 horas por dia com um timer. Sem isso, até as plantas mais resistentes enfraquecem em poucos meses."}
+            {
+              "p": "Use uma luminária LED de cultivo (espectro completo) a 30 a 50 cm da planta, ligada por 10 a 12 horas por dia com um timer. Sem isso, até as plantas mais resistentes enfraquecem em poucos meses."
+            }
           ]
         }
       ],
       "faqs": [
-        ["Qual planta vive no escuro total?", "Nenhuma. Toda planta precisa de luz para fazer fotossíntese. As plantas de “pouca luz” toleram ambientes sombreados, mas precisam de alguma claridade natural ou de luz de cultivo."],
-        ["Quais plantas de pouca luz são seguras para gatos e cachorros?", "Maranta e calatheas, peperômia, palmeira-ráfis e samambaia-americana são consideradas não tóxicas pela ASPCA. Zamioculca, jiboia, espada-de-são-jorge, comigo-ninguém-pode e lírio-da-paz são tóxicas."],
-        ["Planta de pouca luz pode ficar no banheiro?", "Pode, se o banheiro tiver janela. Jiboia, lírio-da-paz, samambaia e marantas gostam da umidade do banho."]
+        [
+          "Qual planta vive no escuro total?",
+          "Nenhuma. Toda planta precisa de luz para fazer fotossíntese. As plantas de “pouca luz” toleram ambientes sombreados, mas precisam de alguma claridade natural ou de luz de cultivo."
+        ],
+        [
+          "Quais plantas de pouca luz são seguras para gatos e cachorros?",
+          "Maranta e calatheas, peperômia, palmeira-ráfis e samambaia-americana são consideradas não tóxicas pela ASPCA. Zamioculca, jiboia, espada-de-são-jorge, comigo-ninguém-pode e lírio-da-paz são tóxicas."
+        ],
+        [
+          "Planta de pouca luz pode ficar no banheiro?",
+          "Pode, se o banheiro tiver janela. Jiboia, lírio-da-paz, samambaia e marantas gostam da umidade do banho."
+        ]
       ],
-      "relacionadas": ["plantas-toxicas-para-gatos-e-cachorros", "melhor-app-para-lembrar-de-regar-plantas", "como-regar-plantas-nas-ferias"]
+      "relacionadas": [
+        "plantas-toxicas-para-gatos-e-cachorros",
+        "melhor-app-para-lembrar-de-regar-plantas",
+        "como-regar-plantas-nas-ferias"
+      ]
     },
     {
       "slug": "plantas-toxicas-para-gatos-e-cachorros",
@@ -612,68 +945,138 @@
           "id": "tabela",
           "h2": "Lista de plantas tóxicas e seguras",
           "blocos": [
-            {"tabela": {
-              "cab": ["Planta", "Para gatos e cachorros", "O que causa"],
-              "linhas": [
-                ["Lírios verdadeiros (Lilium, Hemerocallis)", "Muito tóxicos para gatos", "Insuficiência renal, mesmo com pólen ou água do vaso"],
-                ["[Comigo-ninguém-pode](guia:comigo-ninguem-pode)", "Tóxica", "Dor e inchaço intensos na boca e na garganta"],
-                ["[Rosa-do-deserto](guia:rosa-do-deserto)", "Muito tóxica", "Seiva com glicosídeos cardíacos"],
-                ["[Costela-de-adão](guia:costela-de-adao), [jiboia](guia:jiboia), [zamioculca](guia:zamioculca), [lírio-da-paz](guia:lirio-da-paz), [antúrio](guia:anturio)", "Tóxicas", "Oxalato de cálcio: irritação na boca, salivação e vômito"],
-                ["[Espada-de-são-jorge](guia:espada-de-sao-jorge), [árvore-da-felicidade](guia:arvore-da-felicidade)", "Tóxicas", "Saponinas: vômito e diarreia"],
-                ["[Babosa](guia:babosa)", "Tóxica", "Vômito e diarreia (casca e látex)"],
-                ["[Kalanchoe](guia:kalanchoe)", "Tóxico", "Vômito; em grande quantidade, alterações no coração"],
-                ["[Hortênsia](guia:hortensia), [begônia](guia:begonia), [bambu-da-sorte](guia:bambu-da-sorte)", "Tóxicas", "Vômito, diarreia e salivação"],
-                ["[Orquídea Phalaenopsis](guia:orquidea), [samambaia-americana](guia:samambaia), [maranta](guia:maranta), [peperômia](guia:peperomia), [palmeira-ráfis](guia:palmeira-rafis)", "Consideradas seguras", "—"],
-                ["[Violeta-africana](guia:violeta-africana), [bromélia](guia:bromelia), [manjericão](guia:manjericao), [alecrim](guia:alecrim), [rosa](guia:rosa)", "Consideradas seguras", "Espinhos da rosa podem ferir"]
-              ]
-            }}
+            {
+              "tabela": {
+                "cab": [
+                  "Planta",
+                  "Para gatos e cachorros",
+                  "O que causa"
+                ],
+                "linhas": [
+                  [
+                    "Lírios verdadeiros (Lilium, Hemerocallis)",
+                    "Muito tóxicos para gatos",
+                    "Insuficiência renal, mesmo com pólen ou água do vaso"
+                  ],
+                  [
+                    "[Comigo-ninguém-pode](guia:comigo-ninguem-pode)",
+                    "Tóxica",
+                    "Dor e inchaço intensos na boca e na garganta"
+                  ],
+                  [
+                    "[Rosa-do-deserto](guia:rosa-do-deserto)",
+                    "Muito tóxica",
+                    "Seiva com glicosídeos cardíacos"
+                  ],
+                  [
+                    "[Costela-de-adão](guia:costela-de-adao), [jiboia](guia:jiboia), [zamioculca](guia:zamioculca), [lírio-da-paz](guia:lirio-da-paz), [antúrio](guia:anturio)",
+                    "Tóxicas",
+                    "Oxalato de cálcio: irritação na boca, salivação e vômito"
+                  ],
+                  [
+                    "[Espada-de-são-jorge](guia:espada-de-sao-jorge), [árvore-da-felicidade](guia:arvore-da-felicidade)",
+                    "Tóxicas",
+                    "Saponinas: vômito e diarreia"
+                  ],
+                  [
+                    "[Babosa](guia:babosa)",
+                    "Tóxica",
+                    "Vômito e diarreia (casca e látex)"
+                  ],
+                  [
+                    "[Kalanchoe](guia:kalanchoe)",
+                    "Tóxico",
+                    "Vômito; em grande quantidade, alterações no coração"
+                  ],
+                  [
+                    "[Hortênsia](guia:hortensia), [begônia](guia:begonia), [bambu-da-sorte](guia:bambu-da-sorte)",
+                    "Tóxicas",
+                    "Vômito, diarreia e salivação"
+                  ],
+                  [
+                    "[Orquídea Phalaenopsis](guia:orquidea), [samambaia-americana](guia:samambaia), [maranta](guia:maranta), [peperômia](guia:peperomia), [palmeira-ráfis](guia:palmeira-rafis)",
+                    "Consideradas seguras",
+                    "—"
+                  ],
+                  [
+                    "[Violeta-africana](guia:violeta-africana), [bromélia](guia:bromelia), [manjericão](guia:manjericao), [alecrim](guia:alecrim), [rosa](guia:rosa)",
+                    "Consideradas seguras",
+                    "Espinhos da rosa podem ferir"
+                  ]
+                ]
+              }
+            }
           ]
         },
         {
           "id": "sintomas",
           "h2": "Sintomas de intoxicação",
           "blocos": [
-            {"ul": [
-              "Salivação excessiva e o animal passando a pata na boca.",
-              "Vômito e diarreia.",
-              "Boca, língua ou lábios inchados.",
-              "Apatia e falta de apetite.",
-              "Em gatos que tiveram contato com lírios: vômito, recusa de comida e urina reduzida. É emergência."
-            ]}
+            {
+              "ul": [
+                "Salivação excessiva e o animal passando a pata na boca.",
+                "Vômito e diarreia.",
+                "Boca, língua ou lábios inchados.",
+                "Apatia e falta de apetite.",
+                "Em gatos que tiveram contato com lírios: vômito, recusa de comida e urina reduzida. É emergência."
+              ]
+            }
           ]
         },
         {
           "id": "o-que-fazer",
           "h2": "O que fazer se o pet comeu uma planta",
           "blocos": [
-            {"ol": [
-              "Retire os restos de planta da boca do animal.",
-              "Não provoque vômito nem dê leite sem orientação veterinária.",
-              "Descubra qual é a planta. Se não souber o nome, tire uma foto e identifique no FlorAI; leve um pedaço da planta ao veterinário.",
-              "Procure um veterinário imediatamente, principalmente se for lírio, rosa-do-deserto ou comigo-ninguém-pode."
-            ]}
+            {
+              "ol": [
+                "Retire os restos de planta da boca do animal.",
+                "Não provoque vômito nem dê leite sem orientação veterinária.",
+                "Descubra qual é a planta. Se não souber o nome, tire uma foto e identifique no FlorAI; leve um pedaço da planta ao veterinário.",
+                "Procure um veterinário imediatamente, principalmente se for lírio, rosa-do-deserto ou comigo-ninguém-pode."
+              ]
+            }
           ]
         },
         {
           "id": "convivencia",
           "h2": "Como manter pets e plantas juntos",
           "blocos": [
-            {"ul": [
-              "Prefira as espécies seguras nos ambientes onde o animal fica.",
-              "Use vasos suspensos e prateleiras altas para as tóxicas.",
-              "Ofereça grama para gatos (de trigo ou aveia) para desviar a atenção.",
-              "Recolha folhas caídas, que são as mais mastigadas."
-            ]}
+            {
+              "ul": [
+                "Prefira as espécies seguras nos ambientes onde o animal fica.",
+                "Use vasos suspensos e prateleiras altas para as tóxicas.",
+                "Ofereça grama para gatos (de trigo ou aveia) para desviar a atenção.",
+                "Recolha folhas caídas, que são as mais mastigadas."
+              ]
+            }
           ]
         }
       ],
       "faqs": [
-        ["Qual planta é mais perigosa para gatos?", "Os lírios verdadeiros (Lilium e Hemerocallis). Pequenas quantidades, até o pólen lambido do pelo ou a água do vaso, podem causar insuficiência renal em gatos."],
-        ["Comigo-ninguém-pode pode matar um cachorro?", "É raro, mas ela causa dor intensa e inchaço na boca e na garganta, que podem atrapalhar a respiração. Procure atendimento veterinário imediatamente."],
-        ["Como saber se a planta que tenho em casa é tóxica?", "Descubra a espécie exata: plantas parecidas podem ter toxicidade diferente. Uma foto no FlorAI identifica a planta, e a lista da ASPCA informa a toxicidade para cães e gatos."]
+        [
+          "Qual planta é mais perigosa para gatos?",
+          "Os lírios verdadeiros (Lilium e Hemerocallis). Pequenas quantidades, até o pólen lambido do pelo ou a água do vaso, podem causar insuficiência renal em gatos."
+        ],
+        [
+          "Comigo-ninguém-pode pode matar um cachorro?",
+          "É raro, mas ela causa dor intensa e inchaço na boca e na garganta, que podem atrapalhar a respiração. Procure atendimento veterinário imediatamente."
+        ],
+        [
+          "Como saber se a planta que tenho em casa é tóxica?",
+          "Descubra a espécie exata: plantas parecidas podem ter toxicidade diferente. Uma foto no FlorAI identifica a planta, e a lista da ASPCA informa a toxicidade para cães e gatos."
+        ]
       ],
-      "referencias": [["Lista de plantas tóxicas e não tóxicas da ASPCA (em inglês)", "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"]],
-      "relacionadas": ["plantas-para-apartamento-com-pouca-luz", "como-identificar-planta-pela-foto", "como-identificar-doencas-de-plantas"]
+      "referencias": [
+        [
+          "Lista de plantas tóxicas e não tóxicas da ASPCA (em inglês)",
+          "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
+        ]
+      ],
+      "relacionadas": [
+        "plantas-para-apartamento-com-pouca-luz",
+        "como-identificar-planta-pela-foto",
+        "como-identificar-doencas-de-plantas"
+      ]
     },
     {
       "slug": "como-regar-plantas-nas-ferias",
@@ -690,63 +1093,130 @@
           "id": "metodos",
           "h2": "Métodos caseiros de rega",
           "blocos": [
-            {"h3": "1. Pavio (capilaridade)"},
-            {"p": "Coloque um balde com água em posição mais alta que os vasos. Enterre uma ponta de barbante de algodão grosso ou tira de tecido a 5 cm de profundidade na terra e mergulhe a outra no balde. A água sobe pelo pavio conforme a terra seca. Um balde de 10 litros atende vários vasos médios por cerca de 2 semanas."},
-            {"h3": "2. Garrafa PET"},
-            {"p": "Faça 2 ou 3 furinhos na tampa com um prego quente, encha a garrafa e enterre de cabeça para baixo no vaso. Teste antes: se esvaziar em menos de um dia, os furos estão grandes demais."},
-            {"h3": "3. Bacia ou banheira com toalha"},
-            {"p": "Forre a bacia ou a banheira com uma toalha molhada, coloque 2 a 3 cm de água e apoie os vasos com furo sobre ela. Funciona bem para 4 a 7 dias e para plantas que gostam de umidade."},
-            {"h3": "4. Agrupar as plantas"},
-            {"p": "Junte os vasos longe do sol direto. Juntas, elas mantêm a umidade do ar mais alta e perdem menos água."},
-            {"h3": "5. Estufa de saco plástico"},
-            {"p": "Para plantas pequenas, regue, cubra com um saco plástico transparente sem encostar nas folhas e deixe em luz indireta. Não use em suculentas, que apodrecem."},
-            {"h3": "6. Vaso autoirrigável"},
-            {"p": "Tem um reservatório no fundo que alimenta a terra aos poucos. É a solução mais prática para quem viaja com frequência."}
+            {
+              "h3": "1. Pavio (capilaridade)"
+            },
+            {
+              "p": "Coloque um balde com água em posição mais alta que os vasos. Enterre uma ponta de barbante de algodão grosso ou tira de tecido a 5 cm de profundidade na terra e mergulhe a outra no balde. A água sobe pelo pavio conforme a terra seca. Um balde de 10 litros atende vários vasos médios por cerca de 2 semanas."
+            },
+            {
+              "h3": "2. Garrafa PET"
+            },
+            {
+              "p": "Faça 2 ou 3 furinhos na tampa com um prego quente, encha a garrafa e enterre de cabeça para baixo no vaso. Teste antes: se esvaziar em menos de um dia, os furos estão grandes demais."
+            },
+            {
+              "h3": "3. Bacia ou banheira com toalha"
+            },
+            {
+              "p": "Forre a bacia ou a banheira com uma toalha molhada, coloque 2 a 3 cm de água e apoie os vasos com furo sobre ela. Funciona bem para 4 a 7 dias e para plantas que gostam de umidade."
+            },
+            {
+              "h3": "4. Agrupar as plantas"
+            },
+            {
+              "p": "Junte os vasos longe do sol direto. Juntas, elas mantêm a umidade do ar mais alta e perdem menos água."
+            },
+            {
+              "h3": "5. Estufa de saco plástico"
+            },
+            {
+              "p": "Para plantas pequenas, regue, cubra com um saco plástico transparente sem encostar nas folhas e deixe em luz indireta. Não use em suculentas, que apodrecem."
+            },
+            {
+              "h3": "6. Vaso autoirrigável"
+            },
+            {
+              "p": "Tem um reservatório no fundo que alimenta a terra aos poucos. É a solução mais prática para quem viaja com frequência."
+            }
           ]
         },
         {
           "id": "tempo",
           "h2": "Quanto tempo cada planta aguenta sem água",
           "blocos": [
-            {"tabela": {
-              "cab": ["Grupo", "Aguenta sem rega", "Exemplos"],
-              "linhas": [
-                ["Suculentas e cactos", "2 a 4 semanas", "[Suculentas](guia:suculentas), [cactos](guia:cactos), [babosa](guia:babosa)"],
-                ["Plantas com reserva de água", "3 a 4 semanas", "[Zamioculca](guia:zamioculca), [espada-de-são-jorge](guia:espada-de-sao-jorge)"],
-                ["Folhagens tropicais", "7 a 10 dias", "[Costela-de-adão](guia:costela-de-adao), [jiboia](guia:jiboia), [comigo-ninguém-pode](guia:comigo-ninguem-pode)"],
-                ["Plantas que gostam de terra úmida", "3 a 5 dias", "[Lírio-da-paz](guia:lirio-da-paz), [samambaia](guia:samambaia), [maranta](guia:maranta)"],
-                ["Ervas em vaso", "2 a 3 dias no calor", "[Manjericão](guia:manjericao), [hortelã](guia:hortela)"]
-              ]
-            }},
-            {"p": "No verão e em cidades quentes, como Fortaleza, Recife e Cuiabá, conte com o limite menor de cada faixa."}
+            {
+              "tabela": {
+                "cab": [
+                  "Grupo",
+                  "Aguenta sem rega",
+                  "Exemplos"
+                ],
+                "linhas": [
+                  [
+                    "Suculentas e cactos",
+                    "2 a 4 semanas",
+                    "[Suculentas](guia:suculentas), [cactos](guia:cactos), [babosa](guia:babosa)"
+                  ],
+                  [
+                    "Plantas com reserva de água",
+                    "3 a 4 semanas",
+                    "[Zamioculca](guia:zamioculca), [espada-de-são-jorge](guia:espada-de-sao-jorge)"
+                  ],
+                  [
+                    "Folhagens tropicais",
+                    "7 a 10 dias",
+                    "[Costela-de-adão](guia:costela-de-adao), [jiboia](guia:jiboia), [comigo-ninguém-pode](guia:comigo-ninguem-pode)"
+                  ],
+                  [
+                    "Plantas que gostam de terra úmida",
+                    "3 a 5 dias",
+                    "[Lírio-da-paz](guia:lirio-da-paz), [samambaia](guia:samambaia), [maranta](guia:maranta)"
+                  ],
+                  [
+                    "Ervas em vaso",
+                    "2 a 3 dias no calor",
+                    "[Manjericão](guia:manjericao), [hortelã](guia:hortela)"
+                  ]
+                ]
+              }
+            },
+            {
+              "p": "No verão e em cidades quentes, como Fortaleza, Recife e Cuiabá, conte com o limite menor de cada faixa."
+            }
           ]
         },
         {
           "id": "antes",
           "h2": "Checklist antes de viajar",
           "blocos": [
-            {"ul": [
-              "Teste o sistema de rega 3 ou 4 dias antes de sair.",
-              "Regue bem na véspera, até escorrer.",
-              "Não adube na semana da viagem.",
-              "Retire flores murchas e folhas secas.",
-              "Afaste as plantas do sol direto e feche parcialmente as cortinas.",
-              "Se alguém for regar por você, deixe instruções por planta."
-            ]}
+            {
+              "ul": [
+                "Teste o sistema de rega 3 ou 4 dias antes de sair.",
+                "Regue bem na véspera, até escorrer.",
+                "Não adube na semana da viagem.",
+                "Retire flores murchas e folhas secas.",
+                "Afaste as plantas do sol direto e feche parcialmente as cortinas.",
+                "Se alguém for regar por você, deixe instruções por planta."
+              ]
+            }
           ]
         }
       ],
       "faqs": [
-        ["Garrafa PET funciona para regar plantas?", "Funciona para viagens de alguns dias até uma semana, desde que os furos sejam pequenos. Teste antes: a garrafa deve esvaziar aos poucos, ao longo de vários dias."],
-        ["Quanto tempo uma planta fica sem água?", "Depende da espécie: de 2 a 3 dias para ervas e samambaias no calor até 3 ou 4 semanas para suculentas, cactos e zamioculca."],
-        ["Posso deixar água no pratinho durante a viagem?", "Por 2 ou 3 dias, para plantas que gostam de umidade, sim. Por mais tempo, as raízes apodrecem e o pratinho pode virar criadouro do mosquito da dengue."]
+        [
+          "Garrafa PET funciona para regar plantas?",
+          "Funciona para viagens de alguns dias até uma semana, desde que os furos sejam pequenos. Teste antes: a garrafa deve esvaziar aos poucos, ao longo de vários dias."
+        ],
+        [
+          "Quanto tempo uma planta fica sem água?",
+          "Depende da espécie: de 2 a 3 dias para ervas e samambaias no calor até 3 ou 4 semanas para suculentas, cactos e zamioculca."
+        ],
+        [
+          "Posso deixar água no pratinho durante a viagem?",
+          "Por 2 ou 3 dias, para plantas que gostam de umidade, sim. Por mais tempo, as raízes apodrecem e o pratinho pode virar criadouro do mosquito da dengue."
+        ]
       ],
-      "relacionadas": ["melhor-app-para-lembrar-de-regar-plantas", "plantas-para-apartamento-com-pouca-luz", "como-trocar-planta-de-vaso"]
+      "relacionadas": [
+        "melhor-app-para-lembrar-de-regar-plantas",
+        "plantas-para-apartamento-com-pouca-luz",
+        "como-trocar-planta-de-vaso"
+      ]
     },
     {
       "slug": "adubo-caseiro",
       "curto": "Adubo caseiro: o que funciona",
-      "titulo": "Adubo caseiro: casca de ovo, borra de café e banana funcionam?",
+      "titulo": "Adubo caseiro: casca de ovo e borra de café funcionam?",
       "h1": "Adubo caseiro para plantas: o que funciona de verdade",
       "pergunta": "Qual o melhor adubo caseiro para plantas?",
       "eyebrow": "Adubação",
@@ -758,58 +1228,114 @@
           "id": "ingredientes",
           "h2": "O que cada ingrediente fornece",
           "blocos": [
-            {"tabela": {
-              "cab": ["Ingrediente", "Fornece", "Como usar", "Cuidados"],
-              "linhas": [
-                ["Composto e húmus de minhoca", "Nutrientes variados e matéria orgânica", "1 a 2 colheres de sopa por vaso médio, uma vez por mês na primavera e no verão", "É o mais completo dos caseiros"],
-                ["Casca de ovo", "Cálcio, liberado muito devagar", "Seca, moída bem fina e misturada ao substrato ou ao composto", "Não corrige rápido a falta de cálcio"],
-                ["Borra de café", "Um pouco de nitrogênio e matéria orgânica", "Seca, em camada fina, ou na composteira", "Em excesso compacta, mofa e atrai mosquinhas"],
-                ["Casca de banana", "Potássio", "Picada e enterrada ou na composteira", "Crua sobre a terra atrai moscas"],
-                ["Cinza de madeira", "Potássio e cálcio; eleva o pH", "Uma pitada misturada à terra, poucas vezes por ano", "Não use em plantas de solo ácido, como hortênsia azul; nunca use cinza de carvão com acendedor"],
-                ["Água do cozimento de legumes", "Poucos nutrientes", "Fria e sem sal", "Nunca com sal ou óleo"]
-              ]
-            }}
+            {
+              "tabela": {
+                "cab": [
+                  "Ingrediente",
+                  "Fornece",
+                  "Como usar",
+                  "Cuidados"
+                ],
+                "linhas": [
+                  [
+                    "Composto e húmus de minhoca",
+                    "Nutrientes variados e matéria orgânica",
+                    "1 a 2 colheres de sopa por vaso médio, uma vez por mês na primavera e no verão",
+                    "É o mais completo dos caseiros"
+                  ],
+                  [
+                    "Casca de ovo",
+                    "Cálcio, liberado muito devagar",
+                    "Seca, moída bem fina e misturada ao substrato ou ao composto",
+                    "Não corrige rápido a falta de cálcio"
+                  ],
+                  [
+                    "Borra de café",
+                    "Um pouco de nitrogênio e matéria orgânica",
+                    "Seca, em camada fina, ou na composteira",
+                    "Em excesso compacta, mofa e atrai mosquinhas"
+                  ],
+                  [
+                    "Casca de banana",
+                    "Potássio",
+                    "Picada e enterrada ou na composteira",
+                    "Crua sobre a terra atrai moscas"
+                  ],
+                  [
+                    "Cinza de madeira",
+                    "Potássio e cálcio; eleva o pH",
+                    "Uma pitada misturada à terra, poucas vezes por ano",
+                    "Não use em plantas de solo ácido, como hortênsia azul; nunca use cinza de carvão com acendedor"
+                  ],
+                  [
+                    "Água do cozimento de legumes",
+                    "Poucos nutrientes",
+                    "Fria e sem sal",
+                    "Nunca com sal ou óleo"
+                  ]
+                ]
+              }
+            }
           ]
         },
         {
           "id": "composto",
           "h2": "Como fazer composto em apartamento",
           "blocos": [
-            {"ol": [
-              "Use um balde com tampa e furos pequenos no fundo e na tampa, com um prato embaixo.",
-              "Alterne camadas de restos úmidos (cascas de frutas e verduras, borra de café, cascas de ovo) e de material seco (folhas secas, serragem, papelão picado).",
-              "Não coloque carne, laticínios, óleo, fezes de animais nem muita casca de fruta cítrica.",
-              "Revire a cada semana e mantenha úmido como uma esponja torcida.",
-              "Em 2 a 3 meses, o composto fica escuro, solto e com cheiro de terra: está pronto."
-            ]}
+            {
+              "ol": [
+                "Use um balde com tampa e furos pequenos no fundo e na tampa, com um prato embaixo.",
+                "Alterne camadas de restos úmidos (cascas de frutas e verduras, borra de café, cascas de ovo) e de material seco (folhas secas, serragem, papelão picado).",
+                "Não coloque carne, laticínios, óleo, fezes de animais nem muita casca de fruta cítrica.",
+                "Revire a cada semana e mantenha úmido como uma esponja torcida.",
+                "Em 2 a 3 meses, o composto fica escuro, solto e com cheiro de terra: está pronto."
+              ]
+            }
           ]
         },
         {
           "id": "mitos",
           "h2": "Mitos do adubo caseiro",
           "blocos": [
-            {"ul": [
-              "**Leite como adubo**: fermenta, cheira mal e favorece fungos.",
-              "**Açúcar na água**: a planta produz o próprio açúcar; o que sobra alimenta fungos e bactérias.",
-              "**Prego enferrujado para dar ferro**: libera ferro numa forma que a planta quase não absorve.",
-              "**Água de arroz**: tem pouco nutriente e pode fermentar no vaso."
-            ]}
+            {
+              "ul": [
+                "**Leite como adubo**: fermenta, cheira mal e favorece fungos.",
+                "**Açúcar na água**: a planta produz o próprio açúcar; o que sobra alimenta fungos e bactérias.",
+                "**Prego enferrujado para dar ferro**: libera ferro numa forma que a planta quase não absorve.",
+                "**Água de arroz**: tem pouco nutriente e pode fermentar no vaso."
+              ]
+            }
           ]
         },
         {
           "id": "npk",
           "h2": "Quando usar adubo comprado",
           "blocos": [
-            {"p": "Os números do NPK indicam a proporção de nitrogênio (N, folhas), fósforo (P, raízes e flores) e potássio (K, resistência e frutos). O **NPK 10-10-10** é equilibrado e serve para a maioria das folhagens; o **NPK 4-14-8** tem mais fósforo e é usado para estimular flores, como em [orquídeas](guia:orquidea), [antúrios](guia:anturio) e [rosas-do-deserto](guia:rosa-do-deserto). Dissolva em água conforme a embalagem e aplique com a terra já úmida."}
+            {
+              "p": "Os números do NPK indicam a proporção de nitrogênio (N, folhas), fósforo (P, raízes e flores) e potássio (K, resistência e frutos). O **NPK 10-10-10** é equilibrado e serve para a maioria das folhagens; o **NPK 4-14-8** tem mais fósforo e é usado para estimular flores, como em [orquídeas](guia:orquidea), [antúrios](guia:anturio) e [rosas-do-deserto](guia:rosa-do-deserto). Dissolva em água conforme a embalagem e aplique com a terra já úmida."
+            }
           ]
         }
       ],
       "faqs": [
-        ["Borra de café é bom para plantas?", "Ajuda pouco quando usada direto no vaso. A borra já usada é quase neutra e fornece um pouco de nitrogênio, mas úmida e em excesso mofa e atrai mosquinhas. Funciona melhor dentro do composto."],
-        ["Casca de ovo é adubo?", "É uma fonte de cálcio, mas libera o nutriente muito devagar. Seque, moa bem fino e misture ao substrato ou ao composto. Cascas inteiras sobre a terra praticamente não fazem efeito."],
-        ["Qual o melhor adubo para fazer a planta florir?", "Um adubo com mais fósforo, como o NPK 4-14-8 ou a farinha de osso, na primavera e no verão. Mas sem luz suficiente nenhum adubo faz a planta florir."]
+        [
+          "Borra de café é bom para plantas?",
+          "Ajuda pouco quando usada direto no vaso. A borra já usada é quase neutra e fornece um pouco de nitrogênio, mas úmida e em excesso mofa e atrai mosquinhas. Funciona melhor dentro do composto."
+        ],
+        [
+          "Casca de ovo é adubo?",
+          "É uma fonte de cálcio, mas libera o nutriente muito devagar. Seque, moa bem fino e misture ao substrato ou ao composto. Cascas inteiras sobre a terra praticamente não fazem efeito."
+        ],
+        [
+          "Qual o melhor adubo para fazer a planta florir?",
+          "Um adubo com mais fósforo, como o NPK 4-14-8 ou a farinha de osso, na primavera e no verão. Mas sem luz suficiente nenhum adubo faz a planta florir."
+        ]
       ],
-      "relacionadas": ["folhas-amarelas", "mosquinhas-na-terra-do-vaso", "como-trocar-planta-de-vaso"]
+      "relacionadas": [
+        "folhas-amarelas",
+        "mosquinhas-na-terra-do-vaso",
+        "como-trocar-planta-de-vaso"
+      ]
     },
     {
       "slug": "como-trocar-planta-de-vaso",
@@ -818,7 +1344,7 @@
       "h1": "Como trocar a planta de vaso sem matar",
       "pergunta": "Como trocar uma planta de vaso?",
       "eyebrow": "Passo a passo",
-      "descricao": "Quando e como trocar a planta de vaso: sinais de que é hora, passo a passo, qual vaso escolher (barro, plástico, cerâmica ou cachepô) e erros que matam a planta.",
+      "descricao": "Quando e como trocar a planta de vaso: sinais de que é hora, passo a passo, qual vaso escolher e os erros que matam a planta.",
       "intro": "Trocar de vaso dá espaço para as raízes e renova o substrato, mas feito do jeito errado estressa a planta. Com o vaso certo e na época certa, ela nem sente.",
       "resposta": "Troque a planta de vaso na primavera, quando ela está crescendo, escolhendo um vaso com furo apenas 2 a 5 cm maior que o atual. Regue um dia antes, tire o torrão inteiro, solte as raízes enoveladas, coloque substrato novo no fundo, posicione a planta na mesma altura de antes, complete as laterais e regue até escorrer. Deixe em luz indireta por uma semana e só volte a adubar depois de 30 dias.",
       "secoes": [
@@ -826,69 +1352,115 @@
           "id": "sinais",
           "h2": "Sinais de que é hora de trocar",
           "blocos": [
-            {"ul": [
-              "Raízes saindo pelo furo do vaso ou pela superfície.",
-              "A água escorre direto, sem molhar a terra.",
-              "A planta tomba porque ficou grande para o vaso.",
-              "Cresce pouco mesmo com luz e adubo.",
-              "O substrato se decompôs e virou uma massa compacta (comum em orquídeas).",
-              "A planta está há mais de 2 anos no mesmo vaso."
-            ]}
+            {
+              "ul": [
+                "Raízes saindo pelo furo do vaso ou pela superfície.",
+                "A água escorre direto, sem molhar a terra.",
+                "A planta tomba porque ficou grande para o vaso.",
+                "Cresce pouco mesmo com luz e adubo.",
+                "O substrato se decompôs e virou uma massa compacta (comum em orquídeas).",
+                "A planta está há mais de 2 anos no mesmo vaso."
+              ]
+            }
           ]
         },
         {
           "id": "passo-a-passo",
           "h2": "Passo a passo",
           "blocos": [
-            {"ol": [
-              "Regue a planta um dia antes, para o torrão sair inteiro.",
-              "Escolha um vaso com furo, 2 a 5 cm maior em diâmetro que o atual.",
-              "Cubra o furo com uma manta de drenagem ou um caco de telha, para a terra não escapar.",
-              "Coloque uma camada de substrato novo no fundo.",
-              "Vire o vaso antigo de lado e tire a planta segurando pela base do caule. Se estiver presa, bata nas laterais ou corte o vaso plástico.",
-              "Solte com os dedos as raízes que estiverem enroladas em círculo e corte as escuras e moles.",
-              "Posicione a planta na mesma altura em que estava, sem enterrar mais o caule.",
-              "Complete as laterais com substrato, apertando de leve.",
-              "Regue até a água escorrer pelo furo.",
-              "Deixe em local com luz indireta por uma semana e não adube por 30 dias."
-            ]}
+            {
+              "ol": [
+                "Regue a planta um dia antes, para o torrão sair inteiro.",
+                "Escolha um vaso com furo, 2 a 5 cm maior em diâmetro que o atual.",
+                "Cubra o furo com uma manta de drenagem ou um caco de telha, para a terra não escapar.",
+                "Coloque uma camada de substrato novo no fundo.",
+                "Vire o vaso antigo de lado e tire a planta segurando pela base do caule. Se estiver presa, bata nas laterais ou corte o vaso plástico.",
+                "Solte com os dedos as raízes que estiverem enroladas em círculo e corte as escuras e moles.",
+                "Posicione a planta na mesma altura em que estava, sem enterrar mais o caule.",
+                "Complete as laterais com substrato, apertando de leve.",
+                "Regue até a água escorrer pelo furo.",
+                "Deixe em local com luz indireta por uma semana e não adube por 30 dias."
+              ]
+            }
           ]
         },
         {
           "id": "vasos",
           "h2": "Barro, plástico, cerâmica ou cachepô?",
           "blocos": [
-            {"tabela": {
-              "cab": ["Material", "Vantagens", "Desvantagens", "Bom para"],
-              "linhas": [
-                ["Barro", "Respira e seca rápido; é pesado e firme", "Seca rápido demais no calor; quebra", "[Suculentas](guia:suculentas), [cactos](guia:cactos), [espada-de-são-jorge](guia:espada-de-sao-jorge), [alecrim](guia:alecrim)"],
-                ["Plástico", "Leve, barato, retém umidade", "Esquenta no sol; plantas altas tombam", "[Samambaia](guia:samambaia), [lírio-da-paz](guia:lirio-da-paz), folhagens; transparente para [orquídeas](guia:orquidea)"],
-                ["Cerâmica esmaltada", "Bonita e retém umidade", "Pesada e cara; confira se tem furo", "Folhagens de interior"],
-                ["Cachepô", "Decoração", "Não tem furo", "Use só como capa, com o vaso plástico com furo por dentro"]
-              ]
-            }}
+            {
+              "tabela": {
+                "cab": [
+                  "Material",
+                  "Vantagens",
+                  "Desvantagens",
+                  "Bom para"
+                ],
+                "linhas": [
+                  [
+                    "Barro",
+                    "Respira e seca rápido; é pesado e firme",
+                    "Seca rápido demais no calor; quebra",
+                    "[Suculentas](guia:suculentas), [cactos](guia:cactos), [espada-de-são-jorge](guia:espada-de-sao-jorge), [alecrim](guia:alecrim)"
+                  ],
+                  [
+                    "Plástico",
+                    "Leve, barato, retém umidade",
+                    "Esquenta no sol; plantas altas tombam",
+                    "[Samambaia](guia:samambaia), [lírio-da-paz](guia:lirio-da-paz), folhagens; transparente para [orquídeas](guia:orquidea)"
+                  ],
+                  [
+                    "Cerâmica esmaltada",
+                    "Bonita e retém umidade",
+                    "Pesada e cara; confira se tem furo",
+                    "Folhagens de interior"
+                  ],
+                  [
+                    "Cachepô",
+                    "Decoração",
+                    "Não tem furo",
+                    "Use só como capa, com o vaso plástico com furo por dentro"
+                  ]
+                ]
+              }
+            }
           ]
         },
         {
           "id": "erros",
           "h2": "Erros que matam a planta",
           "blocos": [
-            {"ul": [
-              "Vaso muito maior que o torrão: a terra extra fica encharcada e as raízes apodrecem.",
-              "Plantar direto em vaso sem furo.",
-              "Enterrar o caule mais fundo do que estava.",
-              "Adubar logo depois da troca, com as raízes ainda machucadas.",
-              "Trocar durante a floração ou no auge do frio."
-            ]}
+            {
+              "ul": [
+                "Vaso muito maior que o torrão: a terra extra fica encharcada e as raízes apodrecem.",
+                "Plantar direto em vaso sem furo.",
+                "Enterrar o caule mais fundo do que estava.",
+                "Adubar logo depois da troca, com as raízes ainda machucadas.",
+                "Trocar durante a floração ou no auge do frio."
+              ]
+            }
           ]
         }
       ],
       "faqs": [
-        ["Pode trocar a planta de vaso no inverno?", "Só em emergências, como raízes apodrecendo. No frio a planta cresce pouco e demora para se recuperar. O ideal é o começo da primavera, de setembro a outubro."],
-        ["Precisa colocar pedras no fundo do vaso?", "O que garante a drenagem é o furo e um substrato aerado. Uma camada de argila expandida ajuda a não entupir o furo, mas não compensa uma terra pesada e compacta."],
-        ["A planta murchou depois de trocar de vaso. E agora?", "É o estresse da troca. Deixe em luz indireta, não adube e regue só quando o substrato começar a secar. Em 1 a 2 semanas ela costuma se recuperar."]
+        [
+          "Pode trocar a planta de vaso no inverno?",
+          "Só em emergências, como raízes apodrecendo. No frio a planta cresce pouco e demora para se recuperar. O ideal é o começo da primavera, de setembro a outubro."
+        ],
+        [
+          "Precisa colocar pedras no fundo do vaso?",
+          "O que garante a drenagem é o furo e um substrato aerado. Uma camada de argila expandida ajuda a não entupir o furo, mas não compensa uma terra pesada e compacta."
+        ],
+        [
+          "A planta murchou depois de trocar de vaso. E agora?",
+          "É o estresse da troca. Deixe em luz indireta, não adube e regue só quando o substrato começar a secar. Em 1 a 2 semanas ela costuma se recuperar."
+        ]
       ],
-      "relacionadas": ["adubo-caseiro", "folhas-amarelas", "como-regar-plantas-nas-ferias"]
+      "relacionadas": [
+        "adubo-caseiro",
+        "folhas-amarelas",
+        "como-regar-plantas-nas-ferias"
+      ]
     }
   ]
 }
