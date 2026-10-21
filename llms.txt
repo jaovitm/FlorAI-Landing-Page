@@ -1,0 +1,71 @@
+# FlorAI
+
+> O FlorAI é um aplicativo brasileiro para Android que identifica plantas por foto com inteligência artificial e mostra como cuidar de cada uma: luz, rega, temperatura e solo. O plano gratuito inclui 3 identificações por dia; os planos pagos adicionam mais identificações, mais plantas salvas e lembretes de rega.
+
+## Fatos sobre o aplicativo
+
+- Plataforma: Android, no Google Play (https://play.google.com/store/apps/details?id=com.florai). A versão para iPhone ainda não foi lançada.
+- Idioma: português do Brasil.
+- Identificação de plantas por foto da câmera ou da galeria, com nome comum, nome científico e grau de confiança.
+- Cuidados por espécie: luz, rega, temperatura e solo.
+- Coleção pessoal de plantas, organizada em coleções (por exemplo, sala, varanda, escritório).
+- Lembretes de rega nos planos pagos.
+- Em desenvolvimento (ainda não disponível): Médico de IA, para analisar pela foto sinais de pragas e doenças. Será incluído no plano Premium.
+- Sem anúncios.
+- Planos mensais: Gratuito (R$ 0, 3 identificações por dia, 1 coleção, até 3 plantas); Básico (R$ 9,99, 5 identificações por dia, até 20 plantas, coleções ilimitadas, lembretes de rega); Pro (R$ 19,99, 15 identificações por dia, plantas ilimitadas, lembretes de rega); Premium (R$ 49,99, 40 identificações por dia, plantas ilimitadas, lembretes de rega e, quando lançado, o Médico de IA).
+- Desenvolvedor: João Vitor Machado, Belo Horizonte (MG), Brasil.
+
+## Dicas, problemas e comparativos de apps
+
+- [Melhor app para identificar plantas](https://florai.cc/guia/melhor-app-para-identificar-plantas/): Comparativo dos apps para identificar plantas por foto: FlorAI, PictureThis, PlantNet, Google Lens e iNaturalist. Qual é grátis, qual mostra os cuidados e qual escolher.
+- [Melhor app para lembrar de regar](https://florai.cc/guia/melhor-app-para-lembrar-de-regar-plantas/): Apps que lembram de regar as plantas: FlorAI, Planta, Blossom, PictureThis e os lembretes do próprio celular. Como escolher e como configurar lembretes que funcionam.
+- [Doenças e pragas pela foto](https://florai.cc/guia/como-identificar-doencas-de-plantas/): Como reconhecer doenças e pragas de plantas por uma foto da folha: o que cada sinal indica, como fotografar, apps que fazem diagnóstico e os problemas mais comuns em plantas de casa.
+- [Como identificar planta pela foto](https://florai.cc/guia/como-identificar-planta-pela-foto/): Como descobrir o nome de uma planta pela foto do celular: passo a passo, como tirar a foto certa, por que os apps erram e outras formas de identificar.
+- [Folhas amarelas: causas e soluções](https://florai.cc/guia/folhas-amarelas/): Por que as folhas da planta ficam amarelas e o que fazer: excesso de água, falta de luz, falta de adubo, sol forte, pragas e envelhecimento. Tabela para descobrir a causa.
+- [Como acabar com cochonilha](https://florai.cc/guia/como-acabar-com-cochonilha/): Como reconhecer e acabar com cochonilha em suculentas, orquídeas e folhagens: passo a passo com álcool 70%, sabão neutro e óleo de neem, receitas caseiras e como evitar.
+- [Mosquinhas na terra do vaso](https://florai.cc/guia/mosquinhas-na-terra-do-vaso/): As mosquinhas pretas que voam em volta do vaso são mosquitos-dos-fungos. Veja por que aparecem, como acabar com elas e se têm relação com o mosquito da dengue.
+- [Plantas para pouca luz](https://florai.cc/guia/plantas-para-apartamento-com-pouca-luz/): As 10 melhores plantas para apartamento e escritório com pouca luz, como saber quanta luz o seu cômodo tem, cuidados no ambiente escuro e quais são seguras para pets.
+- [Plantas tóxicas para gatos e cachorros](https://florai.cc/guia/plantas-toxicas-para-gatos-e-cachorros/): Lista das plantas de casa tóxicas para gatos e cachorros e das plantas seguras, sintomas de intoxicação e o que fazer se o pet comer uma planta.
+- [Como regar plantas nas férias](https://florai.cc/guia/como-regar-plantas-nas-ferias/): Como manter as plantas regadas durante viagens: rega por pavio, garrafa PET, bacia com toalha e outros métodos, e quanto tempo cada planta aguenta sem água.
+- [Adubo caseiro: o que funciona](https://florai.cc/guia/adubo-caseiro/): Casca de ovo, borra de café, casca de banana e cinzas funcionam como adubo? O que cada um fornece, como usar, mitos e como fazer composto em apartamento.
+- [Como trocar a planta de vaso](https://florai.cc/guia/como-trocar-planta-de-vaso/): Quando e como trocar a planta de vaso: sinais de que é hora, passo a passo, qual vaso escolher (barro, plástico, cerâmica ou cachepô) e erros que matam a planta.
+
+## Guias de cuidados por planta
+
+- [Alecrim (Salvia rosmarinus)](https://florai.cc/guia/alecrim/): rega — quando o substrato secar (a cada 4–7 dias no verão); luz — sol pleno, 6 horas ou mais.
+- [Antúrio (Anthurium andraeanum)](https://florai.cc/guia/anturio/): rega — quando os 2–3 cm de cima secarem (2 vezes por semana no verão); luz — indireta e clara, sem sol direto.
+- [Árvore-da-felicidade (Polyscias guilfoylei e Polyscias fruticosa)](https://florai.cc/guia/arvore-da-felicidade/): rega — quando os 2–3 cm de cima secarem (cerca de 2 vezes por semana no verão); luz — clara e indireta; sol fraco da manhã.
+- [Babosa (Aloe vera)](https://florai.cc/guia/babosa/): rega — só com o substrato totalmente seco (10–15 dias no verão); luz — sol pleno, 4–6 horas por dia.
+- [Bambu-da-sorte (Dracaena sanderiana)](https://florai.cc/guia/bambu-da-sorte/): rega — na água: trocar a cada 7–10 dias; na terra: quando a superfície secar; luz — indireta, de média a clara.
+- [Begônia (Begonia spp.)](https://florai.cc/guia/begonia/): rega — quando os 2 cm de cima secarem, sem molhar as folhas; luz — indireta clara; a cerosa aceita sol da manhã.
+- [Bromélia (Bromeliaceae)](https://florai.cc/guia/bromelia/): rega — substrato levemente úmido e água limpa no copo, trocada com frequência; luz — indireta e clara; algumas toleram sol.
+- [Cactos (Cactaceae)](https://florai.cc/guia/cactos/): rega — só com o substrato totalmente seco (10–15 dias no verão); luz — sol direto, 4–6 horas ou mais.
+- [Comigo-ninguém-pode (Dieffenbachia seguine)](https://florai.cc/guia/comigo-ninguem-pode/): rega — quando os 2–3 cm de cima secarem (cerca de 2 vezes por semana no verão); luz — meia-sombra ou indireta clara.
+- [Costela-de-adão (Monstera deliciosa)](https://florai.cc/guia/costela-de-adao/): rega — quando os 3–5 cm de cima do substrato secarem (7–10 dias no verão); luz — clara e indireta; sol fraco da manhã.
+- [Espada-de-são-jorge (Dracaena trifasciata)](https://florai.cc/guia/espada-de-sao-jorge/): rega — só com o substrato totalmente seco (15–20 dias no verão); luz — de meia-sombra a sol pleno; tolera pouca luz.
+- [Hortelã (Mentha spp.)](https://florai.cc/guia/hortela/): rega — quando a superfície começar a secar (a cada 1–2 dias no verão); luz — sol da manhã ou meia-sombra clara.
+- [Hortênsia (Hydrangea macrophylla)](https://florai.cc/guia/hortensia/): rega — substrato sempre úmido (quase todo dia no verão, em vaso); luz — sol da manhã e sombra à tarde.
+- [Jabuticabeira (Plinia cauliflora)](https://florai.cc/guia/jabuticabeira/): rega — substrato sempre úmido (2–3 vezes por semana em vaso); luz — sol pleno ou meia-sombra clara.
+- [Jiboia (Epipremnum aureum)](https://florai.cc/guia/jiboia/): rega — quando a metade de cima do substrato secar (cerca de 7 dias no verão); luz — indireta, de média a clara; tolera pouca luz.
+- [Kalanchoe (Kalanchoe blossfeldiana)](https://florai.cc/guia/kalanchoe/): rega — só com o substrato seco (7–10 dias no verão); luz — muita luz, com algumas horas de sol.
+- [Lavanda (Lavandula dentata e Lavandula angustifolia)](https://florai.cc/guia/lavanda/): rega — quando o substrato secar quase todo (a cada 5–7 dias no verão); luz — sol pleno, 6 horas ou mais.
+- [Lírio-da-paz (Spathiphyllum wallisii)](https://florai.cc/guia/lirio-da-paz/): rega — quando os 2–3 cm de cima secarem (cerca de 2 vezes por semana no verão); luz — meia-sombra ou indireta clara.
+- [Manjericão (Ocimum basilicum)](https://florai.cc/guia/manjericao/): rega — quando a superfície começar a secar (a cada 1–2 dias no verão); luz — sol direto, 4–6 horas por dia.
+- [Maranta (Maranta leuconeura e calateias)](https://florai.cc/guia/maranta/): rega — quando a superfície começar a secar (2 vezes por semana no verão); luz — indireta, de média a clara; sem sol direto.
+- [Morango (Fragaria × ananassa)](https://florai.cc/guia/morango/): rega — substrato sempre levemente úmido (quase todo dia no verão); luz — sol direto, 6 horas ou mais.
+- [Orquídea (Phalaenopsis spp.)](https://florai.cc/guia/orquidea/): rega — quando substrato e raízes secarem (1–2 vezes por semana no verão); luz — indireta e clara; nunca sol do meio-dia.
+- [Palmeira-ráfis (Rhapis excelsa)](https://florai.cc/guia/palmeira-rafis/): rega — quando os 2–3 cm de cima secarem (1 a 2 vezes por semana no verão); luz — indireta clara ou meia-sombra.
+- [Peperômia (Peperomia spp.)](https://florai.cc/guia/peperomia/): rega — quando o substrato estiver quase todo seco (7–10 dias no verão); luz — indireta e clara, sem sol forte.
+- [Rosa (Rosa spp.)](https://florai.cc/guia/rosa/): rega — quando os 3 cm de cima secarem (2–3 vezes por semana no verão, em vaso); luz — sol pleno, 6 horas ou mais.
+- [Rosa-do-deserto (Adenium obesum)](https://florai.cc/guia/rosa-do-deserto/): rega — no verão, quando o substrato secar; no inverno, quase nada; luz — sol pleno, 6 horas ou mais.
+- [Samambaia (Nephrolepis exaltata)](https://florai.cc/guia/samambaia/): rega — quando a superfície começar a secar (2–3 vezes por semana no verão); luz — meia-sombra, sem sol direto.
+- [Suculentas (Echeveria, Haworthia, Crassula, Sedum e outros gêneros)](https://florai.cc/guia/suculentas/): rega — só com o substrato completamente seco (7–10 dias no verão); luz — pelo menos 4 horas de sol direto.
+- [Violeta-africana (Saintpaulia ionantha)](https://florai.cc/guia/violeta-africana/): rega — quando a superfície secar, de preferência por baixo; luz — indireta e clara, várias horas por dia.
+- [Zamioculca (Zamioculcas zamiifolia)](https://florai.cc/guia/zamioculca/): rega — só com o substrato totalmente seco (cerca de 15 dias no verão); luz — indireta, de pouca a média.
+
+## Outras páginas
+
+- [Início](https://florai.cc/): apresentação do aplicativo, recursos e planos.
+- [Todos os guias](https://florai.cc/guia/): índice dos guias e perguntas frequentes gerais sobre rega, adubo e identificação.
+- [Termos de Uso](https://florai.cc/termos.html)
+- [Política de Privacidade](https://florai.cc/privacidade.html)

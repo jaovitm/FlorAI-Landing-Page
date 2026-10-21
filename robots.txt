@@ -1,0 +1,22 @@
+# FlorAI — https://florai.cc
+# Buscadores e assistentes de IA são bem-vindos: queremos que os guias de cuidados sejam lidos e citados.
+
+User-agent: *
+Allow: /
+
+# Assistentes e buscadores de IA (liberados explicitamente)
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://florai.cc/sitemap.xml

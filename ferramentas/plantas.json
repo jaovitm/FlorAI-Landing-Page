@@ -1,0 +1,2576 @@
+{
+  "atualizado": "2026-10-20",
+  "plantas": [
+    {
+      "slug": "costela-de-adao",
+      "nome": "costela-de-adão",
+      "cientifico": "Monstera deliciosa",
+      "outros_nomes": [
+        "monstera",
+        "banana-de-macaco"
+      ],
+      "familia": "Araceae",
+      "origem": "México e América Central",
+      "genero": "f",
+      "plural": false,
+      "intro": "A costela-de-adão é uma das plantas de interior mais populares do Brasil: cresce rápido, tem folhas grandes e recortadas e perdoa pequenos deslizes. O segredo está em acertar a rega e dar bastante claridade, sem sol forte direto.",
+      "resumo": {
+        "rega": "Quando os 3–5 cm de cima do substrato secarem (7–10 dias no verão)",
+        "luz": "Clara e indireta; sol fraco da manhã",
+        "adubo": "A cada 30 dias na primavera e no verão",
+        "dificuldade": "Fácil",
+        "pets": "Tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a costela-de-adão quando os 3 a 5 cm de cima do substrato estiverem secos ao toque — em geral a cada 7 a 10 dias no verão e a cada 12 a 15 dias no inverno. Molhe até a água escorrer pelo furo do vaso e nunca deixe água parada no pratinho.",
+        "como_saber": "Enfie o dedo no substrato até a segunda falange. Se sair limpo e seco, é hora de regar; se sair úmido ou com terra grudada, espere mais um ou dois dias. Vasos de barro e ambientes quentes secam mais rápido.",
+        "excesso": "folhas amarelando a partir das mais baixas, manchas escuras, caule mole e cheiro de terra azeda.",
+        "falta": "folhas murchas, bordas secas e marrons e folhas novas que demoram a abrir."
+      },
+      "luz": {
+        "resposta": "A costela-de-adão precisa de luz clara e indireta: perto de uma janela bem iluminada, sem o sol forte do meio-dia batendo direto nas folhas. Sol suave da manhã é bem-vindo.",
+        "detalhes": "Com pouca luz ela sobrevive, mas as folhas novas saem menores e sem os recortes (fenestrações) que dão fama à planta. Sol forte direto queima as folhas e deixa manchas amarelas ou esbranquiçadas."
+      },
+      "adubo": {
+        "resposta": "Adube a cada 30 dias na primavera e no verão (de setembro a março) com NPK 10-10-10 dissolvido em água ou com húmus de minhoca. No outono e no inverno, suspenda ou adube a cada 2 meses.",
+        "detalhes": "Regue antes de adubar para não queimar as raízes. Use a dose da embalagem ou metade dela: adubo em excesso causa pontas queimadas e acúmulo de sais no substrato."
+      },
+      "substrato": "Solto e bem drenado: terra vegetal, casca de pinus e perlita ou areia grossa em partes iguais, com uma camada de argila expandida ou pedriscos no fundo do vaso.",
+      "vaso": "Use vaso com furos, um pouco maior que o torrão. Troque a cada 1 ou 2 anos, na primavera, quando as raízes saírem pelos furos. Um tutor de fibra de coco ajuda a planta a crescer para cima e a formar folhas maiores.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 30 °C. Abaixo de 10 °C ela para de crescer e as folhas podem ser danificadas.",
+      "clima": {
+        "sul": "Em Porto Alegre, Curitiba e no interior do Sul, mantenha dentro de casa no inverno, longe de janelas frias, e regue bem menos: o substrato demora muito mais para secar.",
+        "sudeste": "Em São Paulo, no Rio de Janeiro e em Belo Horizonte, vai bem o ano todo em ambientes claros. No verão carioca, a rega pode precisar ficar semanal.",
+        "nordeste_norte": "Em Salvador, Recife, Fortaleza e Belém, o calor acelera o crescimento: confira o substrato com mais frequência e proteja do sol forte da tarde.",
+        "centro_oeste": "Em Brasília e Goiânia, a seca de maio a setembro deixa o ar muito seco: agrupe as plantas, borrife as folhas e confira a rega com mais frequência."
+      },
+      "problemas": [
+        [
+          "Folhas amarelas",
+          "Excesso de água ou vaso sem drenagem.",
+          "Espace as regas, confira se o vaso tem furos e retire a água do pratinho."
+        ],
+        [
+          "Folhas sem recortes",
+          "Pouca luz ou planta ainda jovem.",
+          "Leve para um local mais claro, com luz indireta forte."
+        ],
+        [
+          "Pontas e bordas marrons",
+          "Ar seco, falta de água ou excesso de adubo.",
+          "Regue com regularidade, borrife água em dias secos e reduza o adubo."
+        ],
+        [
+          "Gotas d'água na ponta das folhas",
+          "Gutação: o substrato está muito úmido.",
+          "É natural, mas indica que dá para espaçar as regas."
+        ],
+        [
+          "Raízes aéreas compridas",
+          "Comportamento normal de planta trepadeira.",
+          "Direcione para o tutor ou para dentro do vaso; não é preciso cortar."
+        ]
+      ],
+      "pets": "Sim. A costela-de-adão contém cristais de oxalato de cálcio, que irritam a boca e o estômago de gatos, cachorros e crianças quando a planta é mastigada. Deixe fora do alcance e procure um veterinário se houver ingestão.",
+      "muda": "Corte um pedaço de caule com pelo menos um nó (o ponto de onde saem a folha e a raiz aérea) e uma folha. Coloque em água ou em substrato úmido, em local claro. As raízes aparecem em 2 a 4 semanas.",
+      "faqs": [
+        [
+          "A costela-de-adão pode ficar no sol?",
+          "Só no sol fraco da manhã. Sol forte direto, principalmente entre 10h e 16h, queima as folhas. Plantas no chão, à meia-sombra de árvores, toleram um pouco mais de luz."
+        ],
+        [
+          "Costela-de-adão é o mesmo que guaimbê?",
+          "Não. O guaimbê (Thaumatophyllum bipinnatifidum), nativo do Brasil, tem folhas profundamente recortadas, mas sem furos, e caule mais grosso. Uma foto no FlorAI ajuda a diferenciar as duas."
+        ],
+        [
+          "Qual a diferença entre costela-de-adão e Monstera adansonii?",
+          "A costela-de-adão (Monstera deliciosa) tem folhas grandes, com recortes que chegam até as bordas. A Monstera adansonii tem folhas menores, com furos fechados no meio da folha. Os cuidados são parecidos."
+        ]
+      ],
+      "relacionadas": [
+        "jiboia",
+        "zamioculca",
+        "lirio-da-paz"
+      ]
+    },
+    {
+      "slug": "jiboia",
+      "nome": "jiboia",
+      "cientifico": "Epipremnum aureum",
+      "outros_nomes": [
+        "pothos",
+        "hera-do-diabo"
+      ],
+      "familia": "Araceae",
+      "origem": "Ilhas do Pacífico Sul (Polinésia Francesa)",
+      "genero": "f",
+      "plural": false,
+      "intro": "A jiboia é a planta pendente mais fácil de manter: aceita pouca luz, cresce rápido e avisa quando está com sede. Por isso é a escolha clássica para prateleiras, escritórios e para quem está começando.",
+      "resumo": {
+        "rega": "Quando a metade de cima do substrato secar (cerca de 7 dias no verão)",
+        "luz": "Indireta, de média a clara; tolera pouca luz",
+        "adubo": "A cada 30–45 dias na primavera e no verão",
+        "dificuldade": "Muito fácil",
+        "pets": "Tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a jiboia quando a metade de cima do substrato estiver seca — em média a cada 7 dias no verão e a cada 10 a 14 dias no inverno. Ela avisa: quando as folhas ficam levemente murchas, é hora de regar.",
+        "como_saber": "Enfie o dedo de 3 a 4 cm no substrato. Se estiver seco, regue até escorrer pelo furo. Folhas um pouco caídas que se levantam horas depois da rega confirmam que era sede.",
+        "excesso": "folhas amarelas, manchas pretas e caule escurecido perto da base.",
+        "falta": "folhas murchas e caídas, que se recuperam depois da rega, e folhas secas e enroladas."
+      },
+      "luz": {
+        "resposta": "A jiboia gosta de luz indireta, de média a clara. Tolera ambientes com pouca luz, como banheiros com janela e escritórios, mas cresce mais devagar.",
+        "detalhes": "Variedades com manchas claras, como a 'Marble Queen' e a 'Neon', precisam de mais luz para manter as cores. Sol direto forte queima e desbota as folhas."
+      },
+      "adubo": {
+        "resposta": "Adube a jiboia a cada 30 a 45 dias na primavera e no verão com NPK 10-10-10 dissolvido em água ou com húmus de minhoca. No inverno, não precisa adubar.",
+        "detalhes": "Regue antes de adubar. Em vasos pequenos ou mudas na água, use metade da dose indicada na embalagem."
+      },
+      "substrato": "Terra vegetal misturada com fibra de coco ou casca de pinus e um pouco de areia para drenar. Ela também cresce só na água, em vidros, por meses.",
+      "vaso": "Vasos suspensos ou prateleiras deixam os ramos caírem. Com um tutor, ela sobe e as folhas crescem maiores. Troque de vaso quando as raízes ocuparem todo o espaço.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 30 °C. Abaixo de 10 °C ela sofre e pode perder folhas.",
+      "clima": {
+        "sul": "No inverno do Sul, deixe longe de portas e janelas com corrente de ar frio e espace bastante as regas.",
+        "sudeste": "Em São Paulo, Belo Horizonte e no Rio, cresce o ano todo dentro de casa; em varandas, precisa de proteção contra o sol da tarde.",
+        "nordeste_norte": "No calor úmido de Recife, Salvador, Fortaleza e Manaus, cresce rápido e pode ficar em varandas sombreadas o ano inteiro.",
+        "centro_oeste": "Na seca de Brasília, regue com mais frequência e borrife as folhas: a umidade abaixo de 30% resseca as pontas."
+      },
+      "problemas": [
+        [
+          "Folhas amarelas",
+          "Excesso de rega (o mais comum) ou folhas velhas.",
+          "Deixe o substrato secar mais entre as regas. Uma folha velha amarela de vez em quando é normal."
+        ],
+        [
+          "Ramos compridos e falhados",
+          "Pouca luz.",
+          "Mude para um local mais claro e pode os ramos longos para a planta encher."
+        ],
+        [
+          "Perdeu as manchas claras",
+          "Pouca luz.",
+          "Aumente a claridade, sem sol forte direto."
+        ],
+        [
+          "Pontas marrons",
+          "Ar seco ou falta de água.",
+          "Regue com regularidade e borrife as folhas nos dias secos."
+        ]
+      ],
+      "pets": "Sim. A jiboia contém oxalato de cálcio e causa irritação na boca, salivação e vômito em gatos e cachorros. Mantenha em vasos suspensos ou fora do alcance dos animais.",
+      "muda": "Corte um ramo logo abaixo de um nó, com 2 ou 3 folhas, e coloque em um copo com água. Em 1 a 3 semanas surgem raízes; com 5 cm, passe para a terra. Plante várias mudas no mesmo vaso para ele ficar mais cheio.",
+      "faqs": [
+        [
+          "Jiboia pode ficar no banheiro?",
+          "Pode, desde que haja alguma luz natural, como a de uma janela basculante. A umidade do banheiro faz bem a ela."
+        ],
+        [
+          "Jiboia pode ficar só na água?",
+          "Pode, por meses ou até anos. Troque a água a cada 1 ou 2 semanas e use adubo líquido bem diluído de vez em quando."
+        ],
+        [
+          "Jiboia e filodendro-brasil são a mesma planta?",
+          "Não. O filodendro-brasil (Philodendron hederaceum 'Brasil') tem folhas mais finas, em formato de coração, com faixa amarelo-limão no centro. A jiboia tem folhas mais grossas e cerosas. Os cuidados são muito parecidos, e uma foto no FlorAI ajuda a saber qual é a sua."
+        ]
+      ],
+      "relacionadas": [
+        "costela-de-adao",
+        "espada-de-sao-jorge",
+        "samambaia"
+      ]
+    },
+    {
+      "slug": "espada-de-sao-jorge",
+      "nome": "espada-de-são-jorge",
+      "cientifico": "Dracaena trifasciata (antes Sansevieria trifasciata)",
+      "outros_nomes": [
+        "sansevieria",
+        "língua-de-sogra",
+        "espada-de-santa-bárbara (variedade com borda amarela)"
+      ],
+      "familia": "Asparagaceae",
+      "origem": "África Ocidental",
+      "genero": "f",
+      "plural": false,
+      "intro": "A espada-de-são-jorge é praticamente indestrutível: aguenta pouca luz, sol forte e semanas sem água. O único jeito comum de perdê-la é regar demais.",
+      "resumo": {
+        "rega": "Só com o substrato totalmente seco (15–20 dias no verão)",
+        "luz": "De meia-sombra a sol pleno; tolera pouca luz",
+        "adubo": "2 a 3 vezes por ano, bem diluído",
+        "dificuldade": "Muito fácil",
+        "pets": "Levemente tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a espada-de-são-jorge só quando o substrato estiver totalmente seco — em geral a cada 15 a 20 dias no verão e a cada 30 dias ou mais no inverno. Ela aguenta semanas sem água; o que costuma matá-la é rega em excesso.",
+        "como_saber": "Enfie um palito de madeira até o fundo do vaso. Se sair seco e limpo, pode regar. Folhas firmes e eretas indicam que ela está bem.",
+        "excesso": "folhas moles na base, amareladas ou tombando, e cheiro de podre no substrato.",
+        "falta": "folhas enrugadas, finas e curvadas (é raro chegar a esse ponto)."
+      },
+      "luz": {
+        "resposta": "A espada-de-são-jorge vai bem da meia-sombra ao sol pleno. Tolera ambientes com pouca luz, mas cresce mais e mantém as listras mais bonitas com claridade.",
+        "detalhes": "Se ela estava em um lugar escuro, acostume aos poucos ao sol direto, ou as folhas podem queimar."
+      },
+      "adubo": {
+        "resposta": "Adube pouco: 2 a 3 vezes por ano, na primavera e no verão, com NPK 10-10-10 bem diluído ou adubo para cactos e suculentas. No inverno, não adube.",
+        "detalhes": "Aplique sempre com o substrato úmido. Excesso de adubo deixa as folhas moles e com manchas."
+      },
+      "substrato": "Substrato para cactos e suculentas, ou terra vegetal misturada com areia grossa em partes iguais. Drenagem é obrigatória.",
+      "vaso": "Vasos pesados, de barro ou cerâmica, evitam que a planta tombe e ajudam o substrato a secar. Troque quando as raízes começarem a deformar ou rachar o vaso.",
+      "temperatura": "A faixa ideal fica entre 15 °C e 32 °C. Abaixo de 10 °C, com substrato úmido, as folhas podem apodrecer.",
+      "clima": {
+        "sul": "No inverno de Curitiba e Porto Alegre, regue uma vez por mês ou menos e mantenha dentro de casa nas noites de geada.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, aguenta varanda e até jardim a pleno sol. Na época de chuvas, cuidado com vasos sem drenagem.",
+        "nordeste_norte": "Combina com o calor de Fortaleza, Natal, Salvador e Recife. Em locais com chuva frequente, use substrato bem arenoso.",
+        "centro_oeste": "Ótima para Brasília e Goiânia: tolera a seca e o sol do cerrado. Na seca, regue um pouco mais, sem exagerar."
+      },
+      "problemas": [
+        [
+          "Base das folhas mole e marrom",
+          "Podridão por excesso de água.",
+          "Retire do vaso, corte as partes moles, deixe secar 1 ou 2 dias e replante em substrato seco e arenoso."
+        ],
+        [
+          "Folhas tombando",
+          "Excesso de água ou pouca luz.",
+          "Espace as regas e leve para um local mais claro."
+        ],
+        [
+          "Pontas secas",
+          "Batidas ou falta de água prolongada.",
+          "Corte a ponta seca em diagonal; isso não afeta a saúde da planta."
+        ],
+        [
+          "Não cresce",
+          "Pouca luz ou inverno.",
+          "É normal no inverno. Em um local mais claro, ela volta a brotar na primavera."
+        ]
+      ],
+      "pets": "Sim, levemente. A espada-de-são-jorge contém saponinas, que podem causar vômito e diarreia em cães e gatos se mastigada. Os sintomas costumam ser leves, mas mantenha fora do alcance.",
+      "muda": "O jeito mais fácil é dividir a touceira: tire a planta do vaso e separe os brotos com raízes. Também dá para cortar uma folha em pedaços de 8 cm, deixar secar um dia e plantar em areia úmida — mas as variedades com borda amarela perdem a borda nesse método.",
+      "faqs": [
+        [
+          "Espada-de-são-jorge purifica o ar?",
+          "Pouco. O famoso estudo da NASA de 1989 mediu a remoção de poluentes em câmaras pequenas e fechadas; em uma casa real, seriam necessárias centenas de plantas para fazer diferença mensurável. Ainda assim, é uma das plantas mais fáceis de manter."
+        ],
+        [
+          "Espada-de-são-jorge pode ficar no quarto?",
+          "Pode. Ela faz fotossíntese do tipo CAM e libera oxigênio principalmente à noite, em quantidade pequena. Não traz risco no quarto, a não ser que haja pets que mastiguem folhas."
+        ]
+      ],
+      "relacionadas": [
+        "zamioculca",
+        "suculentas",
+        "babosa"
+      ]
+    },
+    {
+      "slug": "zamioculca",
+      "nome": "zamioculca",
+      "cientifico": "Zamioculcas zamiifolia",
+      "outros_nomes": [
+        "zz",
+        "planta-da-fortuna"
+      ],
+      "familia": "Araceae",
+      "origem": "África Oriental",
+      "genero": "f",
+      "plural": false,
+      "intro": "A zamioculca guarda água em rizomas debaixo da terra e por isso tolera seca, pouca luz e esquecimento. É uma das melhores plantas para apartamentos e escritórios com pouca claridade.",
+      "resumo": {
+        "rega": "Só com o substrato totalmente seco (cerca de 15 dias no verão)",
+        "luz": "Indireta, de pouca a média",
+        "adubo": "A cada 2–3 meses na primavera e no verão",
+        "dificuldade": "Muito fácil",
+        "pets": "Tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a zamioculca quando o substrato estiver totalmente seco — em média a cada 15 dias no verão e a cada 20 a 30 dias no inverno. Ela guarda água nos rizomas (as \"batatas\" debaixo da terra) e aguenta bem a seca.",
+        "como_saber": "Enfie um palito de madeira até o fundo do vaso. Se sair seco, regue até escorrer pelo furo. Hastes firmes e folhas brilhantes indicam que ela está hidratada.",
+        "excesso": "folhas amarelando, hastes moles e escurecidas na base e rizomas apodrecidos.",
+        "falta": "folhinhas caindo e hastes enrugadas (é raro)."
+      },
+      "luz": {
+        "resposta": "A zamioculca prefere luz indireta, de pouca a média. Vai bem em escritórios e corredores, desde que haja alguma claridade natural.",
+        "detalhes": "Sol direto forte amarela e queima as folhas. Em um lugar muito escuro, ela fica esticada, com hastes compridas e inclinadas para a janela."
+      },
+      "adubo": {
+        "resposta": "Adube a zamioculca a cada 2 a 3 meses na primavera e no verão com NPK 10-10-10 na metade da dose da embalagem. Não adube no inverno.",
+        "detalhes": "Ela cresce devagar e precisa de pouco nutriente; adubo demais não acelera o crescimento e pode queimar as raízes."
+      },
+      "substrato": "Bem drenado: terra vegetal, areia grossa e casca de pinus ou perlita. Evite terra pesada, que fica encharcada.",
+      "vaso": "Os rizomas crescem com força e podem rachar vasos de plástico. Troque de vaso a cada 2 anos ou quando ficar apertado.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 30 °C. Abaixo de 10 °C ela sofre, principalmente com o substrato úmido.",
+      "clima": {
+        "sul": "No inverno do Sul, quase não precisa de rega: uma vez por mês costuma bastar.",
+        "sudeste": "Em apartamentos de São Paulo, do Rio e de Belo Horizonte, é uma das plantas mais resistentes para salas com pouca luz.",
+        "nordeste_norte": "No calor do Nordeste e do Norte, regue a cada 10 a 15 dias e mantenha longe do sol direto.",
+        "centro_oeste": "Na seca de Brasília, tolera bem o ar seco; só confira o substrato com um pouco mais de frequência."
+      },
+      "problemas": [
+        [
+          "Folhas amarelas",
+          "Excesso de água (a causa mais comum).",
+          "Pare de regar, confira os rizomas, retire os podres e replante em substrato seco."
+        ],
+        [
+          "Hastes tombando",
+          "Pouca luz ou excesso de água.",
+          "Leve para um local mais claro e espace as regas."
+        ],
+        [
+          "Manchas marrons secas",
+          "Sol direto.",
+          "Afaste da janela com sol forte."
+        ],
+        [
+          "Não brota",
+          "É lenta por natureza e quase para no inverno.",
+          "Tenha paciência: brotos novos aparecem na primavera e no verão."
+        ]
+      ],
+      "pets": "Sim. A zamioculca contém oxalato de cálcio, que irrita a boca e a garganta de gatos, cães e crianças. Lave as mãos depois de podar e mantenha fora do alcance.",
+      "muda": "Divida a planta separando rizomas com hastes, ou enterre a base de uma folhinha (folíolo) em substrato úmido. Pela folha, o rizoma novo leva de 1 a 3 meses para se formar, e a primeira haste pode demorar mais de 6 meses.",
+      "faqs": [
+        [
+          "Zamioculca dá flor?",
+          "Dá, mas é raro dentro de casa: uma espata pequena, esverdeada ou creme, perto da base. Não exige nenhum cuidado especial."
+        ],
+        [
+          "Zamioculca traz prosperidade?",
+          "No Feng Shui popular ela é chamada de \"planta da fortuna\". É uma crença; o que se sabe é que é uma das plantas mais fáceis de manter dentro de casa."
+        ]
+      ],
+      "relacionadas": [
+        "espada-de-sao-jorge",
+        "jiboia",
+        "costela-de-adao"
+      ]
+    },
+    {
+      "slug": "lirio-da-paz",
+      "nome": "lírio-da-paz",
+      "cientifico": "Spathiphyllum wallisii",
+      "outros_nomes": [
+        "espatifilo"
+      ],
+      "familia": "Araceae",
+      "origem": "Colômbia e Venezuela",
+      "genero": "m",
+      "plural": false,
+      "intro": "O lírio-da-paz floresce dentro de casa, tolera meia-sombra e mostra claramente quando quer água: as folhas murcham e se levantam poucas horas depois da rega.",
+      "resumo": {
+        "rega": "Quando os 2–3 cm de cima secarem (cerca de 2 vezes por semana no verão)",
+        "luz": "Meia-sombra ou indireta clara",
+        "adubo": "A cada 30 dias na primavera e no verão",
+        "dificuldade": "Fácil",
+        "pets": "Tóxico para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Mantenha o substrato do lírio-da-paz levemente úmido, sem encharcar: regue quando os 2 a 3 cm de cima secarem — em geral 2 vezes por semana no verão e 1 vez por semana no inverno. Ele murcha visivelmente quando tem sede e se recupera em poucas horas.",
+        "como_saber": "Toque a superfície: se estiver seca, regue. Se o vaso estiver leve ao levantar e as folhas começarem a cair, a rega já está atrasada.",
+        "excesso": "folhas amareladas, pontas pretas e raízes moles.",
+        "falta": "planta toda murcha e caída e bordas das folhas secas."
+      },
+      "luz": {
+        "resposta": "O lírio-da-paz gosta de meia-sombra ou luz indireta. Para florescer, precisa de um ambiente bem claro, sem sol direto.",
+        "detalhes": "Em locais escuros ele continua verde, mas para de dar flores. Sol direto queima as folhas."
+      },
+      "adubo": {
+        "resposta": "Adube a cada 30 dias na primavera e no verão com adubo para plantas floríferas, com mais fósforo (como NPK 4-14-8), ou NPK 10-10-10 diluído. No inverno, adube a cada 2 meses ou suspenda.",
+        "detalhes": "Regue antes de adubar. Pontas marrons depois da adubação indicam excesso: reduza a dose."
+      },
+      "substrato": "Rico em matéria orgânica e capaz de reter um pouco de umidade sem encharcar: terra vegetal, húmus de minhoca e fibra de coco.",
+      "vaso": "Ele gosta de ficar um pouco apertado no vaso. Troque a cada 1 ou 2 anos, quando as raízes ocuparem todo o espaço.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 30 °C. Ele não gosta de frio abaixo de 12 °C nem de corrente de ar.",
+      "clima": {
+        "sul": "No inverno do Sul, mantenha dentro de casa, em local claro, e reduza a rega para uma vez por semana ou menos.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, floresce bem na primavera e no verão em salas claras.",
+        "nordeste_norte": "No calor de Salvador, Recife, Fortaleza e Belém, pode precisar de rega a cada 2 ou 3 dias; confira o substrato.",
+        "centro_oeste": "Na seca do Centro-Oeste, as pontas secam fácil: borrife as folhas e use um pratinho com pedras e água por baixo, sem encostar no vaso."
+      },
+      "problemas": [
+        [
+          "Não floresce",
+          "Pouca luz, planta jovem ou falta de adubo.",
+          "Leve para um local mais claro e use adubo com mais fósforo na primavera."
+        ],
+        [
+          "Pontas marrons",
+          "Ar seco, cloro da água ou excesso de adubo.",
+          "Use água deixada em repouso por 24 horas, borrife as folhas e reduza o adubo."
+        ],
+        [
+          "Flores ficando verdes",
+          "É natural: as espatas brancas esverdeiam com o tempo.",
+          "Corte a haste floral rente à base."
+        ],
+        [
+          "Folhas amarelas",
+          "Excesso de água ou folhas velhas.",
+          "Espace as regas e retire as folhas amarelas pela base."
+        ]
+      ],
+      "pets": "Sim. O lírio-da-paz contém oxalato de cálcio, que causa irritação na boca, salivação e dificuldade para engolir em gatos e cães. Apesar do nome, não é um lírio verdadeiro (Lilium), que é muito mais perigoso para gatos.",
+      "muda": "Divida a touceira na troca de vaso, separando partes com folhas e raízes. Cada parte vira uma planta nova.",
+      "faqs": [
+        [
+          "Por que meu lírio-da-paz murchou de repente?",
+          "Quase sempre é sede. Regue bem: se ele se levantar em poucas horas, era falta de água. Se o substrato já estava encharcado, o problema pode ser raiz apodrecida."
+        ],
+        [
+          "Lírio-da-paz pode ficar no banheiro?",
+          "Pode, se houver luz natural. Ele gosta da umidade do banheiro, mas no escuro não floresce."
+        ]
+      ],
+      "relacionadas": [
+        "anturio",
+        "costela-de-adao",
+        "samambaia"
+      ]
+    },
+    {
+      "slug": "orquidea",
+      "nome": "orquídea",
+      "cientifico": "Phalaenopsis spp.",
+      "outros_nomes": [
+        "orquídea-borboleta",
+        "falenópsis"
+      ],
+      "familia": "Orchidaceae",
+      "origem": "Sudeste Asiático",
+      "genero": "f",
+      "plural": false,
+      "intro": "A orquídea mais vendida no Brasil é a Phalaenopsis, a orquídea-borboleta. Este guia é sobre ela. As raízes dela vivem presas a árvores na natureza, por isso precisam de ar, nunca de terra comum.",
+      "resumo": {
+        "rega": "Quando substrato e raízes secarem (1–2 vezes por semana no verão)",
+        "luz": "Indireta e clara; nunca sol do meio-dia",
+        "adubo": "Adubo de orquídea fraco a cada 15 dias",
+        "dificuldade": "Média",
+        "pets": "Não tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a orquídea Phalaenopsis quando o substrato e as raízes estiverem secos — em média 1 a 2 vezes por semana no verão e a cada 7 a 10 dias no inverno. Raízes prateadas pedem água; raízes verdes ainda estão hidratadas.",
+        "como_saber": "Em vaso transparente, olhe a cor das raízes. Em vaso opaco, levante o vaso: leve significa seco. Molhe bem, deixe escorrer todo o excesso e nunca deixe água acumulada no centro das folhas, que pode apodrecer.",
+        "excesso": "raízes marrons e moles, folhas amarelas e moles e base escurecida.",
+        "falta": "folhas murchas e enrugadas e raízes secas, esbranquiçadas e ocas."
+      },
+      "luz": {
+        "resposta": "A orquídea Phalaenopsis precisa de luz indireta clara, como perto de uma janela com cortina fina. Folhas verde-claras indicam boa luz; verde-escuro indica pouca luz.",
+        "detalhes": "Sol direto do meio-dia queima as folhas e deixa manchas amarelas ou pretas. Sol fraco do começo da manhã é aceito."
+      },
+      "adubo": {
+        "resposta": "Use adubo próprio para orquídeas (como NPK 20-20-20 no crescimento e um com mais fósforo antes da florada) em dose fraca, a cada 15 dias, sempre com o substrato úmido. Bokashi a cada 2 ou 3 meses também funciona.",
+        "detalhes": "É melhor adubar pouco e sempre do que muito de uma vez. Durante a florada, reduza a frequência."
+      },
+      "substrato": "Nunca use terra comum. Use casca de pinus, fibra de coco em pedaços ou musgo esfagno, materiais que deixam as raízes respirarem.",
+      "vaso": "Vasos transparentes ou de plástico com muitos furos ajudam a ver as raízes. Troque o substrato a cada 2 anos, quando ele começar a se decompor.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 30 °C. Uma diferença de 8 a 10 °C entre o dia e a noite no outono ajuda a estimular a florada.",
+      "clima": {
+        "sul": "No inverno do Sul, mantenha dentro de casa, longe do vidro frio à noite, e regue bem menos. As noites frescas do outono ajudam a estimular a florada.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, costuma florescer no fim do inverno e na primavera.",
+        "nordeste_norte": "No calor constante do Nordeste e do Norte faltam noites frescas e ela pode florescer menos; ambientes ventilados e úmidos ajudam.",
+        "centro_oeste": "Na seca de Brasília, a umidade baixa desidrata as raízes: regue com mais frequência e use um pratinho com pedras e água por baixo."
+      },
+      "problemas": [
+        [
+          "Não dá flor de novo",
+          "Pouca luz ou falta de diferença de temperatura entre dia e noite.",
+          "Leve para um local mais claro e deixe a planta sentir as noites mais frescas do outono."
+        ],
+        [
+          "Folhas amarelas",
+          "Excesso de água. Se for só a folha mais baixa, é envelhecimento natural.",
+          "Confira as raízes e espace as regas."
+        ],
+        [
+          "Folhas murchas e enrugadas",
+          "Falta de água ou raízes podres que não absorvem mais.",
+          "Confira as raízes: se estiverem podres, corte-as e replante em substrato novo."
+        ],
+        [
+          "Botões caindo antes de abrir",
+          "Mudança brusca de lugar, corrente de ar ou calor excessivo.",
+          "Evite mudar a orquídea de lugar enquanto estiver com botões."
+        ]
+      ],
+      "pets": "Não. A Phalaenopsis é considerada não tóxica para gatos e cachorros pela ASPCA. Mesmo assim, evite que eles comam a planta ou o adubo.",
+      "muda": "A Phalaenopsis às vezes forma um keiki, uma mudinha na haste floral. Quando ela tiver 2 ou 3 raízes de 5 cm, corte e plante em casca de pinus.",
+      "faqs": [
+        [
+          "O que fazer quando a orquídea perde as flores?",
+          "Corte a haste acima do segundo ou terceiro nó para tentar uma nova florada lateral, ou rente à base se ela estiver seca. Mantenha os cuidados normais: a próxima florada costuma vir em 6 a 12 meses."
+        ],
+        [
+          "Pode regar orquídea com gelo?",
+          "Não é recomendado. A Phalaenopsis é de clima tropical e o gelo pode danificar as raízes. Use água em temperatura ambiente."
+        ],
+        [
+          "Como saber qual é a minha orquídea?",
+          "Existem milhares de espécies e híbridos, com cuidados diferentes. Fotografe a planta, de preferência com flor, e use um app de identificação como o FlorAI para descobrir o gênero e os cuidados indicados."
+        ]
+      ],
+      "relacionadas": [
+        "anturio",
+        "lirio-da-paz",
+        "rosa-do-deserto"
+      ]
+    },
+    {
+      "slug": "suculentas",
+      "nome": "suculentas",
+      "cientifico": "Echeveria, Haworthia, Crassula, Sedum e outros gêneros",
+      "outros_nomes": [],
+      "familia": "Várias (principalmente Crassulaceae e Asphodelaceae)",
+      "origem": "Regiões áridas e semiáridas de vários continentes",
+      "genero": "f",
+      "plural": true,
+      "intro": "Suculentas guardam água nas folhas e no caule. Isso significa duas regras simples: muito sol e pouca água. A maior parte das suculentas que morre dentro de casa morre por falta de luz ou excesso de rega.",
+      "resumo": {
+        "rega": "Só com o substrato completamente seco (7–10 dias no verão)",
+        "luz": "Pelo menos 4 horas de sol direto",
+        "adubo": "A cada 2 meses na primavera e no verão, bem diluído",
+        "dificuldade": "Fácil, com sol",
+        "pets": "Varia conforme a espécie"
+      },
+      "rega": {
+        "resposta": "Regue as suculentas só quando o substrato estiver completamente seco — em geral a cada 7 a 10 dias no verão e a cada 15 a 20 dias no inverno, dependendo do vaso e do sol. Molhe a terra, não as folhas, até a água escorrer pelo furo.",
+        "como_saber": "Enfie um palito no substrato: se sair seco, pode regar. Folhas firmes e cheinhas indicam planta hidratada; folhas murchas e enrugadas indicam sede.",
+        "excesso": "folhas transparentes, moles ou que caem ao toque e caule escuro e mole.",
+        "falta": "folhas murchas, enrugadas e finas, com as de baixo secando."
+      },
+      "luz": {
+        "resposta": "As suculentas precisam de muita luz: pelo menos 4 horas de sol direto por dia, de preferência o sol da manhã. Dentro de casa, só funcionam ao lado da janela mais iluminada.",
+        "detalhes": "Com pouca luz elas estiolam: o caule cresce comprido e as folhas se afastam. Haworthias e gastérias são exceções e toleram meia-sombra."
+      },
+      "adubo": {
+        "resposta": "Adube pouco: a cada 2 meses na primavera e no verão, com adubo para cactos e suculentas ou NPK 10-10-10 a um quarto da dose da embalagem. No inverno, não adube.",
+        "detalhes": "Adubo em excesso deixa a planta mole e esticada, mais sujeita a pragas."
+      },
+      "substrato": "Substrato para cactos e suculentas, ou 1 parte de terra vegetal para 1 de areia grossa e 1 de perlita ou casca de arroz carbonizada.",
+      "vaso": "Sempre com furo. Vasos de barro ajudam a secar. Terrários fechados e vasos sem furo são a principal causa de suculentas apodrecidas.",
+      "temperatura": "Elas gostam de calor. A maioria tolera até cerca de 5 °C com o substrato seco, mas a geada queima as folhas.",
+      "clima": {
+        "sul": "No inverno de Porto Alegre e Curitiba, regue só a cada 3 ou 4 semanas e proteja da geada e da chuva constante.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, vão bem em janelas e varandas com sol da manhã. Na época de chuvas, proteja do excesso de água.",
+        "nordeste_norte": "No Nordeste, o sol forte do meio-dia pode queimar até suculentas: prefira sol da manhã. No Norte, a umidade alta pede substrato bem arenoso e regas espaçadas.",
+        "centro_oeste": "O clima seco de Brasília é ótimo para suculentas. No verão chuvoso, cuide para os vasos não ficarem encharcados."
+      },
+      "problemas": [
+        [
+          "Caule esticado",
+          "Pouca luz (estiolamento).",
+          "Leve para o sol aos poucos. Você pode cortar a roseta e replantar."
+        ],
+        [
+          "Folhas moles e transparentes",
+          "Excesso de água.",
+          "Pare de regar e retire as folhas podres. Se o caule estiver mole, corte acima da parte sadia e replante."
+        ],
+        [
+          "Folhas enrugadas",
+          "Sede.",
+          "Regue bem e observe se as folhas voltam a encher em 1 ou 2 dias."
+        ],
+        [
+          "Bolinhas brancas parecidas com algodão",
+          "Cochonilha.",
+          "Remova com cotonete molhado em álcool 70% e repita toda semana até sumir."
+        ]
+      ],
+      "pets": "Depende da espécie. Echeverias e haworthias são consideradas não tóxicas; a planta-jade (Crassula ovata), o kalanchoe e várias euphorbias são tóxicos para gatos e cães. Identifique a espécie antes de deixar ao alcance dos animais — uma foto no FlorAI resolve isso em segundos.",
+      "muda": "Torça uma folha inteira do caule, deixe secar 2 ou 3 dias e apoie sobre substrato levemente úmido, em local claro sem sol forte. Raízes e uma rosetinha aparecem em 2 a 6 semanas.",
+      "faqs": [
+        [
+          "Suculenta pode ficar dentro de casa?",
+          "Pode, se ficar ao lado de uma janela com sol direto por algumas horas. Em ambientes sem sol, ela estica e enfraquece."
+        ],
+        [
+          "Por que minha suculenta está ficando vermelha?",
+          "Geralmente é estresse por sol forte, frio ou pouca água. É natural em muitas espécies e não faz mal, desde que as folhas estejam firmes."
+        ]
+      ],
+      "relacionadas": [
+        "babosa",
+        "espada-de-sao-jorge",
+        "rosa-do-deserto"
+      ]
+    },
+    {
+      "slug": "samambaia",
+      "nome": "samambaia",
+      "cientifico": "Nephrolepis exaltata",
+      "outros_nomes": [
+        "samambaia-americana",
+        "samambaia-de-boston"
+      ],
+      "familia": "Nephrolepidaceae",
+      "origem": "Regiões tropicais das Américas",
+      "genero": "f",
+      "plural": false,
+      "intro": "A samambaia é a planta clássica das varandas brasileiras. Ao contrário das suculentas, ela não perdoa a seca: precisa de umidade constante no substrato e no ar.",
+      "resumo": {
+        "rega": "Quando a superfície começar a secar (2–3 vezes por semana no verão)",
+        "luz": "Meia-sombra, sem sol direto",
+        "adubo": "A cada 30 dias na primavera e no verão",
+        "dificuldade": "Média",
+        "pets": "Não tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Mantenha o substrato da samambaia sempre levemente úmido: regue quando a superfície começar a secar — em geral 2 a 3 vezes por semana no verão e 1 a 2 vezes no inverno. A samambaia não tolera ficar seca.",
+        "como_saber": "Toque a terra: se a superfície estiver seca, regue até escorrer. Em vasos suspensos, que secam mais rápido, confira todos os dias no calor.",
+        "excesso": "folhas amareladas, base escurecida e cheiro azedo no substrato.",
+        "falta": "folhas secando, ficando marrons, e folhinhas soltando ao toque."
+      },
+      "luz": {
+        "resposta": "A samambaia gosta de meia-sombra ou luz indireta clara, sem sol direto. Varandas cobertas e locais perto de janelas claras são ideais.",
+        "detalhes": "Sol direto resseca e queima as folhas. Em ambientes escuros, ela fica rala e amarelada."
+      },
+      "adubo": {
+        "resposta": "Adube a samambaia a cada 30 dias na primavera e no verão com NPK 10-10-10 diluído ou húmus de minhoca. No inverno, reduza para a cada 2 meses.",
+        "detalhes": "Evite torta de mamona dentro de casa: tem cheiro forte e é tóxica para cães e gatos."
+      },
+      "substrato": "Rico e fofo: terra vegetal, húmus de minhoca e fibra de coco. O antigo xaxim é proibido, porque vem de uma espécie ameaçada; use fibra de coco no lugar.",
+      "vaso": "Vasos suspensos ou sobre pedestais deixam as folhas caírem. Troque quando as raízes ocuparem todo o vaso.",
+      "temperatura": "A faixa ideal fica entre 16 °C e 28 °C. Ela sofre com vento e ar seco.",
+      "clima": {
+        "sul": "No Sul, a samambaia vai bem em varandas protegidas durante boa parte do ano; nas noites de geada, leve para dentro.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, é clássica de varanda coberta. No verão, pode precisar de rega diária.",
+        "nordeste_norte": "No calor do Nordeste, regue quase todo dia e mantenha na sombra. A umidade do litoral e do Norte ajuda muito.",
+        "centro_oeste": "Em Brasília, a seca de maio a setembro é o maior desafio: regue diariamente, borrife as folhas e agrupe com outras plantas."
+      },
+      "problemas": [
+        [
+          "Folhas secas e marrons",
+          "Falta de água, ar seco ou sol direto.",
+          "Regue com mais frequência, borrife água e afaste do sol."
+        ],
+        [
+          "Folhinhas caindo",
+          "Mudança de ambiente ou ar seco.",
+          "Mantenha no mesmo lugar, longe de ar-condicionado e vento, e aumente a umidade."
+        ],
+        [
+          "Folhas amareladas",
+          "Excesso de água ou falta de adubo.",
+          "Confira a drenagem e retome a adubação na primavera."
+        ],
+        [
+          "Pontinhos marrons alinhados no verso das folhas",
+          "São esporos, a forma de reprodução da samambaia.",
+          "Não é preciso fazer nada. Não confunda com cochonilha, que sai ao raspar com a unha."
+        ]
+      ],
+      "pets": "Não. A samambaia-americana (Nephrolepis exaltata) é considerada não tóxica para cães e gatos pela ASPCA. Atenção: o aspargo-samambaia (Asparagus), que não é uma samambaia verdadeira, é tóxico.",
+      "muda": "Divida a touceira na troca de vaso ou plante os brotos que surgem dos estolões, os ramos finos que saem pela borda do vaso.",
+      "faqs": [
+        [
+          "Samambaia gosta de sol?",
+          "Não. Sol direto resseca e queima as folhas. Ela prefere sombra clara, como a de uma varanda coberta."
+        ],
+        [
+          "Como recuperar uma samambaia seca?",
+          "Corte as folhas secas rente à base, mergulhe o vaso em um balde com água por 15 minutos e deixe escorrer. Se houver brotos verdes no centro, ela costuma se recuperar em algumas semanas."
+        ]
+      ],
+      "relacionadas": [
+        "jiboia",
+        "lirio-da-paz",
+        "anturio"
+      ]
+    },
+    {
+      "slug": "anturio",
+      "nome": "antúrio",
+      "cientifico": "Anthurium andraeanum",
+      "outros_nomes": [
+        "antúrio-vermelho"
+      ],
+      "familia": "Araceae",
+      "origem": "Colômbia e Equador",
+      "genero": "m",
+      "plural": false,
+      "intro": "O antúrio floresce o ano quase todo quando recebe bastante claridade sem sol direto. As raízes dele precisam de ar, por isso um substrato pesado é o erro mais comum.",
+      "resumo": {
+        "rega": "Quando os 2–3 cm de cima secarem (2 vezes por semana no verão)",
+        "luz": "Indireta e clara, sem sol direto",
+        "adubo": "A cada 30 dias, com mais fósforo",
+        "dificuldade": "Fácil a média",
+        "pets": "Tóxico para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue o antúrio quando os 2 a 3 cm de cima do substrato secarem — em geral 2 vezes por semana no verão e 1 vez por semana no inverno. Ele gosta de umidade, mas não de encharcamento.",
+        "como_saber": "Toque o substrato: se a camada de cima estiver seca, regue até escorrer pelo furo e descarte a água do pratinho.",
+        "excesso": "folhas amarelas, raízes escuras e moles e manchas marrons úmidas.",
+        "falta": "folhas murchas, bordas secas e flores que duram pouco."
+      },
+      "luz": {
+        "resposta": "O antúrio precisa de luz indireta clara, sem sol direto. Quanto mais claridade, sem sol forte, mais flores ele produz.",
+        "detalhes": "Sol direto queima folhas e flores. Em ambientes escuros ele fica só com folhas."
+      },
+      "adubo": {
+        "resposta": "Adube o antúrio a cada 30 dias na primavera e no verão com adubo rico em fósforo para estimular as flores (como NPK 4-14-8) ou com bokashi. No inverno, reduza para a cada 2 meses.",
+        "detalhes": "Regue antes de adubar e nunca aplique adubo sólido encostado no caule."
+      },
+      "substrato": "Aerado: terra vegetal com casca de pinus e fibra de coco. As raízes precisam de ar, como as das orquídeas.",
+      "vaso": "Troque a cada 2 anos ou quando as raízes saírem pela superfície; cubra as raízes expostas com substrato novo.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 30 °C. Abaixo de 15 °C ele para de crescer, e o frio mancha as folhas.",
+      "clima": {
+        "sul": "No Sul, o antúrio deve passar o inverno dentro de casa, em local claro e longe de correntes de ar frio.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, floresce praticamente o ano todo em local claro e protegido.",
+        "nordeste_norte": "Combina com o calor úmido do litoral nordestino e do Norte; mantenha à sombra e com rega frequente.",
+        "centro_oeste": "Na seca de Brasília, borrife as folhas (não as flores) e use um pratinho com pedras e água para aumentar a umidade."
+      },
+      "problemas": [
+        [
+          "Não floresce",
+          "Pouca luz ou falta de adubo com fósforo.",
+          "Leve para um local mais claro e adube com NPK rico em fósforo."
+        ],
+        [
+          "Flores esverdeadas",
+          "Envelhecimento natural ou pouca luz.",
+          "Corte a haste rente à base quando a flor envelhecer."
+        ],
+        [
+          "Folhas amarelas",
+          "Excesso de água.",
+          "Espace as regas e confira se o substrato está bem aerado."
+        ],
+        [
+          "Pontas e manchas marrons",
+          "Sol direto, ar seco ou excesso de adubo.",
+          "Afaste do sol, aumente a umidade e reduza a dose de adubo."
+        ]
+      ],
+      "pets": "Sim. O antúrio contém oxalato de cálcio e causa irritação na boca, salivação e vômito em cães e gatos.",
+      "muda": "Divida a touceira na troca de vaso, separando brotos com raízes próprias.",
+      "faqs": [
+        [
+          "A flor do antúrio é a parte vermelha?",
+          "Não exatamente. A parte vermelha é uma folha modificada chamada espata; as flores verdadeiras são os pontinhos minúsculos da espiga central (espádice)."
+        ],
+        [
+          "Antúrio pode ficar no sol?",
+          "Não. Sol direto queima folhas e flores; prefira claridade indireta."
+        ]
+      ],
+      "relacionadas": [
+        "lirio-da-paz",
+        "orquidea",
+        "costela-de-adao"
+      ]
+    },
+    {
+      "slug": "babosa",
+      "nome": "babosa",
+      "cientifico": "Aloe vera",
+      "outros_nomes": [
+        "aloe vera",
+        "aloé"
+      ],
+      "familia": "Asphodelaceae",
+      "origem": "Península Arábica",
+      "genero": "f",
+      "plural": false,
+      "intro": "A babosa é uma suculenta: guarda água nas folhas grossas, adora sol e apodrece com rega demais. Cuidada assim, cresce e produz filhotes sem esforço.",
+      "resumo": {
+        "rega": "Só com o substrato totalmente seco (10–15 dias no verão)",
+        "luz": "Sol pleno, 4–6 horas por dia",
+        "adubo": "2 a 3 vezes por ano",
+        "dificuldade": "Muito fácil",
+        "pets": "Tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a babosa quando o substrato estiver totalmente seco — em geral a cada 10 a 15 dias no verão e a cada 20 a 30 dias no inverno. Ela guarda água nas folhas grossas e apodrece com rega em excesso.",
+        "como_saber": "Enfie um palito até o fundo do vaso: seco, pode regar. Folhas grossas e firmes indicam planta hidratada.",
+        "excesso": "folhas moles e translúcidas, manchas marrons encharcadas e base podre.",
+        "falta": "folhas finas, curvadas para dentro e enrugadas."
+      },
+      "luz": {
+        "resposta": "A babosa precisa de sol pleno ou muita claridade: pelo menos 4 a 6 horas de sol por dia.",
+        "detalhes": "Em sol muito forte, as folhas podem ficar avermelhadas ou alaranjadas. É sinal de estresse, não de doença. Com pouca luz, as folhas ficam moles e abertas."
+      },
+      "adubo": {
+        "resposta": "Adube pouco: 2 a 3 vezes por ano, na primavera e no verão, com adubo para cactos e suculentas ou NPK 10-10-10 diluído.",
+        "detalhes": "Se você usa o gel, prefira adubos orgânicos, como húmus de minhoca, em pequena quantidade."
+      },
+      "substrato": "Arenoso e bem drenado: substrato para cactos ou terra vegetal com areia grossa em partes iguais.",
+      "vaso": "Vasos de barro e largos, porque ela produz muitos filhotes ao redor.",
+      "temperatura": "Gosta de calor. Tolera até cerca de 5 °C com o substrato seco, mas a geada danifica as folhas.",
+      "clima": {
+        "sul": "No Sul, a babosa pode ficar ao ar livre no verão; no inverno, proteja da geada e da chuva constante.",
+        "sudeste": "Em São Paulo, Belo Horizonte e no Rio, vai bem em varandas e quintais ensolarados o ano todo.",
+        "nordeste_norte": "Perfeita para o sol e o calor do Nordeste. No Norte, com muita chuva, prefira vasos protegidos e substrato bem arenoso.",
+        "centro_oeste": "Ideal para o cerrado: aguenta a seca de Brasília e Goiânia com regas espaçadas."
+      },
+      "problemas": [
+        [
+          "Folhas caídas e abertas",
+          "Pouca luz ou excesso de água.",
+          "Leve para o sol e deixe o substrato secar entre as regas."
+        ],
+        [
+          "Folhas marrons ou avermelhadas",
+          "Sol forte demais ou falta de água.",
+          "Ofereça um pouco de sombra no meio do dia e regue quando o substrato secar."
+        ],
+        [
+          "Folhas finas e enrugadas",
+          "Sede.",
+          "Regue bem e observe a recuperação em poucos dias."
+        ],
+        [
+          "Base mole",
+          "Podridão por excesso de água.",
+          "Corte as partes moles, deixe secar e replante em substrato seco e arenoso."
+        ]
+      ],
+      "pets": "Sim. A casca e o látex amarelo da babosa causam vômito e diarreia em cães e gatos. O gel interno é usado na pele de pessoas, mas não deve ser dado aos animais.",
+      "muda": "Separe os filhotes que nascem ao redor da planta-mãe quando tiverem 4 ou 5 folhas e raízes. Deixe secar um dia e plante em substrato seco.",
+      "faqs": [
+        [
+          "Como tirar o gel da babosa?",
+          "Corte uma folha rente à base e deixe em pé por 10 a 15 minutos para escorrer o látex amarelo, que irrita a pele. Lave, retire as bordas com espinhos e abra a folha para raspar o gel transparente."
+        ],
+        [
+          "Toda babosa é Aloe vera?",
+          "Não. Existem centenas de espécies de Aloe, e muitas vendidas como babosa são outras, como a Aloe arborescens e a Aloe maculata. Para uso no corpo, confirme se é Aloe vera; uma foto no FlorAI ajuda a identificar."
+        ]
+      ],
+      "relacionadas": [
+        "suculentas",
+        "espada-de-sao-jorge",
+        "rosa-do-deserto"
+      ]
+    },
+    {
+      "slug": "rosa-do-deserto",
+      "nome": "rosa-do-deserto",
+      "cientifico": "Adenium obesum",
+      "outros_nomes": [
+        "adênio",
+        "adenium"
+      ],
+      "familia": "Apocynaceae",
+      "origem": "África Oriental e Península Arábica",
+      "genero": "f",
+      "plural": false,
+      "intro": "A rosa-do-deserto tem caule grosso (caudex), que armazena água, e flores que aparecem com sol forte. No inverno ela pode perder as folhas para descansar, e isso é normal.",
+      "resumo": {
+        "rega": "No verão, quando o substrato secar; no inverno, quase nada",
+        "luz": "Sol pleno, 6 horas ou mais",
+        "adubo": "A cada 30 dias, rico em fósforo",
+        "dificuldade": "Média",
+        "pets": "Muito tóxica para pessoas e animais"
+      },
+      "rega": {
+        "resposta": "No verão, regue a rosa-do-deserto quando o substrato secar — em geral a cada 3 a 7 dias em vaso ao sol. No inverno, quando ela descansa e perde folhas, regue muito pouco, a cada 15 a 30 dias, ou suspenda nos dias frios.",
+        "como_saber": "Aperte de leve o caudex, a base gorda do caule: firme significa hidratado; mole ou enrugado indica sede ou podridão. Confira também se o substrato secou.",
+        "excesso": "caudex mole, folhas amarelas caindo e cheiro de podre.",
+        "falta": "folhas murchas e caule enrugado."
+      },
+      "luz": {
+        "resposta": "A rosa-do-deserto precisa de sol pleno: no mínimo 6 horas de sol direto por dia. Sem sol, ela não floresce.",
+        "detalhes": "Com pouca luz, os galhos ficam finos e compridos e as folhas, grandes e moles."
+      },
+      "adubo": {
+        "resposta": "Na primavera e no verão, adube a cada 30 dias com adubo rico em fósforo para florada (como NPK 4-14-8) ou farinha de osso misturada ao substrato. No inverno, não adube.",
+        "detalhes": "Adubos com muito nitrogênio fazem a planta produzir folhas em vez de flores."
+      },
+      "substrato": "Muito bem drenado: substrato para cactos com areia grossa e perlita ou casca de arroz carbonizada.",
+      "vaso": "Vasos rasos e largos destacam o caudex. Troque a cada 2 anos, na primavera.",
+      "temperatura": "Gosta de calor, acima de 20 °C. Abaixo de 10 °C, mantenha seca e protegida: frio com umidade apodrece o caudex.",
+      "clima": {
+        "sul": "No inverno do Sul, guarde em local protegido e claro, praticamente sem rega, até as temperaturas subirem.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, floresce muito da primavera ao outono a pleno sol. No inverno paulista, reduza bastante a rega.",
+        "nordeste_norte": "É uma planta perfeita para o Nordeste: com o sol de Fortaleza, Natal e Recife, pode florescer quase o ano inteiro.",
+        "centro_oeste": "No cerrado, aproveita o sol forte. Na seca, regue quando o substrato secar; no verão chuvoso, cuide da drenagem."
+      },
+      "problemas": [
+        [
+          "Não floresce",
+          "Pouco sol ou adubo com muito nitrogênio.",
+          "Garanta 6 horas de sol direto e troque por adubo rico em fósforo."
+        ],
+        [
+          "Folhas amarelando e caindo",
+          "No outono e no inverno, dormência natural; no verão, excesso de água.",
+          "No frio, reduza a rega e espere. No calor, deixe o substrato secar entre as regas."
+        ],
+        [
+          "Caudex mole",
+          "Podridão.",
+          "Corte a parte podre até o tecido firme, deixe a ferida secar por alguns dias e replante em substrato seco."
+        ],
+        [
+          "Botões caindo",
+          "Falta de água ou mudança brusca de lugar.",
+          "Mantenha a rega regular no calor e evite mudar a planta de lugar com botões."
+        ]
+      ],
+      "pets": "Sim, muito. A seiva leitosa da rosa-do-deserto contém glicosídeos cardíacos, tóxicos para pessoas, cães e gatos. Use luvas ao podar, lave as mãos e mantenha longe de crianças e animais.",
+      "muda": "Por sementes, que formam plantas com caudex mais bonito, ou por estacas de galho deixadas para secar 2 dias antes de plantar em areia úmida. Por estaca, a base engrossa menos.",
+      "faqs": [
+        [
+          "Por que a rosa-do-deserto perde as folhas no inverno?",
+          "É dormência: com frio e dias curtos, ela entra em repouso. Reduza a rega e espere; as folhas voltam na primavera."
+        ],
+        [
+          "Rosa-do-deserto pode ficar dentro de casa?",
+          "Só se ficar junto a uma janela com várias horas de sol direto. Na maioria das casas, ela fica melhor na varanda ou no quintal."
+        ]
+      ],
+      "relacionadas": [
+        "suculentas",
+        "babosa",
+        "orquidea"
+      ]
+    },
+    {
+      "slug": "manjericao",
+      "nome": "manjericão",
+      "cientifico": "Ocimum basilicum",
+      "outros_nomes": [
+        "alfavaca",
+        "basilicão"
+      ],
+      "familia": "Lamiaceae",
+      "origem": "Ásia tropical",
+      "genero": "m",
+      "plural": false,
+      "intro": "O manjericão é a erva mais fácil de começar uma horta em casa, desde que tenha sol e água com frequência. Colher do jeito certo faz a planta ficar mais cheia.",
+      "resumo": {
+        "rega": "Quando a superfície começar a secar (a cada 1–2 dias no verão)",
+        "luz": "Sol direto, 4–6 horas por dia",
+        "adubo": "A cada 15–30 dias, orgânico",
+        "dificuldade": "Fácil",
+        "pets": "Não tóxico para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue o manjericão quando a superfície do substrato começar a secar — em geral a cada 1 a 2 dias no verão e a cada 3 a 4 dias no inverno. Prefira regar de manhã, molhando a terra e não as folhas.",
+        "como_saber": "Toque a terra: se a camada de cima estiver seca, regue. Folhas murchas no fim da tarde de um dia quente indicam que a rega precisa ser mais frequente.",
+        "excesso": "folhas amarelas, caule escuro na base e mosquitinhos na terra.",
+        "falta": "planta murcha e caída e folhas secas nas pontas."
+      },
+      "luz": {
+        "resposta": "O manjericão precisa de sol direto: pelo menos 4 a 6 horas por dia. Em apartamento, deixe na janela ou na varanda mais ensolarada.",
+        "detalhes": "Com pouco sol, ele fica alto, ralo e com menos aroma."
+      },
+      "adubo": {
+        "resposta": "Adube o manjericão a cada 15 a 30 dias com húmus de minhoca ou outro adubo orgânico. Por ser tempero, prefira adubos orgânicos.",
+        "detalhes": "Espalhe uma colher de sopa de húmus sobre a terra e regue em seguida."
+      },
+      "substrato": "Terra vegetal com húmus de minhoca e um pouco de areia para drenar.",
+      "vaso": "Use vasos com pelo menos 15 a 20 cm de profundidade. Vasinhos de supermercado costumam ter várias mudas juntas: separe ou replante em um vaso maior.",
+      "temperatura": "Gosta de calor, entre 20 °C e 30 °C. Sofre muito abaixo de 10 °C e morre com geada.",
+      "clima": {
+        "sul": "No Sul, o manjericão costuma durar só até o inverno: mantenha na janela mais ensolarada e protegida, ou faça mudas no fim do verão.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, cresce o ano todo com sol. No verão carioca, regue diariamente.",
+        "nordeste_norte": "No calor do Nordeste e do Norte, cresce rápido e floresce cedo: pode com frequência e proteja do sol mais forte da tarde.",
+        "centro_oeste": "Na seca de Brasília, pode precisar de rega diária. Vaso de barro seca mais rápido; prefira plástico ou cerâmica esmaltada."
+      },
+      "problemas": [
+        [
+          "Floresceu e as folhas diminuíram",
+          "Ciclo natural da planta.",
+          "Corte os ramos com flor assim que aparecerem; isso estimula novas folhas."
+        ],
+        [
+          "Ficou alto e ralo",
+          "Pouco sol ou falta de poda.",
+          "Corte sempre acima de um par de folhas: a planta ramifica e fica mais cheia."
+        ],
+        [
+          "Folhas com furinhos",
+          "Lagartas ou pulgões.",
+          "Retire as lagartas à mão e lave as folhas com água e sabão neutro."
+        ],
+        [
+          "Murchou de repente",
+          "Calor com falta de água, ou raiz apodrecida.",
+          "Confira o substrato: se estiver seco, regue; se estiver encharcado, espace as regas."
+        ]
+      ],
+      "pets": "Não. O manjericão é considerado não tóxico para cães e gatos pela ASPCA.",
+      "muda": "Corte um ramo de 10 cm sem flores, retire as folhas de baixo e coloque em um copo com água. Raízes aparecem em 7 a 14 dias; depois, plante em terra.",
+      "faqs": [
+        [
+          "Como colher manjericão sem matar a planta?",
+          "Corte a ponta dos ramos logo acima de um par de folhas, em vez de arrancar folhas da base. Retire no máximo um terço da planta por vez."
+        ],
+        [
+          "Por que o manjericão de supermercado morre rápido?",
+          "Normalmente o vaso tem muitas mudas apertadas, produzidas em estufa. Separe em 2 ou 3 vasos maiores, coloque no sol e regue com frequência."
+        ]
+      ],
+      "relacionadas": [
+        "babosa",
+        "suculentas",
+        "samambaia"
+      ]
+    },
+    {
+      "slug": "rosa",
+      "nome": "rosa",
+      "cientifico": "Rosa spp. (roseiras híbridas)",
+      "outros_nomes": [
+        "roseira",
+        "rosa-de-vaso",
+        "minirrosa"
+      ],
+      "familia": "Rosaceae",
+      "origem": "Ásia, Europa e América do Norte (as roseiras cultivadas são híbridos)",
+      "genero": "f",
+      "plural": false,
+      "intro": "A roseira floresce muito no Brasil quando recebe sol pleno, rega regular na terra e poda no momento certo. Em vaso também dá certo, desde que o vaso seja fundo e a planta não fique encharcada.",
+      "resumo": {
+        "rega": "Quando os 3 cm de cima secarem (2–3 vezes por semana no verão, em vaso)",
+        "luz": "Sol pleno, 6 horas ou mais",
+        "adubo": "A cada 30 dias, rico em fósforo, na época de flores",
+        "dificuldade": "Média",
+        "pets": "Não tóxica; cuidado com os espinhos"
+      },
+      "rega": {
+        "resposta": "Regue a roseira quando os 3 cm de cima do substrato estiverem secos — em vaso, em geral 2 a 3 vezes por semana no verão e 1 a 2 vezes no inverno; no jardim, 1 a 2 vezes por semana. Molhe a terra, não as folhas, de preferência de manhã.",
+        "como_saber": "Enfie o dedo na terra: seca nos primeiros centímetros, é hora de regar até escorrer pelo furo do vaso. Folhas molhadas no fim do dia favorecem oídio e mancha-negra.",
+        "excesso": "folhas amarelando e caindo, raízes escuras e terra com cheiro azedo.",
+        "falta": "botões que secam antes de abrir, flores pequenas e folhas murchas no calor da tarde."
+      },
+      "luz": {
+        "resposta": "A roseira precisa de sol pleno: pelo menos 6 horas de sol direto por dia. Com menos sol, dá poucas flores e fica mais sujeita a doenças.",
+        "detalhes": "Dentro de casa ela não se mantém por muito tempo; as minirrosas de presente devem ir para uma janela ou varanda ensolarada logo depois da florada."
+      },
+      "adubo": {
+        "resposta": "Adube a roseira a cada 30 dias da primavera ao outono com adubo rico em fósforo para florada (como NPK 4-14-8) ou com farinha de osso e húmus de minhoca. Depois da poda de inverno, uma adubação orgânica ajuda a brotação.",
+        "detalhes": "Regue antes e espalhe o adubo longe do caule. Adubos com muito nitrogênio produzem folhas e poucas flores."
+      },
+      "substrato": "Terra vegetal rica, com húmus de minhoca ou esterco curtido e um pouco de areia para drenar. A roseira gosta de solo levemente ácido a neutro.",
+      "vaso": "Use vaso fundo, com pelo menos 30 a 40 cm de altura e furos no fundo. Troque a terra de cima todo ano, depois da poda.",
+      "temperatura": "A roseira tolera calor e frio, inclusive geadas leves. Floresce melhor com temperaturas entre 15 °C e 28 °C; no calor extremo, as flores duram menos.",
+      "clima": {
+        "sul": "Em Porto Alegre, Curitiba e na Serra Gaúcha, faça a poda principal no fim do inverno, depois das geadas mais fortes, em agosto.",
+        "sudeste": "Em São Paulo, Belo Horizonte e no Rio, a poda principal costuma ser em julho. No verão chuvoso, capriche na ventilação para evitar mancha-negra.",
+        "nordeste_norte": "No calor de Salvador, Recife, Fortaleza e Belém, ela floresce quase o ano todo, mas sofre com fungos na umidade: regue só a terra e prefira variedades mais resistentes.",
+        "centro_oeste": "Em Brasília e Goiânia, a seca de maio a setembro pede rega mais frequente e cobertura da terra com casca de pinus ou palha para segurar a umidade."
+      },
+      "problemas": [
+        [
+          "Pó branco nas folhas",
+          "Oídio, um fungo favorecido por noites frescas e pouca ventilação.",
+          "Retire as folhas mais atacadas, melhore a circulação de ar e pulverize uma mistura de 1 parte de leite para 9 de água ou um fungicida para roseiras."
+        ],
+        [
+          "Manchas pretas com bordas amarelas",
+          "Mancha-negra, fungo que se espalha com folhas molhadas.",
+          "Remova e descarte as folhas doentes (inclusive as caídas), regue só a terra e use fungicida indicado para roseiras."
+        ],
+        [
+          "Pulgões nos brotos e botões",
+          "Insetos que sugam a seiva das partes novas.",
+          "Lave com jato de água ou com água e sabão neutro; em ataques fortes, use óleo de neem."
+        ],
+        [
+          "Poucas flores",
+          "Pouco sol, falta de poda ou excesso de nitrogênio.",
+          "Garanta 6 horas de sol, retire as flores murchas e use adubo rico em fósforo."
+        ],
+        [
+          "Folhas amarelas caindo",
+          "Excesso de água, mancha-negra no início ou troca natural de folhas no inverno.",
+          "Confira a drenagem e as folhas: manchas pretas indicam fungo."
+        ]
+      ],
+      "pets": "Não. A roseira é considerada não tóxica para cães e gatos pela ASPCA. O cuidado é com os espinhos, que podem ferir patas e focinhos, e com os defensivos usados nas folhas.",
+      "muda": "Corte estacas de 15 a 20 cm de ramos que já deram flor, retire as folhas de baixo, deixe 2 folhas no topo e enterre metade da estaca em substrato úmido e arenoso, em local claro sem sol forte. As raízes aparecem em 4 a 8 semanas. Roseiras enxertadas compradas em viveiro costumam ser mais vigorosas.",
+      "faqs": [
+        [
+          "Quando podar a roseira?",
+          "A poda principal é no fim do inverno, entre julho e agosto, cortando os ramos a cerca de 30 a 40 cm do chão, logo acima de uma gema voltada para fora. Ao longo do ano, faça só a limpeza: corte as flores murchas acima da primeira folha com 5 folíolos."
+        ],
+        [
+          "Como cuidar de rosa em vaso?",
+          "Vaso fundo com furos, sol pleno, rega quando a terra de cima secar e adubo rico em fósforo a cada 30 dias. Minirrosas de presente precisam ir para uma janela ou varanda ensolarada; dentro de casa elas enfraquecem."
+        ],
+        [
+          "Como conservar rosas cortadas por mais tempo?",
+          "Corte a ponta do cabo em diagonal, retire as folhas que ficariam dentro da água e troque a água do vaso a cada 2 dias, cortando um pouco do cabo de novo."
+        ]
+      ],
+      "relacionadas": [
+        "hortensia",
+        "rosa-do-deserto",
+        "lavanda"
+      ]
+    },
+    {
+      "slug": "comigo-ninguem-pode",
+      "nome": "comigo-ninguém-pode",
+      "cientifico": "Dieffenbachia seguine",
+      "outros_nomes": [
+        "difembáquia",
+        "aningá-do-pará"
+      ],
+      "familia": "Araceae",
+      "origem": "América tropical, incluindo o Brasil",
+      "genero": "m",
+      "plural": false,
+      "intro": "O comigo-ninguém-pode é uma folhagem resistente, que aceita meia-sombra e cresce bem dentro de casa. É também uma das plantas mais tóxicas comuns nos lares brasileiros, por isso merece lugar fora do alcance de crianças e animais.",
+      "resumo": {
+        "rega": "Quando os 2–3 cm de cima secarem (cerca de 2 vezes por semana no verão)",
+        "luz": "Meia-sombra ou indireta clara",
+        "adubo": "A cada 30 dias na primavera e no verão",
+        "dificuldade": "Fácil",
+        "pets": "Muito tóxico para pessoas e animais"
+      },
+      "rega": {
+        "resposta": "Regue o comigo-ninguém-pode quando os 2 a 3 cm de cima do substrato secarem — em geral 2 vezes por semana no verão e 1 vez por semana no inverno. Ele gosta de umidade, mas apodrece com água parada.",
+        "como_saber": "Toque a terra: se a camada de cima estiver seca, regue até escorrer pelo furo e descarte a água do pratinho.",
+        "excesso": "folhas amarelas a partir das de baixo, caule mole e escurecido na base.",
+        "falta": "folhas caídas e murchas, bordas secas e marrons."
+      },
+      "luz": {
+        "resposta": "O comigo-ninguém-pode gosta de meia-sombra ou luz indireta clara. Tolera ambientes com pouca luz, mas perde parte das manchas claras das folhas.",
+        "detalhes": "Sol direto forte queima as folhas, deixando manchas secas e esbranquiçadas. Gire o vaso de vez em quando para ele não crescer torto em direção à janela."
+      },
+      "adubo": {
+        "resposta": "Adube a cada 30 dias na primavera e no verão com NPK 10-10-10 dissolvido em água ou com húmus de minhoca. No inverno, adube a cada 2 meses ou suspenda.",
+        "detalhes": "Regue antes de adubar. Use luvas ao manusear a planta e o substrato perto do caule."
+      },
+      "substrato": "Rico em matéria orgânica e bem drenado: terra vegetal, húmus de minhoca e casca de pinus ou fibra de coco.",
+      "vaso": "Vaso com furos, de tamanho proporcional à planta. Troque a cada 1 ou 2 anos, sempre com luvas, porque a seiva irrita a pele.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 30 °C. Abaixo de 12 °C ele sofre e pode perder folhas.",
+      "clima": {
+        "sul": "Em Porto Alegre e Curitiba, mantenha dentro de casa no inverno, longe de janelas frias, e espace as regas.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, vai bem o ano todo em salas claras e varandas cobertas.",
+        "nordeste_norte": "No calor úmido de Salvador, Recife, Belém e Manaus, cresce rápido e pode ficar em jardins à sombra; confira o substrato com frequência.",
+        "centro_oeste": "Na seca de Brasília e Goiânia, as bordas das folhas secam com o ar seco: agrupe com outras plantas e borrife as folhas."
+      },
+      "problemas": [
+        [
+          "Folhas amarelas embaixo",
+          "Envelhecimento natural ou excesso de água.",
+          "Retire as folhas velhas com luvas e deixe o substrato secar um pouco mais entre as regas."
+        ],
+        [
+          "Caule comprido e sem folhas embaixo",
+          "Crescimento natural com o tempo ou pouca luz.",
+          "Corte o topo e replante como muda; o toco costuma rebrotar."
+        ],
+        [
+          "Bordas marrons e secas",
+          "Ar seco, falta de água ou sol direto.",
+          "Regue com regularidade, aumente a umidade e afaste do sol forte."
+        ],
+        [
+          "Caule mole na base",
+          "Podridão por excesso de água.",
+          "Corte acima da parte mole e replante a parte sadia em substrato novo."
+        ]
+      ],
+      "pets": "Sim, muito. O comigo-ninguém-pode contém cristais de oxalato de cálcio e enzimas que, ao serem mastigados, causam dor intensa, inchaço na boca, na língua e na garganta, salivação e dificuldade para engolir em cães, gatos e crianças. A seiva também irrita a pele e os olhos. Use luvas ao podar e mantenha a planta fora do alcance.",
+      "muda": "Use luvas. Corte pedaços de caule com 2 ou 3 nós, deixe secar algumas horas e deite-os sobre substrato úmido, enterrando metade. Brotos e raízes aparecem em 4 a 8 semanas. O topo cortado também enraíza em água.",
+      "faqs": [
+        [
+          "Comigo-ninguém-pode espanta mau-olhado?",
+          "É uma crença popular brasileira, que explica por que a planta costuma ficar na entrada das casas. Do ponto de vista botânico, o que se sabe é que ela é resistente e muito tóxica."
+        ],
+        [
+          "Posso ter comigo-ninguém-pode com criança em casa?",
+          "Só fora do alcance, em local alto ou protegido. Se uma criança mastigar a folha, lave a boca com água, não induza o vômito e ligue para o Disque-Intoxicação (0800 722 6001) ou procure atendimento."
+        ],
+        [
+          "O que fazer se a seiva cair no olho?",
+          "Lave com bastante água corrente por 15 minutos e procure atendimento médico. A seiva causa irritação forte e dor."
+        ]
+      ],
+      "relacionadas": [
+        "costela-de-adao",
+        "jiboia",
+        "zamioculca"
+      ]
+    },
+    {
+      "slug": "peperomia",
+      "nome": "peperômia",
+      "cientifico": "Peperomia spp.",
+      "outros_nomes": [
+        "peperômia-melancia",
+        "peperômia-obtusifolia",
+        "colar-de-tartaruga"
+      ],
+      "familia": "Piperaceae",
+      "origem": "Regiões tropicais das Américas",
+      "genero": "f",
+      "plural": false,
+      "intro": "As peperômias são plantas pequenas, de folhas carnudas, ideais para mesas, prateleiras e apartamentos. Elas guardam água nas folhas, por isso o erro mais comum é regar demais.",
+      "resumo": {
+        "rega": "Quando o substrato estiver quase todo seco (7–10 dias no verão)",
+        "luz": "Indireta e clara, sem sol forte",
+        "adubo": "A cada 2 meses, bem diluído",
+        "dificuldade": "Fácil",
+        "pets": "Não tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a peperômia quando o substrato estiver quase todo seco — em geral a cada 7 a 10 dias no verão e a cada 15 dias no inverno. As folhas carnudas armazenam água, e ela tolera melhor a seca do que o excesso.",
+        "como_saber": "Enfie o dedo até a metade do vaso: seco, pode regar. Folhas firmes indicam planta hidratada; folhas moles e enrugadas indicam sede.",
+        "excesso": "folhas moles, amareladas ou caindo, caule escurecido e base podre.",
+        "falta": "folhas murchas, enrugadas e mais finas que o normal."
+      },
+      "luz": {
+        "resposta": "A peperômia gosta de luz indireta clara, perto de uma janela, sem sol forte direto. Tolera meia-sombra, mas cresce menos.",
+        "detalhes": "Variedades com folhas desenhadas ou variegadas, como a peperômia-melancia, precisam de mais claridade para manter o padrão. Sol forte desbota e queima as folhas."
+      },
+      "adubo": {
+        "resposta": "Adube a peperômia a cada 2 meses na primavera e no verão com NPK 10-10-10 na metade da dose da embalagem ou um pouco de húmus de minhoca. No inverno, não adube.",
+        "detalhes": "Ela cresce devagar e precisa de pouco nutriente; adubo em excesso deixa as folhas moles."
+      },
+      "substrato": "Leve e bem aerado: terra vegetal com casca de pinus e perlita ou areia grossa. Evite terra pesada, que fica encharcada.",
+      "vaso": "Prefere vasos pequenos e rasos, com furos. As raízes são curtas: troque de vaso só quando a planta estiver apertada, a cada 2 ou 3 anos.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 28 °C. Abaixo de 10 °C ela sofre, principalmente com o substrato úmido.",
+      "clima": {
+        "sul": "No inverno de Curitiba e Porto Alegre, regue a cada 2 ou 3 semanas e mantenha longe de janelas frias.",
+        "sudeste": "Em apartamentos de São Paulo, do Rio e de Belo Horizonte, vai bem o ano todo perto de janelas claras.",
+        "nordeste_norte": "No calor de Recife, Fortaleza, Salvador e Manaus, confira o substrato com mais frequência e proteja do sol da tarde.",
+        "centro_oeste": "Na seca de Brasília, tolera o ar seco melhor que outras folhagens; só ajuste a rega quando as folhas começarem a enrugar."
+      },
+      "problemas": [
+        [
+          "Folhas caindo",
+          "Excesso de água ou frio.",
+          "Deixe o substrato secar e mantenha a planta em local protegido de vento frio."
+        ],
+        [
+          "Folhas moles e amarelas",
+          "Raízes encharcadas.",
+          "Retire do vaso, corte as raízes escuras e replante em substrato seco e aerado."
+        ],
+        [
+          "Caule esticado e folhas pequenas",
+          "Pouca luz.",
+          "Leve para perto de uma janela clara e pode os ramos longos."
+        ],
+        [
+          "Manchas marrons secas",
+          "Sol direto.",
+          "Afaste da janela com sol forte."
+        ]
+      ],
+      "pets": "Não. As peperômias são consideradas não tóxicas para cães e gatos pela ASPCA, o que faz delas uma boa escolha para casas com animais.",
+      "muda": "Corte uma folha com o cabinho (pecíolo) e enterre a ponta do cabinho em substrato úmido, ou coloque em um copo com água. Na peperômia-melancia, dá até para cortar a folha ao meio e enterrar a borda cortada. Raízes e brotos aparecem em 3 a 6 semanas.",
+      "faqs": [
+        [
+          "Quais são os tipos mais comuns de peperômia?",
+          "No Brasil, as mais vendidas são a peperômia-obtusifolia (folhas redondas e grossas), a peperômia-melancia (Peperomia argyreia, com listras prateadas), a Peperomia caperata (folhas enrugadas) e o colar-de-tartaruga (Peperomia prostrata, pendente). Os cuidados são parecidos; uma foto no FlorAI mostra qual é a sua."
+        ],
+        [
+          "Peperômia-melancia gosta de sol?",
+          "Não de sol direto. Ela prefere claridade indireta; o sol forte queima as folhas e apaga as listras."
+        ]
+      ],
+      "relacionadas": [
+        "jiboia",
+        "suculentas",
+        "maranta"
+      ]
+    },
+    {
+      "slug": "jabuticabeira",
+      "nome": "jabuticabeira",
+      "cientifico": "Plinia cauliflora",
+      "outros_nomes": [
+        "jabuticaba",
+        "jabuticabeira-em-vaso"
+      ],
+      "familia": "Myrtaceae",
+      "origem": "Mata Atlântica, Brasil",
+      "genero": "f",
+      "plural": false,
+      "intro": "A jabuticabeira é uma frutífera brasileira que pode dar frutos em vaso, desde que o vaso seja grande, a rega seja generosa e a muda seja enxertada ou de variedade precoce. De semente, pode levar muitos anos para frutificar.",
+      "resumo": {
+        "rega": "Substrato sempre úmido (2–3 vezes por semana em vaso)",
+        "luz": "Sol pleno ou meia-sombra clara",
+        "adubo": "A cada 2–3 meses, mais farinha de osso",
+        "dificuldade": "Média",
+        "pets": "Sem registro de toxicidade"
+      },
+      "rega": {
+        "resposta": "Mantenha o substrato da jabuticabeira sempre úmido, sem encharcar: em vaso, regue em geral 2 a 3 vezes por semana no verão e 1 a 2 vezes no inverno. Ela é de mata úmida e sofre com a seca, principalmente durante a florada e a formação dos frutos.",
+        "como_saber": "Toque a terra: se a superfície estiver seca, regue até escorrer pelo furo. Vasos grandes ao sol secam rápido no verão; confira a cada 2 dias.",
+        "excesso": "folhas amareladas, raízes escuras e cheiro azedo na terra (raro em vaso com boa drenagem).",
+        "falta": "folhas novas secando, queda de flores e frutinhos e folhas enroladas."
+      },
+      "luz": {
+        "resposta": "A jabuticabeira gosta de sol pleno ou meia-sombra clara. Em vaso, pelo menos 4 a 6 horas de sol por dia ajudam a florir e frutificar.",
+        "detalhes": "Mudas jovens podem ser acostumadas ao sol aos poucos. Dentro de casa, sem sol direto, ela cresce pouco e raramente frutifica."
+      },
+      "adubo": {
+        "resposta": "Adube a jabuticabeira a cada 2 a 3 meses com NPK 10-10-10 e complemente com farinha de osso e esterco curtido ou húmus de minhoca, principalmente antes da florada. Espalhe o adubo na borda do vaso e regue em seguida.",
+        "detalhes": "Ela prefere solo levemente ácido e rico em matéria orgânica. Cobrir a terra com palha ou casca de pinus ajuda a manter a umidade."
+      },
+      "substrato": "Terra vegetal rica, com esterco curtido ou húmus de minhoca e um pouco de areia para drenar. Camada de argila expandida ou brita no fundo do vaso.",
+      "vaso": "Quanto maior, melhor: para frutificar bem, use vaso de pelo menos 50 a 60 litros. Vasinhos pequenos limitam as raízes e a produção.",
+      "temperatura": "Tolera bem calor e frio moderado, inclusive geadas leves quando adulta. Mudas jovens devem ser protegidas da geada.",
+      "clima": {
+        "sul": "Em Curitiba, Porto Alegre e no interior do Sul, proteja as mudas jovens das geadas; plantas adultas toleram frio moderado.",
+        "sudeste": "Em São Paulo, Minas Gerais e no Rio, está em casa: é nativa da Mata Atlântica e costuma florir depois das primeiras chuvas da primavera.",
+        "nordeste_norte": "No calor do Nordeste e do Norte, cresce bem com rega abundante; em regiões secas do sertão, cubra a terra com palha e regue com frequência.",
+        "centro_oeste": "Em Brasília e Goiânia, a seca de maio a setembro exige rega frequente; em vaso, pode ser preciso regar todos os dias nos meses mais secos."
+      },
+      "problemas": [
+        [
+          "Não dá fruto",
+          "Muda de semente ainda jovem, vaso pequeno ou falta de água na florada.",
+          "Prefira mudas enxertadas ou de alporquia, use vaso grande e mantenha a rega regular na florada."
+        ],
+        [
+          "Flores e frutinhos caindo",
+          "Falta de água ou calor e vento forte.",
+          "Regue com mais frequência durante a florada e proteja de vento."
+        ],
+        [
+          "Folhas amareladas",
+          "Falta de nutrientes ou solo pouco ácido.",
+          "Adube com matéria orgânica e complete com NPK; evite cal no substrato."
+        ],
+        [
+          "Frutos rachando",
+          "Rega irregular: seca seguida de muita água.",
+          "Mantenha a umidade constante enquanto os frutos crescem."
+        ]
+      ],
+      "pets": "Não há registro de toxicidade da jabuticabeira para cães e gatos. Mesmo assim, evite que eles comam grandes quantidades de frutos, cascas ou caroços, que podem causar desconforto intestinal.",
+      "muda": "De semente é fácil, mas a planta pode levar 8 a 15 anos para frutificar. Mudas enxertadas ou feitas por alporquia, vendidas em viveiros, costumam frutificar em 2 a 4 anos, e variedades precoces, como a jabuticaba-híbrida, ainda mais cedo.",
+      "faqs": [
+        [
+          "Quanto tempo a jabuticabeira em vaso demora para dar fruto?",
+          "Mudas enxertadas ou de variedades precoces costumam frutificar em 2 a 4 anos em vaso grande. De semente, pode levar de 8 a 15 anos."
+        ],
+        [
+          "Jabuticabeira dá fruto mais de uma vez por ano?",
+          "Pode dar. Com rega e adubação regulares, muitas jabuticabeiras, principalmente as híbridas, florescem e frutificam duas ou mais vezes por ano."
+        ],
+        [
+          "Qual o tamanho mínimo de vaso para jabuticabeira?",
+          "Para frutificar bem, use vaso de pelo menos 50 a 60 litros. Em vasos menores ela sobrevive, mas produz pouco."
+        ]
+      ],
+      "relacionadas": [
+        "morango",
+        "manjericao",
+        "rosa"
+      ]
+    },
+    {
+      "slug": "kalanchoe",
+      "nome": "kalanchoe",
+      "cientifico": "Kalanchoe blossfeldiana",
+      "outros_nomes": [
+        "flor-da-fortuna",
+        "calanchoê"
+      ],
+      "familia": "Crassulaceae",
+      "origem": "Madagascar",
+      "genero": "m",
+      "plural": false,
+      "intro": "O kalanchoe é uma suculenta florífera, vendida em vasinhos cheios de flores. Ele não é descartável: com sol e pouca água, vive vários anos e pode florescer de novo todo ano.",
+      "resumo": {
+        "rega": "Só com o substrato seco (7–10 dias no verão)",
+        "luz": "Muita luz, com algumas horas de sol",
+        "adubo": "A cada 30 dias na florada, diluído",
+        "dificuldade": "Fácil",
+        "pets": "Tóxico para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue o kalanchoe só quando o substrato estiver seco — em geral a cada 7 a 10 dias no verão e a cada 15 a 20 dias no inverno. Por ser suculenta, ele guarda água nas folhas e apodrece com rega em excesso.",
+        "como_saber": "Enfie um palito no substrato: se sair seco, pode regar. Molhe a terra, não as flores nem as folhas.",
+        "excesso": "folhas moles e escurecidas, caule mole na base e flores apodrecendo.",
+        "falta": "folhas enrugadas e finas e flores murchando antes do tempo."
+      },
+      "luz": {
+        "resposta": "O kalanchoe precisa de muita luz: algumas horas de sol direto, de preferência da manhã, ou uma janela bem clara. Com pouca luz, ele estica e não floresce.",
+        "detalhes": "Sol forte do meio-dia no verão pode avermelhar ou queimar as folhas. Dentro de casa, deixe na janela mais iluminada."
+      },
+      "adubo": {
+        "resposta": "Adube o kalanchoe a cada 30 dias durante a formação de botões e a florada com adubo para floríferas (como NPK 4-14-8) na metade da dose. Fora da florada, adube a cada 2 meses ou suspenda.",
+        "detalhes": "Regue antes de adubar. Excesso de adubo produz folhas moles e poucas flores."
+      },
+      "substrato": "Substrato para cactos e suculentas, ou terra vegetal misturada com areia grossa em partes iguais.",
+      "vaso": "Vasos pequenos, com furos. Depois da florada, replante em um vaso um pouco maior com substrato novo.",
+      "temperatura": "A faixa ideal fica entre 15 °C e 29 °C. Abaixo de 10 °C, com substrato úmido, ele pode apodrecer.",
+      "clima": {
+        "sul": "No Sul, o outono com dias curtos ajuda a induzir a florada; no inverno, proteja da geada e regue pouco.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, costuma florescer do outono à primavera em janelas e varandas claras.",
+        "nordeste_norte": "No Nordeste e no Norte, os dias variam pouco de duração e a refloração pode ser mais difícil; o truque das noites longas ajuda.",
+        "centro_oeste": "Na seca de Brasília, vai bem com regas espaçadas; no verão chuvoso, proteja da chuva constante."
+      },
+      "problemas": [
+        [
+          "Não floresce de novo",
+          "Ele só forma botões com noites longas.",
+          "Por 6 semanas, deixe a planta em escuro total por 14 horas a cada noite (por exemplo, dentro de um armário das 18h às 8h) e com luz durante o dia."
+        ],
+        [
+          "Caule esticado e folhas espaçadas",
+          "Pouca luz.",
+          "Leve para um local mais iluminado e pode as pontas para a planta ramificar."
+        ],
+        [
+          "Folhas moles e escuras",
+          "Excesso de água.",
+          "Pare de regar e deixe o substrato secar completamente."
+        ],
+        [
+          "Flores secas no vaso",
+          "Fim natural da florada.",
+          "Corte as hastes florais secas rente às folhas e mantenha os cuidados normais."
+        ]
+      ],
+      "pets": "Sim. O kalanchoe contém bufadienolídeos, substâncias que afetam o coração, e causa vômito e diarreia em cães e gatos; em casos raros, alterações nos batimentos cardíacos. Mantenha fora do alcance.",
+      "muda": "Corte uma ponta de ramo de 8 a 10 cm, deixe secar um dia e enterre em substrato arenoso levemente úmido. As raízes aparecem em 2 a 3 semanas.",
+      "faqs": [
+        [
+          "Kalanchoe é suculenta?",
+          "Sim. O kalanchoe é da família Crassulaceae, a mesma de muitas suculentas, e armazena água nas folhas grossas."
+        ],
+        [
+          "Kalanchoe dura quanto tempo?",
+          "É uma planta perene: com sol, pouca água e o truque das noites longas para florir, vive vários anos. Muitas pessoas descartam o vaso depois da florada achando que a planta acabou."
+        ]
+      ],
+      "relacionadas": [
+        "suculentas",
+        "cactos",
+        "rosa-do-deserto"
+      ]
+    },
+    {
+      "slug": "cactos",
+      "nome": "cactos",
+      "cientifico": "Cactaceae (Mammillaria, Opuntia, Cereus, Echinopsis e outros gêneros)",
+      "outros_nomes": [
+        "cacto",
+        "cáctus"
+      ],
+      "familia": "Cactaceae",
+      "origem": "Américas, do Canadá à Patagônia, incluindo a Caatinga brasileira",
+      "genero": "m",
+      "plural": true,
+      "intro": "Cactos precisam de duas coisas: muito sol e pouca água. Quase todos os cactos que morrem dentro de casa morrem por falta de luz ou por rega frequente demais.",
+      "resumo": {
+        "rega": "Só com o substrato totalmente seco (10–15 dias no verão)",
+        "luz": "Sol direto, 4–6 horas ou mais",
+        "adubo": "2 a 3 vezes por ano, para cactos",
+        "dificuldade": "Muito fácil, com sol",
+        "pets": "Em geral não tóxicos; espinhos ferem"
+      },
+      "rega": {
+        "resposta": "Regue os cactos só quando o substrato estiver totalmente seco — em geral a cada 10 a 15 dias no verão e uma vez por mês ou menos no inverno. Molhe bem a terra até escorrer pelo furo e espere secar de novo.",
+        "como_saber": "Enfie um palito de madeira até o fundo do vaso: se sair seco, pode regar. Cacto firme está hidratado; cacto murcho e enrugado está com sede; cacto mole e escuro está apodrecendo.",
+        "excesso": "base mole e escura, cacto amarelando ou tombando e cheiro de podre.",
+        "falta": "cacto enrugado, murcho ou mais fino que o normal."
+      },
+      "luz": {
+        "resposta": "Os cactos precisam de sol direto: pelo menos 4 a 6 horas por dia. Dentro de casa, só ao lado da janela mais ensolarada.",
+        "detalhes": "Com pouca luz eles estiolam: crescem finos, compridos e inclinados para a janela. Ao passar um cacto da sombra para o sol, faça isso aos poucos para ele não queimar."
+      },
+      "adubo": {
+        "resposta": "Adube os cactos 2 a 3 vezes por ano, na primavera e no verão, com adubo para cactos e suculentas ou NPK 10-10-10 a um quarto da dose. No inverno, não adube.",
+        "detalhes": "Para estimular flores, use adubo com mais fósforo e potássio no fim do inverno."
+      },
+      "substrato": "Substrato para cactos, ou 1 parte de terra vegetal para 2 de areia grossa e perlita ou casca de arroz carbonizada. Ele deve secar rápido.",
+      "vaso": "Sempre com furo. Vasos de barro ajudam o substrato a secar. Troque a cada 2 ou 3 anos, usando luvas grossas ou uma tira de jornal dobrado para segurar o cacto.",
+      "temperatura": "Gostam de calor. Muitos toleram frio até perto de 5 °C se o substrato estiver seco; frio com umidade é o que apodrece as raízes.",
+      "clima": {
+        "sul": "Em Porto Alegre e Curitiba, o inverno frio e úmido é o maior risco: suspenda as regas de junho a agosto e proteja da chuva constante.",
+        "sudeste": "Em São Paulo, Belo Horizonte e no Rio, vão bem em janelas e varandas ensolaradas; no verão chuvoso, cuide para os vasos não ficarem encharcados.",
+        "nordeste_norte": "No sertão e no litoral do Nordeste, como em Fortaleza, Natal e Petrolina, estão em casa. No Norte, com chuva frequente, use substrato bem arenoso e proteja da chuva.",
+        "centro_oeste": "O clima seco de Brasília e Goiânia é ótimo para cactos: regue um pouco mais na seca e menos no verão chuvoso."
+      },
+      "problemas": [
+        [
+          "Base mole e escura",
+          "Podridão por excesso de água.",
+          "Corte acima da parte podre até o tecido firme e claro, deixe a ferida secar por uma semana e replante em substrato seco."
+        ],
+        [
+          "Crescendo fino e torto",
+          "Pouca luz (estiolamento).",
+          "Leve para o sol aos poucos. A parte esticada não volta ao normal, mas o crescimento novo sai firme."
+        ],
+        [
+          "Manchas amareladas ou brancas no lado do sol",
+          "Queimadura por mudança brusca para o sol.",
+          "Ofereça sombra parcial por algumas semanas e aumente a exposição aos poucos."
+        ],
+        [
+          "Bolinhas brancas parecidas com algodão",
+          "Cochonilha.",
+          "Remova com cotonete molhado em álcool 70% e repita toda semana até sumir."
+        ],
+        [
+          "Base ficando marrom e dura",
+          "Lignificação, o envelhecimento natural da base de muitos cactos.",
+          "Se estiver firme e seca, é normal e não precisa de tratamento."
+        ]
+      ],
+      "pets": "Em geral, não. A maioria dos cactos não é tóxica para cães e gatos, mas os espinhos ferem boca, patas e olhos. Atenção às euphorbias parecidas com cactos, como o cacto-candelabro (Euphorbia trigona): elas têm látex branco tóxico. Na dúvida, uma foto no FlorAI ajuda a saber se é um cacto verdadeiro.",
+      "muda": "Separe os brotos laterais que nascem junto à planta-mãe ou corte um segmento, deixe secar alguns dias até a ferida cicatrizar e apoie sobre substrato seco e arenoso. Regue só depois de 1 ou 2 semanas, quando surgirem raízes.",
+      "faqs": [
+        [
+          "Qual a diferença entre cacto e suculenta?",
+          "Todo cacto é uma suculenta, mas nem toda suculenta é um cacto. Os cactos pertencem à família Cactaceae e têm aréolas, pontinhos de onde saem espinhos, flores e brotos."
+        ],
+        [
+          "Cacto precisa de muita água?",
+          "Não. Regue só quando o substrato estiver totalmente seco: a cada 10 a 15 dias no verão e uma vez por mês ou menos no inverno."
+        ],
+        [
+          "Como fazer o cacto dar flor?",
+          "Sol direto todos os dias e um inverno seco e mais fresco, com quase nenhuma rega. Muitos cactos só formam botões depois desse período de descanso."
+        ]
+      ],
+      "relacionadas": [
+        "suculentas",
+        "babosa",
+        "kalanchoe"
+      ]
+    },
+    {
+      "slug": "bromelia",
+      "nome": "bromélia",
+      "cientifico": "Bromeliaceae (Guzmania, Aechmea, Vriesea, Neoregelia e outros gêneros)",
+      "outros_nomes": [
+        "gusmânia",
+        "vriésia",
+        "equeméa"
+      ],
+      "familia": "Bromeliaceae",
+      "origem": "Regiões tropicais das Américas; muitas espécies são nativas do Brasil",
+      "genero": "f",
+      "plural": false,
+      "intro": "As bromélias são plantas tropicais, muitas nativas da Mata Atlântica, que acumulam água no centro das folhas. Cada roseta floresce uma vez, dura meses e depois dá lugar aos filhotes.",
+      "resumo": {
+        "rega": "Substrato levemente úmido e água limpa no copo, trocada com frequência",
+        "luz": "Indireta e clara; algumas toleram sol",
+        "adubo": "Foliar diluído a cada 30 dias",
+        "dificuldade": "Fácil",
+        "pets": "Não tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a bromélia quando a superfície do substrato secar — em geral 1 a 2 vezes por semana no verão e a cada 7 a 10 dias no inverno. Se mantiver água no copo central, troque-a a cada 2 ou 3 dias, ou lave o copo com jato de água, para não acumular sujeira nem larvas de mosquito.",
+        "como_saber": "Toque o substrato: seco na superfície, pode regar. Em ambientes frios ou pouco ventilados, prefira regar só o substrato e deixar o copo vazio.",
+        "excesso": "centro da roseta escuro, mole e com cheiro ruim e folhas que se soltam com facilidade.",
+        "falta": "pontas das folhas secas e marrons e folhas enroladas."
+      },
+      "luz": {
+        "resposta": "A maioria das bromélias de vaso gosta de luz indireta clara, sem sol forte. Bromélias de folhas duras e acinzentadas, como algumas Aechmea e Neoregelia, toleram sol da manhã.",
+        "detalhes": "Folhas macias e verdes indicam espécies de sombra; folhas duras e prateadas, espécies de mais luz. Sol forte em espécies de sombra deixa manchas queimadas."
+      },
+      "adubo": {
+        "resposta": "Adube a bromélia a cada 30 dias na primavera e no verão com adubo para orquídeas e bromélias a um quarto da dose, borrifado nas folhas e no substrato. Não coloque adubo concentrado dentro do copo.",
+        "detalhes": "Bromélias precisam de pouco nutriente; adubo forte queima as folhas e pode apodrecer o centro."
+      },
+      "substrato": "Leve e aerado, como o de orquídeas: casca de pinus, fibra de coco e um pouco de terra vegetal. Muitas bromélias também vivem presas a troncos.",
+      "vaso": "Vasos pequenos e pesados o bastante para a planta não tombar, sempre com furos. As raízes servem mais para fixação do que para absorver água.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 30 °C. Abaixo de 10 °C, água no copo pode apodrecer o centro da planta.",
+      "clima": {
+        "sul": "Em Porto Alegre e Curitiba, esvazie o copo no inverno e regue só o substrato, em ambiente protegido do frio.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, bromélias vão bem em varandas e jardins sombreados; muitas espécies são nativas da Mata Atlântica da região.",
+        "nordeste_norte": "No calor úmido de Salvador, Recife, Belém e Manaus, crescem bem em jardins à meia-sombra; troque a água dos copos com frequência por causa do mosquito da dengue.",
+        "centro_oeste": "Na seca de Brasília e Goiânia, borrife as folhas e mantenha o substrato levemente úmido; espécies de folhas duras toleram melhor o ar seco."
+      },
+      "problemas": [
+        [
+          "Centro da planta apodrecendo",
+          "Água parada e suja no copo, frio ou excesso de adubo.",
+          "Esvazie o copo, deixe secar e passe a regar só o substrato. Se o centro já estiver mole, a planta-mãe não se recupera, mas os filhotes podem ser salvos."
+        ],
+        [
+          "A bromélia está morrendo depois da flor",
+          "Ciclo natural: cada roseta floresce uma vez.",
+          "Mantenha os cuidados normais. A planta-mãe produz filhotes ao redor da base; separe-os quando tiverem um terço do tamanho dela."
+        ],
+        [
+          "Não floresce",
+          "Planta jovem ou pouca luz.",
+          "Filhotes levam de 1 a 3 anos para florir. Mais claridade ajuda; colocar a planta por 7 a 10 dias em um saco com uma maçã madura (que libera etileno) pode induzir a florada."
+        ],
+        [
+          "Pontas secas",
+          "Ar seco ou água com cloro.",
+          "Borrife as folhas e use água filtrada ou de chuva."
+        ],
+        [
+          "Manchas claras e queimadas",
+          "Sol direto em espécie de sombra.",
+          "Mude para um local com luz indireta."
+        ]
+      ],
+      "pets": "Não. As bromélias são consideradas não tóxicas para cães e gatos pela ASPCA. Algumas espécies têm espinhos nas bordas das folhas, que podem arranhar.",
+      "muda": "Os filhotes nascem na base da planta-mãe depois da florada. Quando tiverem cerca de um terço do tamanho da mãe e algumas raízes, corte rente com uma faca limpa e plante em substrato leve. A planta-mãe pode ser descartada quando secar.",
+      "faqs": [
+        [
+          "Bromélia dá dengue?",
+          "A água acumulada no copo pode servir de criadouro para o Aedes aegypti, embora estudos indiquem que as bromélias não estão entre os principais criadouros. Para não correr risco, troque a água do copo a cada 2 ou 3 dias, lave com jato de água ou deixe o copo vazio e regue só o substrato."
+        ],
+        [
+          "Bromélia morre depois que floresce?",
+          "A roseta que floresceu morre aos poucos, ao longo de meses, mas antes produz filhotes. A planta continua viva neles."
+        ],
+        [
+          "Quanto tempo dura a flor da bromélia?",
+          "A inflorescência colorida costuma durar de 2 a 6 meses, dependendo da espécie, da luz e da temperatura."
+        ]
+      ],
+      "relacionadas": [
+        "orquidea",
+        "anturio",
+        "samambaia"
+      ]
+    },
+    {
+      "slug": "maranta",
+      "nome": "maranta",
+      "cientifico": "Maranta leuconeura e calateias (Goeppertia spp.)",
+      "outros_nomes": [
+        "calateia",
+        "planta-rezadeira",
+        "maranta-pavão"
+      ],
+      "familia": "Marantaceae",
+      "origem": "Florestas tropicais das Américas, incluindo o Brasil",
+      "genero": "f",
+      "plural": false,
+      "intro": "No Brasil, “maranta” é o nome usado tanto para a Maranta leuconeura quanto para as calateias, folhagens de desenhos marcantes que fecham as folhas à noite. São plantas de sombra úmida: pedem água sem cloro, ar úmido e nada de sol direto.",
+      "resumo": {
+        "rega": "Quando a superfície começar a secar (2 vezes por semana no verão)",
+        "luz": "Indireta, de média a clara; sem sol direto",
+        "adubo": "A cada 30 dias na primavera e no verão, diluído",
+        "dificuldade": "Média",
+        "pets": "Não tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Mantenha o substrato da maranta levemente úmido: regue quando a superfície começar a secar — em geral 2 vezes por semana no verão e 1 vez por semana no inverno. Use água filtrada, de chuva ou deixada em repouso por 24 horas, porque o cloro queima as pontas das folhas.",
+        "como_saber": "Toque a terra: se a superfície estiver seca, regue até escorrer pelo furo. Folhas enrolando durante o dia indicam sede ou ar seco.",
+        "excesso": "folhas amarelas, caules moles na base e raízes escuras.",
+        "falta": "folhas enroladas, pontas secas e bordas marrons."
+      },
+      "luz": {
+        "resposta": "A maranta gosta de luz indireta, de média a clara, sem sol direto. Fica bem a alguns metros de uma janela ou perto de uma janela com cortina.",
+        "detalhes": "Sol direto desbota os desenhos e queima as folhas. Em ambientes muito escuros, as folhas novas saem pequenas e sem contraste."
+      },
+      "adubo": {
+        "resposta": "Adube a maranta a cada 30 dias na primavera e no verão com NPK 10-10-10 na metade da dose ou com húmus de minhoca. No inverno, suspenda.",
+        "detalhes": "Ela é sensível a sais: adubo em excesso causa pontas queimadas. Regue antes de adubar."
+      },
+      "substrato": "Rico, fofo e que retenha umidade sem encharcar: terra vegetal, húmus de minhoca, fibra de coco e um pouco de perlita.",
+      "vaso": "Vaso com furos, um pouco largo, porque a planta forma touceira. Troque a cada 1 ou 2 anos, na primavera.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 28 °C. Abaixo de 15 °C e com vento frio, as folhas se enrolam e manchas aparecem.",
+      "clima": {
+        "sul": "No inverno de Porto Alegre e Curitiba, mantenha dentro de casa, longe de janelas frias e do ar quente de aquecedores.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, vai bem em salas claras sem sol direto; no inverno seco, borrife as folhas.",
+        "nordeste_norte": "No calor úmido de Salvador, Recife, Belém e Manaus, a umidade alta favorece a maranta: só proteja do sol e regue com frequência.",
+        "centro_oeste": "Na seca de Brasília, com umidade abaixo de 30%, as pontas secam fácil: agrupe com outras plantas, use pratinho com pedras e água e evite o ar-condicionado."
+      },
+      "problemas": [
+        [
+          "Pontas e bordas marrons",
+          "Ar seco, cloro ou flúor da água, ou excesso de adubo.",
+          "Use água filtrada ou de chuva, aumente a umidade e reduza o adubo. Corte só a parte seca, seguindo o formato da folha."
+        ],
+        [
+          "Folhas enroladas durante o dia",
+          "Sede, ar seco ou frio.",
+          "Regue, aumente a umidade e afaste de correntes de ar."
+        ],
+        [
+          "Folhas desbotadas",
+          "Sol direto ou luz forte demais.",
+          "Mude para um local com luz indireta."
+        ],
+        [
+          "Teias finas e pontinhos claros no verso",
+          "Ácaro, comum em ar seco.",
+          "Lave as folhas com água, inclusive o verso, aumente a umidade e, se persistir, use óleo de neem."
+        ],
+        [
+          "Folhas amarelas",
+          "Excesso de água ou frio.",
+          "Espace as regas e mantenha em ambiente acima de 15 °C."
+        ]
+      ],
+      "pets": "Não. A Maranta leuconeura e as calateias são consideradas não tóxicas para cães e gatos pela ASPCA.",
+      "muda": "Divida a touceira na troca de vaso, separando partes com folhas e raízes. A Maranta leuconeura também enraíza por estaca: corte um ramo logo abaixo de um nó e coloque em água filtrada.",
+      "faqs": [
+        [
+          "Por que a maranta fecha as folhas à noite?",
+          "É um movimento natural chamado nictinastia: à noite as folhas se levantam e se fecham, e de manhã voltam a abrir. Por isso ela é chamada de planta-rezadeira."
+        ],
+        [
+          "Qual a diferença entre maranta e calateia?",
+          "Muitas plantas vendidas como maranta no Brasil são calateias, hoje classificadas no gênero Goeppertia. A maranta verdadeira (Maranta leuconeura) é menor e se espalha; as calateias formam touceiras mais altas. Os cuidados são quase iguais, e uma foto no FlorAI mostra qual é a sua."
+        ],
+        [
+          "Maranta pode ficar no banheiro?",
+          "Pode, se houver luz natural. A umidade do banheiro é ótima para ela."
+        ]
+      ],
+      "relacionadas": [
+        "samambaia",
+        "peperomia",
+        "lirio-da-paz"
+      ]
+    },
+    {
+      "slug": "hortensia",
+      "nome": "hortênsia",
+      "cientifico": "Hydrangea macrophylla",
+      "outros_nomes": [
+        "hidrângea",
+        "hortência"
+      ],
+      "familia": "Hydrangeaceae",
+      "origem": "Japão",
+      "genero": "f",
+      "plural": false,
+      "intro": "A hortênsia é o símbolo das serras do Sul e do Sudeste. Ela gosta de clima ameno, muita água e sol suave, e muda de cor conforme a acidez do solo: azul em solo ácido, rosa em solo alcalino.",
+      "resumo": {
+        "rega": "Substrato sempre úmido (quase todo dia no verão, em vaso)",
+        "luz": "Sol da manhã e sombra à tarde",
+        "adubo": "A cada 30 dias na primavera e no verão",
+        "dificuldade": "Média",
+        "pets": "Tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Mantenha o substrato da hortênsia sempre úmido: em vaso, regue quase todos os dias no verão e 2 a 3 vezes por semana no inverno; no jardim, 2 a 3 vezes por semana. O nome Hydrangea vem do grego e se refere à água — ela murcha rápido quando falta.",
+        "como_saber": "Toque a terra: se a superfície estiver seca, regue bem. Folhas murchas no calor da tarde que se recuperam à noite indicam excesso de sol; murchas de manhã indicam falta de água.",
+        "excesso": "folhas amareladas e raízes escuras (raro em solo bem drenado).",
+        "falta": "folhas e flores murchas, bordas das folhas secas e flores que secam rápido."
+      },
+      "luz": {
+        "resposta": "A hortênsia gosta de sol da manhã e sombra à tarde. Em regiões frias de serra, tolera sol pleno; em regiões quentes, precisa de meia-sombra.",
+        "detalhes": "Na sombra total ela floresce pouco. Sol forte da tarde queima as folhas e desbota as flores."
+      },
+      "adubo": {
+        "resposta": "Adube a hortênsia a cada 30 dias na primavera e no verão com adubo para floríferas (como NPK 4-14-8) e matéria orgânica, como húmus de minhoca ou esterco curtido. No outono e no inverno, suspenda.",
+        "detalhes": "Para flores azuis, use adubos com pouco fósforo e acidifique o solo; o fósforo em excesso dificulta a absorção do alumínio, que deixa as flores azuis."
+      },
+      "substrato": "Rico em matéria orgânica, fofo e que retenha umidade: terra vegetal, húmus de minhoca e casca de pinus. O pH do solo define a cor das flores.",
+      "vaso": "Vaso grande e fundo, de pelo menos 30 cm, com furos. Vasos pequenos secam rápido e a planta murcha todo dia.",
+      "temperatura": "Prefere clima ameno, entre 15 °C e 25 °C. Precisa de um inverno fresco para formar bem os botões e sofre com calor intenso e seco.",
+      "clima": {
+        "sul": "Na Serra Gaúcha, em Gramado, Canela e Curitiba, a hortênsia está em casa: floresce de novembro a janeiro e tolera sol pleno.",
+        "sudeste": "Em Campos do Jordão, Petrópolis, Monte Verde e no Sul de Minas, floresce muito. Em São Paulo, no Rio e em Belo Horizonte, prefira meia-sombra e rega generosa.",
+        "nordeste_norte": "No calor constante do Nordeste e do Norte, ela tende a florir pouco; tente em regiões de serra, como Garanhuns, Guaramiranga e a Chapada Diamantina, com meia-sombra.",
+        "centro_oeste": "Em Brasília, cultive à meia-sombra, com cobertura de palha na terra e rega frequente na seca de maio a setembro."
+      },
+      "problemas": [
+        [
+          "Murcha todo dia à tarde",
+          "Sol forte da tarde ou vaso pequeno.",
+          "Mude para um local com sombra à tarde e passe para um vaso maior."
+        ],
+        [
+          "Não floresce",
+          "Poda no momento errado, pouco frio no inverno ou sombra demais.",
+          "Ela forma os botões nos ramos do ano anterior: evite podas pesadas no inverno e garanta sol da manhã."
+        ],
+        [
+          "Flores mudando de cor",
+          "Mudança no pH do solo.",
+          "Para azul, acidifique com sulfato de alumínio ou matéria orgânica ácida; para rosa, aplique calcário. As brancas não mudam de cor."
+        ],
+        [
+          "Folhas amareladas com nervuras verdes",
+          "Clorose, falta de ferro em solo alcalino.",
+          "Acidifique o solo e use adubo com micronutrientes."
+        ],
+        [
+          "Manchas marrons nas folhas",
+          "Fungos em clima úmido ou rega nas folhas.",
+          "Regue só a terra e retire as folhas afetadas."
+        ]
+      ],
+      "pets": "Sim. A hortênsia contém glicosídeos cianogênicos e causa vômito, diarreia e apatia em cães e gatos que mastigam folhas ou flores. Mantenha fora do alcance.",
+      "muda": "Corte estacas de 10 a 15 cm de ramos que não floresceram, no fim do verão, retire as folhas de baixo, corte as de cima ao meio e enterre em substrato úmido, à sombra. As raízes aparecem em 3 a 5 semanas.",
+      "faqs": [
+        [
+          "Como deixar a hortênsia azul?",
+          "O azul aparece em solo ácido (pH abaixo de cerca de 5,5) com alumínio disponível. Aplique sulfato de alumínio dissolvido na rega, conforme a embalagem, e use adubo com pouco fósforo. A mudança leva meses e aparece na florada seguinte."
+        ],
+        [
+          "Quando podar a hortênsia?",
+          "Logo depois da florada, no fim do verão ou no começo do outono, corte os ramos que deram flor até um par de gemas fortes e mantenha os que não floresceram. Podas pesadas no inverno removem os botões da próxima florada."
+        ],
+        [
+          "Hortênsia gosta de sol ou sombra?",
+          "De sol da manhã e sombra à tarde. Em serras frias, aguenta sol pleno; em cidades quentes, precisa de meia-sombra."
+        ]
+      ],
+      "relacionadas": [
+        "rosa",
+        "lavanda",
+        "begonia"
+      ]
+    },
+    {
+      "slug": "lavanda",
+      "nome": "lavanda",
+      "cientifico": "Lavandula dentata e Lavandula angustifolia",
+      "outros_nomes": [
+        "alfazema",
+        "lavanda-dentata"
+      ],
+      "familia": "Lamiaceae",
+      "origem": "Região do Mediterrâneo",
+      "genero": "f",
+      "plural": false,
+      "intro": "A lavanda quer o contrário do que muita gente oferece: sol o dia inteiro, solo pobre e pouca água. Na maior parte do Brasil, a espécie que mais floresce é a Lavandula dentata, de folhas recortadas; a Lavandula angustifolia precisa de inverno frio e vai melhor no Sul e nas serras.",
+      "resumo": {
+        "rega": "Quando o substrato secar quase todo (a cada 5–7 dias no verão)",
+        "luz": "Sol pleno, 6 horas ou mais",
+        "adubo": "Pouco: 2 a 3 vezes por ano",
+        "dificuldade": "Média",
+        "pets": "Levemente tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a lavanda quando o substrato estiver quase todo seco — em geral a cada 5 a 7 dias no verão em vaso ao sol e a cada 10 a 15 dias no inverno. Ela tolera seca, mas apodrece rápido com terra encharcada.",
+        "como_saber": "Enfie o dedo de 4 a 5 cm no substrato: se estiver seco, regue até escorrer pelo furo. Molhe a terra, não as folhas, e de preferência pela manhã.",
+        "excesso": "folhas amareladas ou acinzentadas, ramos escurecendo da base para cima e planta murcha mesmo com terra úmida.",
+        "falta": "pontas dos ramos murchas e folhas secas e quebradiças."
+      },
+      "luz": {
+        "resposta": "A lavanda precisa de sol pleno: pelo menos 6 horas de sol direto por dia. Dentro de casa, longe de uma janela muito ensolarada, ela fica fraca e não floresce.",
+        "detalhes": "Com pouco sol, os ramos ficam compridos, moles e com menos perfume. Varandas ensolaradas, quintais e jardineiras na janela mais clara são os melhores lugares."
+      },
+      "adubo": {
+        "resposta": "Adube pouco: 2 a 3 vezes por ano, na primavera e no verão, com húmus de minhoca ou farinha de osso. Adubo em excesso faz a lavanda crescer mole e florescer menos.",
+        "detalhes": "Uma colher de sopa de calcário dolomítico misturada ao substrato no plantio ajuda, porque a lavanda prefere solo de neutro a levemente alcalino."
+      },
+      "substrato": "Pobre, arenoso e muito bem drenado: terra vegetal com areia grossa em partes iguais e uma camada de pedriscos no fundo do vaso. Evite substratos ricos e fofos que retêm muita água.",
+      "vaso": "Vaso de barro com furos, com pelo menos 25 cm de diâmetro. Pode os ramos depois da florada, cortando cerca de um terço, mas sem chegar à parte lenhosa sem folhas.",
+      "temperatura": "A Lavandula dentata tolera bem o calor brasileiro. A Lavandula angustifolia floresce melhor com inverno frio, abaixo de 10 °C por algumas semanas, e sofre com calor úmido.",
+      "clima": {
+        "sul": "Em Gramado, Curitiba e na Serra Gaúcha, até a Lavandula angustifolia floresce bem. No inverno chuvoso, use vasos protegidos para o substrato não ficar encharcado.",
+        "sudeste": "Em São Paulo, Belo Horizonte e no Rio, prefira a Lavandula dentata. A angustifolia só costuma florescer bem em regiões de serra, como Cunha (SP) e o sul de Minas.",
+        "nordeste_norte": "No calor úmido de Salvador, Recife e Belém, a lavanda é difícil: use a Lavandula dentata, substrato bem arenoso e local muito ventilado. No sertão e em Fortaleza, o clima seco ajuda.",
+        "centro_oeste": "Em Brasília e Goiânia, a seca de maio a setembro favorece a lavanda; no verão chuvoso, cuide da drenagem e evite regar em dias de chuva."
+      },
+      "problemas": [
+        [
+          "Ramos escurecendo e morrendo pela base",
+          "Podridão das raízes por excesso de água.",
+          "Espace as regas, use substrato mais arenoso e confira se o vaso drena bem."
+        ],
+        [
+          "Não floresce",
+          "Pouco sol, adubo demais ou espécie errada para o clima.",
+          "Garanta 6 horas de sol, reduza o adubo e, em regiões quentes, prefira a Lavandula dentata."
+        ],
+        [
+          "Ramos compridos e falhados",
+          "Pouca luz ou falta de poda.",
+          "Leve para o sol e pode após a florada para estimular ramos novos."
+        ],
+        [
+          "Folhas acinzentadas e secas no centro",
+          "Envelhecimento da planta ou poda na parte lenhosa.",
+          "Faça mudas por estaca para renovar; lavandas costumam render melhor por 3 a 5 anos."
+        ]
+      ],
+      "pets": "Levemente. A lavanda contém linalol e acetato de linalila, e a ASPCA a lista como tóxica para cães e gatos: se mastigada em quantidade, pode causar náusea e vômito. Óleos essenciais concentrados são mais perigosos, principalmente para gatos.",
+      "muda": "Corte ramos de 10 cm sem flores, retire as folhas de baixo e enterre um terço da estaca em areia úmida, em local claro sem sol forte. As raízes aparecem em 3 a 6 semanas.",
+      "faqs": [
+        [
+          "Lavanda pode ficar dentro de casa?",
+          "Só ao lado de uma janela com várias horas de sol direto. Na maioria dos apartamentos, ela fica fraca dentro de casa e vai melhor na varanda ensolarada."
+        ],
+        [
+          "Qual a diferença entre lavanda e alfazema?",
+          "No Brasil os nomes são usados como sinônimos para plantas do gênero Lavandula. A Lavandula dentata tem folhas com bordas recortadas e é a mais adaptada ao calor; a Lavandula angustifolia tem folhas lisas e estreitas e precisa de frio. Uma foto no FlorAI ajuda a saber qual é a sua."
+        ]
+      ],
+      "relacionadas": [
+        "alecrim",
+        "manjericao",
+        "suculentas"
+      ]
+    },
+    {
+      "slug": "alecrim",
+      "nome": "alecrim",
+      "cientifico": "Salvia rosmarinus (antes Rosmarinus officinalis)",
+      "outros_nomes": [
+        "rosmaninho"
+      ],
+      "familia": "Lamiaceae",
+      "origem": "Região do Mediterrâneo",
+      "genero": "m",
+      "plural": false,
+      "intro": "O alecrim é uma erva de clima seco: gosta de sol forte e de terra que seca rápido. O erro mais comum é tratá-lo como manjericão e regar todo dia — o alecrim morre muito mais por excesso de água do que por sede.",
+      "resumo": {
+        "rega": "Quando o substrato secar (a cada 4–7 dias no verão)",
+        "luz": "Sol pleno, 6 horas ou mais",
+        "adubo": "A cada 2–3 meses, orgânico",
+        "dificuldade": "Fácil",
+        "pets": "Não tóxico para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue o alecrim quando o substrato estiver seco a 3 ou 4 cm de profundidade — em geral a cada 4 a 7 dias no verão e a cada 10 a 15 dias no inverno. Ele tolera seca e apodrece com terra sempre úmida.",
+        "como_saber": "Enfie o dedo no substrato: se estiver seco, regue até escorrer pelo furo do vaso. Folhas firmes e perfumadas indicam que está tudo bem.",
+        "excesso": "folhas amarelando, ramos escurecendo de baixo para cima e planta que murcha mesmo com terra úmida.",
+        "falta": "pontas dos ramos murchas e folhas secas caindo ao toque."
+      },
+      "luz": {
+        "resposta": "O alecrim precisa de sol pleno: pelo menos 6 horas de sol direto por dia. Em apartamento, deixe na janela ou na varanda mais ensolarada.",
+        "detalhes": "Com pouca luz, ele fica ralo, com ramos finos e menos aroma, e fica mais sujeito ao oídio."
+      },
+      "adubo": {
+        "resposta": "Adube o alecrim a cada 2 a 3 meses na primavera e no verão com húmus de minhoca ou outro adubo orgânico. Por ser tempero, evite adubos químicos fortes.",
+        "detalhes": "Adubo demais deixa a planta mais mole e com menos óleo essencial, ou seja, menos perfume."
+      },
+      "substrato": "Arenoso e bem drenado: terra vegetal com areia grossa em partes iguais. Ele prefere solo de neutro a levemente alcalino; uma colher de calcário dolomítico no plantio ajuda.",
+      "vaso": "Vaso de barro com furos e pelo menos 20 a 25 cm de profundidade. Evite pratinho com água acumulada.",
+      "temperatura": "Tolera bem calor e frio moderado, inclusive geadas leves em plantas já estabelecidas. O maior inimigo é a combinação de calor, chuva e umidade alta.",
+      "clima": {
+        "sul": "Em Porto Alegre e Curitiba, o alecrim aguenta o inverno ao ar livre; nas semanas de chuva constante, proteja o vaso para não encharcar.",
+        "sudeste": "Em São Paulo, BH e no Rio, cresce bem o ano todo com sol. No verão chuvoso, regue menos e garanta ventilação para evitar oídio.",
+        "nordeste_norte": "No sertão e em Fortaleza, o clima seco ajuda. No litoral úmido de Recife, Salvador e Belém, use substrato bem arenoso e local ventilado.",
+        "centro_oeste": "O clima seco de Brasília e Goiânia é ótimo para alecrim. Na seca, regue um pouco mais; no verão chuvoso, cuidado com a drenagem."
+      },
+      "problemas": [
+        [
+          "Folhas secando de baixo para cima",
+          "Raízes apodrecidas por excesso de água.",
+          "Espace as regas, troque para substrato arenoso e confira a drenagem do vaso."
+        ],
+        [
+          "Pó branco nas folhas",
+          "Oídio, um fungo favorecido por umidade e pouca ventilação.",
+          "Retire as partes afetadas, melhore a ventilação e o sol e evite molhar as folhas."
+        ],
+        [
+          "Ramos finos e ralos",
+          "Pouco sol ou falta de colheita.",
+          "Leve para o sol e colha as pontas com frequência para a planta ramificar."
+        ],
+        [
+          "Murchou de repente",
+          "Mudança brusca de lugar ou raiz encharcada.",
+          "Confira o substrato: se estiver úmido, deixe secar bem antes de regar de novo."
+        ]
+      ],
+      "pets": "Não. O alecrim é considerado não tóxico para cães e gatos pela ASPCA.",
+      "muda": "Corte ramos de 10 a 15 cm das pontas, retire as folhas dos dois terços de baixo e enterre em substrato arenoso úmido ou coloque em água. As raízes aparecem em 3 a 6 semanas.",
+      "faqs": [
+        [
+          "Como colher alecrim sem prejudicar a planta?",
+          "Corte as pontas dos ramos com tesoura limpa, retirando no máximo um terço da planta por vez. Evite cortar a parte lenhosa sem folhas, que brota com dificuldade."
+        ],
+        [
+          "Por que meu alecrim está morrendo?",
+          "Na maioria dos casos é excesso de água ou falta de sol. Alecrim precisa de sol direto e de substrato que seque entre as regas; vasinhos de supermercado sem furo costumam apodrecer as raízes."
+        ]
+      ],
+      "relacionadas": [
+        "lavanda",
+        "manjericao",
+        "hortela"
+      ]
+    },
+    {
+      "slug": "hortela",
+      "nome": "hortelã",
+      "cientifico": "Mentha spp.",
+      "outros_nomes": [
+        "menta",
+        "hortelã-pimenta",
+        "hortelã-comum"
+      ],
+      "familia": "Lamiaceae",
+      "origem": "Europa e Ásia",
+      "genero": "f",
+      "plural": false,
+      "intro": "A hortelã cresce rápido e gosta de umidade, o oposto do alecrim. Ela se espalha por ramos subterrâneos e invade os vizinhos, por isso deve ter um vaso só para ela.",
+      "resumo": {
+        "rega": "Quando a superfície começar a secar (a cada 1–2 dias no verão)",
+        "luz": "Sol da manhã ou meia-sombra clara",
+        "adubo": "A cada 30 dias, orgânico",
+        "dificuldade": "Fácil",
+        "pets": "Pode causar vômito em cães e gatos em grande quantidade"
+      },
+      "rega": {
+        "resposta": "Mantenha o substrato da hortelã sempre levemente úmido: regue quando a superfície começar a secar — em geral a cada 1 a 2 dias no verão e a cada 3 a 4 dias no inverno. Ela murcha rápido com sede, mas também não gosta de água parada.",
+        "como_saber": "Toque a terra: se a camada de cima estiver seca, regue até escorrer pelo furo. Folhas caídas no fim de uma tarde quente indicam que a rega precisa ficar mais frequente.",
+        "excesso": "folhas amareladas, caule escuro na base e cheiro azedo na terra.",
+        "falta": "planta murcha e folhas secas e enroladas nas bordas."
+      },
+      "luz": {
+        "resposta": "A hortelã gosta de sol da manhã ou meia-sombra clara: de 3 a 5 horas de sol por dia é o ideal. Ela aceita mais sombra do que o manjericão e o alecrim.",
+        "detalhes": "Sol forte da tarde no verão queima as folhas e resseca o vaso. Em local escuro, os ramos ficam compridos, ralos e com menos aroma."
+      },
+      "adubo": {
+        "resposta": "Adube a hortelã a cada 30 dias na primavera e no verão com húmus de minhoca ou outro adubo orgânico. Por ser usada em chás e receitas, prefira adubos orgânicos.",
+        "detalhes": "Espalhe uma colher de sopa de húmus por vaso médio sobre a terra e regue em seguida."
+      },
+      "substrato": "Terra vegetal rica em matéria orgânica, com húmus de minhoca, que retenha umidade sem encharcar.",
+      "vaso": "Vaso próprio, largo e com furos — floreiras e vasos largos são melhores do que fundos, porque os ramos se espalham para os lados. Não plante junto com outras ervas: ela invade e sufoca as vizinhas. Renove a planta a cada 1 ou 2 anos.",
+      "temperatura": "Tolera bem de 10 °C a 30 °C. No calor intenso, precisa de mais água e de sombra à tarde; no frio, pode perder parte das folhas e rebrotar na primavera.",
+      "clima": {
+        "sul": "Em Curitiba e Porto Alegre, a hortelã pode perder folhas com a geada, mas costuma rebrotar das raízes na primavera.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, cresce o ano todo; no verão, prefira lugares com sol só pela manhã.",
+        "nordeste_norte": "No calor de Salvador, Recife, Fortaleza e Manaus, mantenha à meia-sombra e regue diariamente.",
+        "centro_oeste": "Na seca de Brasília, o vaso seca rápido: regue todo dia e evite vasos de barro pequenos, que perdem água depressa."
+      },
+      "problemas": [
+        [
+          "Pontinhos alaranjados embaixo das folhas",
+          "Ferrugem, uma doença causada por fungo.",
+          "Retire e descarte as folhas e ramos afetados, evite molhar as folhas e melhore a ventilação."
+        ],
+        [
+          "Planta rala e com folhas pequenas",
+          "Vaso esgotado, falta de adubo ou pouca luz.",
+          "Corte os ramos rente, adube e, se o vaso estiver tomado de raízes, divida a touceira."
+        ],
+        [
+          "Floresceu e o sabor mudou",
+          "Ciclo natural da planta.",
+          "Corte os ramos com flor; isso estimula folhas novas e mais saborosas."
+        ],
+        [
+          "Folhas com furinhos",
+          "Lagartas, pulgões ou lesmas.",
+          "Retire as pragas à mão e lave as folhas com água e sabão neutro."
+        ]
+      ],
+      "pets": "Em pequena quantidade, raramente. A ASPCA lista a hortelã (Mentha) como tóxica para cães e gatos quando ingerida em grande quantidade, podendo causar vômito e diarreia. O óleo essencial concentrado é bem mais perigoso, principalmente para gatos.",
+      "muda": "Coloque um ramo de 10 cm em um copo com água: as raízes aparecem em 5 a 10 dias. Também dá para dividir a touceira, separando pedaços com raízes e ramos.",
+      "faqs": [
+        [
+          "Como colher hortelã para ela crescer mais?",
+          "Corte os ramos logo acima de um par de folhas, em vez de arrancar folhas soltas. A planta ramifica a partir do corte e fica mais cheia."
+        ],
+        [
+          "Hortelã e menta são a mesma coisa?",
+          "São plantas do mesmo gênero, Mentha. No Brasil, “hortelã” costuma ser a hortelã-comum (Mentha spicata e híbridos) e “menta” a hortelã-pimenta (Mentha × piperita), de sabor mais forte. Os cuidados são iguais."
+        ]
+      ],
+      "relacionadas": [
+        "manjericao",
+        "alecrim",
+        "morango"
+      ]
+    },
+    {
+      "slug": "morango",
+      "nome": "morango",
+      "cientifico": "Fragaria × ananassa",
+      "outros_nomes": [
+        "morangueiro"
+      ],
+      "familia": "Rosaceae",
+      "origem": "Híbrido de espécies das Américas, criado na Europa no século XVIII",
+      "genero": "m",
+      "plural": false,
+      "intro": "Dá para colher morango em vaso ou jardineira, até em apartamento, desde que haja sol e água regular. A escolha da variedade e a polinização das flores fazem toda a diferença na colheita.",
+      "resumo": {
+        "rega": "Substrato sempre levemente úmido (quase todo dia no verão)",
+        "luz": "Sol direto, 6 horas ou mais",
+        "adubo": "A cada 15–30 dias, com mais fósforo e potássio",
+        "dificuldade": "Média",
+        "pets": "Não tóxico para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Mantenha o substrato do morango levemente úmido, sem encharcar: regue quando a superfície começar a secar — em geral todos os dias ou em dias alternados no verão e a cada 2 a 3 dias no inverno. Molhe a terra, não as folhas e os frutos.",
+        "como_saber": "Toque a terra: se a camada de cima estiver seca, regue. Jardineiras e vasos pequenos ao sol secam muito rápido e podem precisar de rega diária.",
+        "excesso": "folhas amarelando, base da planta (coroa) mole e frutos apodrecendo encostados na terra.",
+        "falta": "folhas murchas e secando nas bordas e frutos pequenos e duros."
+      },
+      "luz": {
+        "resposta": "O morango precisa de sol direto: pelo menos 6 horas por dia para florescer e frutificar bem. Varandas ensolaradas e quintais são os melhores lugares.",
+        "detalhes": "Com pouco sol, a planta produz folhas, mas quase não dá frutos, e os que aparecem ficam menos doces."
+      },
+      "adubo": {
+        "resposta": "Adube o morango a cada 15 a 30 dias durante a floração e a frutificação com adubo rico em fósforo e potássio, como NPK 4-14-8, ou com bokashi e farinha de osso. No plantio, misture húmus de minhoca ao substrato.",
+        "detalhes": "Excesso de nitrogênio faz a planta encher de folhas e estolões e produzir menos frutos."
+      },
+      "substrato": "Rico e bem drenado: terra vegetal com húmus de minhoca e um pouco de areia ou casca de arroz carbonizada. Cubra a superfície com palha para os frutos não encostarem na terra.",
+      "vaso": "Jardineiras com pelo menos 20 cm de profundidade, deixando cerca de 25 cm entre as plantas, ou vasos individuais. Vasos suspensos e torres verticais também funcionam. Renove as mudas a cada 2 anos, porque a produção cai.",
+      "temperatura": "A faixa ideal fica entre 15 °C e 25 °C. Acima de 30 °C, a planta floresce menos e os frutos ficam pequenos; geadas fortes queimam flores e frutos.",
+      "clima": {
+        "sul": "No Sul, o clima favorece o morango: a colheita principal vai do fim do inverno ao começo do verão. Nas noites de geada, cubra os vasos com tecido.",
+        "sudeste": "No sul de Minas, maior região produtora do país, e em São Paulo, produz bem do inverno à primavera. No calor do Rio, prefira variedades de dia neutro e sol só pela manhã.",
+        "nordeste_norte": "No calor constante do Nordeste e do Norte, é difícil: use variedades de dia neutro, sol da manhã e sombra à tarde. Regiões de serra, como Garanhuns (PE) e a Chapada Diamantina (BA), dão resultados melhores.",
+        "centro_oeste": "Em Brasília e Goiânia, a época de colheita mais fácil é o inverno seco e ameno. Na seca, regue diariamente."
+      },
+      "problemas": [
+        [
+          "Floresce, mas não dá fruto",
+          "Falta de polinização, comum em apartamentos.",
+          "Passe um pincel macio de flor em flor, girando no centro, para levar o pólen."
+        ],
+        [
+          "Morangos tortos e deformados",
+          "Polinização incompleta ou calor excessivo na floração.",
+          "Faça a polinização com pincel e proteja do sol forte da tarde."
+        ],
+        [
+          "Frutos apodrecendo com mofo cinza",
+          "Botrytis, um fungo favorecido por umidade e frutos encostados na terra.",
+          "Retire os frutos afetados, cubra o substrato com palha e não molhe flores e frutos."
+        ],
+        [
+          "Muitos estolões e poucos frutos",
+          "Excesso de nitrogênio ou planta gastando energia com mudas.",
+          "Corte os estolões que você não quer como muda e use adubo com mais fósforo e potássio."
+        ],
+        [
+          "Manchas roxas e marrons nas folhas",
+          "Mancha-de-micosferela, uma doença fúngica.",
+          "Retire as folhas afetadas, evite molhar as folhas e melhore a ventilação."
+        ]
+      ],
+      "pets": "Não. O morangueiro é considerado não tóxico para cães e gatos pela ASPCA.",
+      "muda": "O morango forma estolões, ramos que crescem pela superfície e formam mudinhas nas pontas. Apoie a mudinha em um vaso com substrato úmido, sem cortar o estolão. Quando ela enraizar, em 2 a 3 semanas, corte a ligação com a planta-mãe.",
+      "faqs": [
+        [
+          "Qual a melhor variedade de morango para vaso?",
+          "Para quem quer colher por mais tempo, as variedades de dia neutro, como San Andreas e Albion, produzem em boa parte do ano. Variedades de dia curto, como Camarosa, concentram a produção no inverno e na primavera."
+        ],
+        [
+          "Quanto tempo o morango leva para dar fruto?",
+          "Mudas plantadas no outono costumam dar os primeiros frutos em 2 a 3 meses. Cada fruto leva cerca de 30 dias da flor até ficar maduro, dependendo da temperatura."
+        ]
+      ],
+      "relacionadas": [
+        "manjericao",
+        "hortela",
+        "jabuticabeira"
+      ]
+    },
+    {
+      "slug": "palmeira-rafis",
+      "nome": "palmeira-ráfis",
+      "cientifico": "Rhapis excelsa",
+      "outros_nomes": [
+        "ráfis",
+        "palmeira-dama"
+      ],
+      "familia": "Arecaceae",
+      "origem": "Sul da China",
+      "genero": "f",
+      "plural": false,
+      "intro": "A palmeira-ráfis é uma das palmeiras que melhor se adaptam dentro de casa: tolera meia-sombra e cresce devagar. As pontas marrons, sua queixa mais comum, quase sempre vêm da água, do ar seco ou do adubo.",
+      "resumo": {
+        "rega": "Quando os 2–3 cm de cima secarem (1 a 2 vezes por semana no verão)",
+        "luz": "Indireta clara ou meia-sombra",
+        "adubo": "A cada 2 meses na primavera e no verão",
+        "dificuldade": "Fácil",
+        "pets": "Não tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a palmeira-ráfis quando os 2 a 3 cm de cima do substrato secarem — em geral 1 a 2 vezes por semana no verão e a cada 10 dias no inverno. Ela gosta de umidade constante, mas não tolera raiz encharcada.",
+        "como_saber": "Enfie o dedo no substrato: se a camada de cima estiver seca, regue até escorrer pelo furo e descarte a água do pratinho.",
+        "excesso": "folhas amarelando por inteiro, base dos caules escurecida e cheiro de podre.",
+        "falta": "pontas e bordas das folhas secas e marrons e folhas novas que demoram a abrir."
+      },
+      "luz": {
+        "resposta": "A palmeira-ráfis prefere luz indireta clara ou meia-sombra. Vai bem perto de janelas sem sol forte e tolera ambientes com pouca luz, crescendo mais devagar.",
+        "detalhes": "Sol direto forte queima e amarela as folhas. Gire o vaso de vez em quando para a planta crescer por igual."
+      },
+      "adubo": {
+        "resposta": "Adube a palmeira-ráfis a cada 2 meses na primavera e no verão com NPK 10-10-10 na metade da dose da embalagem ou com húmus de minhoca. No inverno, não adube.",
+        "detalhes": "Ela cresce devagar e é sensível ao acúmulo de sais: adubo demais causa pontas queimadas. Uma vez por ano, regue com bastante água para lavar o substrato."
+      },
+      "substrato": "Terra vegetal com húmus e fibra de coco ou casca de pinus, que retenha um pouco de umidade e drene bem.",
+      "vaso": "Ela gosta de ficar um pouco apertada no vaso. Troque a cada 2 ou 3 anos, na primavera, para um vaso só um pouco maior.",
+      "temperatura": "A faixa ideal fica entre 15 °C e 30 °C. Tolera frio moderado, mas sofre com correntes de ar frio e com ar-condicionado direto.",
+      "clima": {
+        "sul": "Em Porto Alegre, Curitiba e Florianópolis, aguenta bem o inverno dentro de casa; regue bem menos nos meses frios.",
+        "sudeste": "Em apartamentos de São Paulo, do Rio e de Belo Horizonte, é uma das palmeiras mais fáceis para salas com luz indireta.",
+        "nordeste_norte": "No calor de Salvador, Recife, Fortaleza e Belém, confira o substrato com mais frequência e mantenha longe do sol da tarde.",
+        "centro_oeste": "Na seca de Brasília, as pontas secam com facilidade: borrife as folhas, agrupe com outras plantas e use água descansada."
+      },
+      "problemas": [
+        [
+          "Pontas marrons",
+          "Ar seco, cloro ou flúor da água, sais de adubo ou falta de água.",
+          "Use água filtrada ou deixada em repouso por 24 horas, aumente a umidade do ar e reduza o adubo. Corte só a ponta seca, acompanhando o formato da folha."
+        ],
+        [
+          "Folhas amarelas",
+          "Excesso de água ou sol direto.",
+          "Espace as regas e afaste da janela com sol forte."
+        ],
+        [
+          "Manchas e teias finas embaixo das folhas",
+          "Ácaro-rajado, comum com ar seco.",
+          "Limpe as folhas com pano úmido e água com sabão neutro e aumente a umidade."
+        ],
+        [
+          "Pontinhos marrons grudados nos caules",
+          "Cochonilha.",
+          "Remova com cotonete molhado em álcool 70% e repita toda semana até sumir."
+        ]
+      ],
+      "pets": "Não. A palmeira-ráfis (Rhapis excelsa) é considerada não tóxica para cães e gatos pela ASPCA.",
+      "muda": "Divida a touceira na troca de vaso, separando grupos de caules com raízes próprias. Por sementes, o crescimento é muito lento.",
+      "faqs": [
+        [
+          "Devo cortar as pontas secas da palmeira-ráfis?",
+          "Pode cortar só a parte seca com tesoura limpa, acompanhando o formato da folha e sem chegar ao tecido verde. Isso melhora a aparência, mas não resolve a causa."
+        ],
+        [
+          "Palmeira-ráfis cresce muito?",
+          "Cresce devagar: dentro de casa, costuma chegar a 1,5 ou 2 metros em muitos anos. No chão, ao ar livre e à meia-sombra, pode passar de 3 metros."
+        ]
+      ],
+      "relacionadas": [
+        "zamioculca",
+        "jiboia",
+        "maranta"
+      ]
+    },
+    {
+      "slug": "arvore-da-felicidade",
+      "nome": "árvore-da-felicidade",
+      "cientifico": "Polyscias guilfoylei e Polyscias fruticosa",
+      "outros_nomes": [
+        "arália",
+        "árvore-da-felicidade-macho",
+        "árvore-da-felicidade-fêmea"
+      ],
+      "familia": "Araliaceae",
+      "origem": "Ilhas do Pacífico e Sudeste Asiático",
+      "genero": "f",
+      "plural": false,
+      "intro": "A árvore-da-felicidade é vendida em dois tipos: a “macho” (Polyscias guilfoylei), de folhas mais largas, e a “fêmea” (Polyscias fruticosa), de folhas finas e rendadas. As duas detestam mudanças: perder folhas logo depois de trocar de lugar é a reação mais comum.",
+      "resumo": {
+        "rega": "Quando os 2–3 cm de cima secarem (cerca de 2 vezes por semana no verão)",
+        "luz": "Clara e indireta; sol fraco da manhã",
+        "adubo": "A cada 30 dias na primavera e no verão",
+        "dificuldade": "Média",
+        "pets": "Tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a árvore-da-felicidade quando os 2 a 3 cm de cima do substrato secarem — em geral 2 vezes por semana no verão e 1 vez por semana no inverno. Ela não gosta nem de seca prolongada nem de terra encharcada.",
+        "como_saber": "Enfie o dedo no substrato: se a camada de cima estiver seca, regue até escorrer pelo furo. Mantenha um ritmo regular, porque variações bruscas de rega fazem a planta perder folhas.",
+        "excesso": "folhas amareladas caindo, caule escurecido na base e raízes moles.",
+        "falta": "folhas secas e quebradiças caindo em grande quantidade."
+      },
+      "luz": {
+        "resposta": "A árvore-da-felicidade precisa de muita claridade indireta, perto de uma janela bem iluminada. Sol fraco da manhã é bem-vindo; sol forte da tarde queima as folhas.",
+        "detalhes": "Em ambientes escuros, ela perde folhas aos poucos e fica com galhos falhados."
+      },
+      "adubo": {
+        "resposta": "Adube a árvore-da-felicidade a cada 30 dias na primavera e no verão com NPK 10-10-10 dissolvido em água ou com húmus de minhoca. No outono e no inverno, adube a cada 2 meses ou suspenda.",
+        "detalhes": "Regue antes de adubar e não adube uma planta que acabou de ser trocada de lugar ou de vaso: espere ela se adaptar."
+      },
+      "substrato": "Rico e bem drenado: terra vegetal, húmus de minhoca e areia grossa ou casca de pinus.",
+      "vaso": "Vaso com furos, um pouco maior que o torrão. Troque a cada 2 anos, na primavera. Podas leves nas pontas estimulam a planta a ficar mais cheia.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 30 °C. Ela sofre abaixo de 12 °C e com correntes de ar, inclusive do ar-condicionado.",
+      "clima": {
+        "sul": "No inverno de Curitiba e Porto Alegre, mantenha dentro de casa, longe de janelas frias e de portas que abrem para a rua, e reduza a rega.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, vai bem o ano todo em salas e varandas claras, protegida do sol da tarde.",
+        "nordeste_norte": "No calor de Salvador, Recife, Fortaleza e Manaus, cresce bem em varandas sombreadas; confira o substrato com mais frequência.",
+        "centro_oeste": "Na seca de Brasília, as folhas caem com o ar seco: borrife as folhas, agrupe com outras plantas e regue com mais regularidade."
+      },
+      "problemas": [
+        [
+          "Perdeu muitas folhas depois de mudar de lugar",
+          "Estresse por mudança de luz, temperatura ou corrente de ar.",
+          "Escolha um local claro, sem vento, e não mude de novo. Mantenha a rega regular; os brotos voltam em algumas semanas."
+        ],
+        [
+          "Folhas amarelas caindo",
+          "Excesso de água ou pouca luz.",
+          "Espace as regas e leve para um local mais claro."
+        ],
+        [
+          "Folhas secas e quebradiças",
+          "Falta de água ou ar muito seco.",
+          "Regue com regularidade e aumente a umidade do ar."
+        ],
+        [
+          "Teias finas e folhas pontilhadas",
+          "Ácaro, comum em ambientes secos.",
+          "Limpe as folhas com pano úmido e água com sabão neutro e aumente a umidade."
+        ]
+      ],
+      "pets": "Sim. As plantas do gênero Polyscias contêm saponinas e são consideradas tóxicas para cães e gatos: se mastigadas, podem causar vômito, salivação e diarreia. A seiva também pode irritar a pele sensível. Mantenha fora do alcance.",
+      "muda": "Corte estacas de ramos semilenhosos com 15 cm, retire as folhas de baixo e enterre em substrato úmido, em local claro e abafado (um saco plástico por cima ajuda). As raízes aparecem em 4 a 8 semanas.",
+      "faqs": [
+        [
+          "Qual a diferença entre a árvore-da-felicidade macho e fêmea?",
+          "Não tem a ver com sexo da planta: são espécies diferentes. A “macho” (Polyscias guilfoylei) tem folhas maiores e mais largas; a “fêmea” (Polyscias fruticosa) tem folhas finas e bem recortadas. Os cuidados são iguais. Uma foto no FlorAI ajuda a saber qual é a sua."
+        ],
+        [
+          "Precisa plantar a árvore-da-felicidade macho e fêmea juntas?",
+          "Pela tradição popular, o casal plantado junto traz felicidade, mas isso é crença. Botanicamente, cada uma vive bem sozinha."
+        ]
+      ],
+      "relacionadas": [
+        "costela-de-adao",
+        "palmeira-rafis",
+        "jiboia"
+      ]
+    },
+    {
+      "slug": "violeta-africana",
+      "nome": "violeta-africana",
+      "cientifico": "Saintpaulia ionantha (hoje Streptocarpus ionanthus)",
+      "outros_nomes": [
+        "violeta",
+        "saintpaulia"
+      ],
+      "familia": "Gesneriaceae",
+      "origem": "Tanzânia e Quênia",
+      "genero": "f",
+      "plural": false,
+      "intro": "A violeta-africana floresce várias vezes por ano dentro de casa com três cuidados: muita claridade sem sol direto, água sem molhar as folhas e vaso pequeno. As folhas aveludadas mancham com água fria.",
+      "resumo": {
+        "rega": "Quando a superfície secar, de preferência por baixo",
+        "luz": "Indireta e clara, várias horas por dia",
+        "adubo": "A cada 15–30 dias, para floríferas e diluído",
+        "dificuldade": "Média",
+        "pets": "Não tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a violeta-africana quando a superfície do substrato estiver seca ao toque — em geral 1 a 2 vezes por semana — de preferência por baixo: coloque água no pratinho, espere 20 a 30 minutos e descarte o que sobrar. Use água em temperatura ambiente e não molhe as folhas.",
+        "como_saber": "Toque a superfície: se estiver seca, regue. O vaso fica visivelmente mais leve quando precisa de água.",
+        "excesso": "folhas moles e caídas, centro da planta (coroa) apodrecendo e raízes escuras.",
+        "falta": "folhas murchas e sem brilho e botões que secam antes de abrir."
+      },
+      "luz": {
+        "resposta": "A violeta-africana precisa de luz indireta clara por várias horas por dia, perto de uma janela bem iluminada, sem sol direto. É a luz que faz ela florescer.",
+        "detalhes": "Folhas longas, viradas para cima e verde-escuras indicam pouca luz. Folhas desbotadas e amareladas indicam luz forte demais. Lâmpadas de LED a 30 cm da planta, ligadas por 10 a 12 horas, funcionam bem em ambientes escuros."
+      },
+      "adubo": {
+        "resposta": "Adube a violeta-africana a cada 15 a 30 dias com adubo para plantas floríferas, rico em fósforo (como NPK 4-14-8), na metade da dose da embalagem e sempre com o substrato úmido.",
+        "detalhes": "Adubo forte demais queima as raízes e deixa as bordas das folhas marrons. Uma vez por mês, regue por cima com água pura para lavar o excesso de sais."
+      },
+      "substrato": "Leve e poroso: substrato próprio para violetas, ou terra vegetal com fibra de coco e vermiculita ou perlita.",
+      "vaso": "Vasos pequenos e rasos, com diâmetro de cerca de um terço da largura da planta. Vaso grande demais faz a violeta produzir folhas e quase não florescer. Retire brotos laterais para manter uma única roseta.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 26 °C. Abaixo de 15 °C ela para de florescer, e o calor acima de 30 °C também reduz a florada.",
+      "clima": {
+        "sul": "No inverno do Sul, afaste do vidro frio da janela à noite e regue com água morna, em temperatura ambiente.",
+        "sudeste": "Em São Paulo, Belo Horizonte e no Rio, floresce bem o ano todo em janelas claras; no verão carioca, proteja do calor perto do vidro.",
+        "nordeste_norte": "No calor de Salvador, Recife, Fortaleza e Manaus, mantenha no ambiente mais fresco e claro da casa, longe do sol.",
+        "centro_oeste": "Na seca de Brasília, use um pratinho com pedras e água por baixo do vaso para aumentar a umidade, sem borrifar as folhas."
+      },
+      "problemas": [
+        [
+          "Não floresce",
+          "Pouca luz, vaso grande demais ou falta de adubo para floríferas.",
+          "Aproxime de uma janela clara ou use luz de LED, mantenha em vaso pequeno e adube com mais fósforo."
+        ],
+        [
+          "Manchas claras ou amareladas nas folhas",
+          "Água fria ou gotas nas folhas com sol.",
+          "Regue por baixo, com água em temperatura ambiente, sem molhar as folhas."
+        ],
+        [
+          "Centro da planta mole e escuro",
+          "Podridão da coroa por excesso de água.",
+          "Corte as partes sadias e faça mudas por folha; a planta-mãe raramente se recupera."
+        ],
+        [
+          "Pó branco nas folhas e flores",
+          "Oídio, favorecido por pouca ventilação e variação de temperatura.",
+          "Retire as partes afetadas e melhore a ventilação sem expor a corrente de ar fria."
+        ]
+      ],
+      "pets": "Não. A violeta-africana é considerada não tóxica para cães e gatos pela ASPCA.",
+      "muda": "Corte uma folha saudável com 2 a 3 cm de cabo (pecíolo) e enterre o cabo inclinado em substrato úmido ou deixe em um copo com água. As raízes aparecem em 3 a 4 semanas e as mudinhas em 6 a 12 semanas.",
+      "faqs": [
+        [
+          "Como fazer a violeta-africana florir?",
+          "Dê mais luz indireta (é a causa mais comum), use vaso pequeno, adubo para floríferas a cada 15 a 30 dias e mantenha a temperatura entre 18 °C e 26 °C. Retire flores secas e brotos laterais."
+        ],
+        [
+          "Pode molhar as folhas da violeta-africana?",
+          "É melhor evitar. Água fria nas folhas aveludadas deixa manchas, e gotas paradas favorecem fungos. Se precisar limpar, use um pincel macio seco."
+        ]
+      ],
+      "relacionadas": [
+        "orquidea",
+        "begonia",
+        "peperomia"
+      ]
+    },
+    {
+      "slug": "bambu-da-sorte",
+      "nome": "bambu-da-sorte",
+      "cientifico": "Dracaena sanderiana",
+      "outros_nomes": [
+        "bambu-chinês",
+        "dracena-sanderiana"
+      ],
+      "familia": "Asparagaceae",
+      "origem": "África Central",
+      "genero": "m",
+      "plural": false,
+      "intro": "Apesar do nome, o bambu-da-sorte não é bambu: é uma dracena. Ele vive bem só na água, em vasos de vidro, desde que a água seja trocada com frequência e não tenha muito cloro.",
+      "resumo": {
+        "rega": "Na água: trocar a cada 7–10 dias; na terra: quando a superfície secar",
+        "luz": "Indireta, de média a clara",
+        "adubo": "Gotas de adubo líquido a cada 1–2 meses",
+        "dificuldade": "Fácil",
+        "pets": "Tóxico para cães e gatos"
+      },
+      "rega": {
+        "resposta": "No vaso com água, troque toda a água a cada 7 a 10 dias e mantenha o nível cobrindo as raízes, cerca de 3 a 5 cm. Na terra, regue quando a superfície do substrato secar, sem encharcar. Use água filtrada, de chuva ou deixada em repouso por 24 horas.",
+        "como_saber": "Na água, troque antes de ela ficar turva ou esverdeada. Na terra, enfie o dedo 2 a 3 cm no substrato: se estiver seco, regue.",
+        "excesso": "na terra, caule amarelado e mole na base e cheiro de podre.",
+        "falta": "pontas das folhas secas e raízes expostas ao ar, ressecadas."
+      },
+      "luz": {
+        "resposta": "O bambu-da-sorte gosta de luz indireta, de média a clara. Tolera ambientes com pouca luz, como escritórios, mas cresce mais devagar.",
+        "detalhes": "Sol direto queima as folhas e aquece a água do vaso, favorecendo algas. Em locais muito escuros, os brotos novos saem finos e pálidos."
+      },
+      "adubo": {
+        "resposta": "Na água, pingue algumas gotas de adubo líquido para plantas, bem diluído, a cada 1 a 2 meses. Na terra, adube a cada 2 meses na primavera e no verão com NPK 10-10-10 na metade da dose.",
+        "detalhes": "Adubo demais na água amarela as folhas e acelera o crescimento de algas. Menos é mais."
+      },
+      "substrato": "Na terra, use substrato leve e bem drenado, com terra vegetal e areia ou fibra de coco. Na água, pedras ou bolinhas de gel servem só para apoiar os caules.",
+      "vaso": "Vasos de vidro ou cerâmica, lavados a cada troca de água para remover o limo. Vidros opacos reduzem as algas. Quando as raízes ficarem muito longas e emaranhadas, passe para um vaso maior ou para a terra.",
+      "temperatura": "A faixa ideal fica entre 18 °C e 30 °C. Abaixo de 10 °C, as folhas amarelam e os caules podem apodrecer.",
+      "clima": {
+        "sul": "No inverno do Sul, mantenha longe de janelas frias e use água em temperatura ambiente na troca.",
+        "sudeste": "Em escritórios e apartamentos de São Paulo, do Rio e de BH, vai bem o ano todo; no verão, troque a água com mais frequência.",
+        "nordeste_norte": "No calor de Salvador, Recife, Fortaleza e Belém, a água esquenta e cria algas mais rápido: troque a cada 5 a 7 dias e mantenha longe do sol.",
+        "centro_oeste": "Na seca de Brasília, a água evapora mais rápido: complete o nível entre as trocas e borrife as folhas."
+      },
+      "problemas": [
+        [
+          "Água amarela, verde ou com cheiro",
+          "Algas e bactérias por pouca troca de água, sol direto ou adubo demais.",
+          "Troque toda a água, lave o vaso e as pedras e tire do sol direto."
+        ],
+        [
+          "Folhas amarelas",
+          "Cloro ou flúor na água, excesso de adubo ou sol direto.",
+          "Use água filtrada ou descansada, reduza o adubo e afaste do sol."
+        ],
+        [
+          "Caule amarelo e mole",
+          "Caule apodrecendo; costuma não ter volta.",
+          "Retire o caule afetado para não contaminar os outros. Se o topo estiver verde, corte acima da parte podre e enraíze de novo na água."
+        ],
+        [
+          "Pontas marrons",
+          "Ar seco ou sais da água.",
+          "Troque por água filtrada e aumente a umidade do ar."
+        ]
+      ],
+      "pets": "Sim. O bambu-da-sorte é uma dracena, e a ASPCA lista as dracenas como tóxicas para cães e gatos: se mastigado, pode causar vômito, salivação e, em gatos, pupilas dilatadas. Mantenha fora do alcance.",
+      "muda": "Corte um broto lateral ou o topo de um caule com pelo menos um nó, retire as folhas de baixo e coloque em água limpa. As raízes aparecem em 3 a 6 semanas.",
+      "faqs": [
+        [
+          "Bambu-da-sorte pode ficar só na água?",
+          "Pode, por anos, desde que a água seja trocada a cada 7 a 10 dias e receba adubo líquido bem diluído de vez em quando. Na terra, ele cresce mais e vive mais."
+        ],
+        [
+          "Quantas hastes de bambu-da-sorte dão sorte?",
+          "No Feng Shui popular, cada número tem um significado: três hastes para felicidade, cinco para saúde, oito para prosperidade. Quatro costuma ser evitado. É crença; os cuidados são os mesmos para qualquer número."
+        ]
+      ],
+      "relacionadas": [
+        "espada-de-sao-jorge",
+        "jiboia",
+        "zamioculca"
+      ]
+    },
+    {
+      "slug": "begonia",
+      "nome": "begônia",
+      "cientifico": "Begonia spp. (begônia-maculata, begônia-cerosa e outras)",
+      "outros_nomes": [
+        "begônia-maculata",
+        "begônia-asa-de-anjo",
+        "begônia-cerosa"
+      ],
+      "familia": "Begoniaceae",
+      "origem": "Regiões tropicais e subtropicais, incluindo a Mata Atlântica brasileira",
+      "genero": "f",
+      "plural": false,
+      "intro": "Begônias são de dois grupos principais: as de folhagem, como a begônia-maculata, de folhas com bolinhas prateadas, e as de flor, como a begônia-cerosa. Todas compartilham duas regras: não molhar as folhas e nunca deixar o substrato encharcado.",
+      "resumo": {
+        "rega": "Quando os 2 cm de cima secarem, sem molhar as folhas",
+        "luz": "Indireta clara; a cerosa aceita sol da manhã",
+        "adubo": "A cada 30 dias na primavera e no verão",
+        "dificuldade": "Média",
+        "pets": "Tóxica para cães e gatos"
+      },
+      "rega": {
+        "resposta": "Regue a begônia quando os 2 cm de cima do substrato secarem — em geral 2 vezes por semana no verão e 1 vez por semana no inverno. Molhe a terra, nunca as folhas, e descarte a água do pratinho.",
+        "como_saber": "Toque o substrato: se a camada de cima estiver seca, regue. Begônias têm caules suculentos e apodrecem rápido com terra encharcada, então na dúvida espere mais um dia.",
+        "excesso": "caule mole e escuro na base, folhas caindo e manchas encharcadas.",
+        "falta": "folhas murchas, bordas secas e flores caindo."
+      },
+      "luz": {
+        "resposta": "A begônia gosta de luz indireta clara, perto de uma janela iluminada, sem sol forte. A begônia-cerosa é a exceção: aceita sol da manhã e até sol pleno em canteiros.",
+        "detalhes": "Sol forte queima as folhas da begônia-maculata e das begônias de folhagem. Com pouca luz, os caules esticam e as begônias de flor param de florescer."
+      },
+      "adubo": {
+        "resposta": "Adube a begônia a cada 30 dias na primavera e no verão. Para begônias de flor, use adubo rico em fósforo, como NPK 4-14-8; para as de folhagem, NPK 10-10-10 diluído ou húmus de minhoca.",
+        "detalhes": "Regue antes de adubar e use metade da dose da embalagem em vasos pequenos."
+      },
+      "substrato": "Leve e bem drenado: terra vegetal com fibra de coco, húmus e perlita ou casca de pinus.",
+      "vaso": "Vasos com furos, nem muito grandes. A begônia-maculata cresce para cima e pode precisar de tutor; podar as pontas deixa a planta mais cheia.",
+      "temperatura": "A faixa ideal fica entre 16 °C e 28 °C. Ela sofre abaixo de 10 °C e com calor muito seco.",
+      "clima": {
+        "sul": "No inverno do Sul, mantenha dentro de casa, em local claro, e regue bem menos. A begônia-cerosa pode perder vigor no frio e rebrotar na primavera.",
+        "sudeste": "Em São Paulo, no Rio e em Belo Horizonte, a begônia-maculata vai bem em salas claras o ano todo; a cerosa floresce muito em jardineiras com sol da manhã.",
+        "nordeste_norte": "No calor úmido de Salvador, Recife e Belém, garanta boa ventilação para evitar oídio e mantenha longe do sol da tarde.",
+        "centro_oeste": "Na seca de Brasília, aumente a umidade com um pratinho com pedras e água por baixo do vaso, sem borrifar as folhas."
+      },
+      "problemas": [
+        [
+          "Pó branco nas folhas",
+          "Oídio, um fungo favorecido por umidade nas folhas e pouca ventilação.",
+          "Retire as folhas afetadas, pare de molhar as folhas e melhore a ventilação."
+        ],
+        [
+          "Caule mole e escuro na base",
+          "Podridão por excesso de água.",
+          "Corte as pontas sadias para fazer mudas, deixe o substrato secar e espace as regas."
+        ],
+        [
+          "Folhas com bordas marrons e secas",
+          "Ar seco, sol forte ou falta de água.",
+          "Aumente a umidade do ar, afaste do sol e regue com regularidade."
+        ],
+        [
+          "Caules compridos e com poucas folhas",
+          "Pouca luz ou planta precisando de poda.",
+          "Leve para um local mais claro e pode as pontas para estimular brotos laterais."
+        ],
+        [
+          "Botões e flores caindo",
+          "Mudança brusca de lugar, falta de água ou calor excessivo.",
+          "Mantenha a rega regular e evite mudar a planta de lugar."
+        ]
+      ],
+      "pets": "Sim. A ASPCA lista as begônias como tóxicas para cães e gatos: contêm oxalatos solúveis, mais concentrados nos tubérculos e raízes, e podem causar irritação na boca, salivação e vômito.",
+      "muda": "Corte ramos de 10 cm com 2 ou 3 nós, retire as folhas de baixo e coloque em água ou em substrato úmido. A begônia-maculata enraíza na água em 2 a 4 semanas.",
+      "faqs": [
+        [
+          "Pode molhar as folhas da begônia?",
+          "Não é recomendado. Folhas molhadas, principalmente à noite e com pouca ventilação, favorecem oídio e manchas. Regue direto na terra."
+        ],
+        [
+          "Begônia-maculata gosta de sol?",
+          "Não de sol direto forte: ele queima as folhas e apaga as bolinhas prateadas. Ela prefere luz indireta clara, perto de uma janela iluminada."
+        ]
+      ],
+      "relacionadas": [
+        "violeta-africana",
+        "maranta",
+        "lirio-da-paz"
+      ]
+    }
+  ]
+}

@@ -9,7 +9,60 @@
   <meta property="og:title" content="FlorAI — Sua câmera agora entende plantas" />
   <meta property="og:description" content="Tire uma foto. Descubra sua planta. Aprenda a cuidar dela." />
   <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:url" content="https://florai.cc/" />
+  <link rel="canonical" href="https://florai.cc/" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://florai.cc/#organizacao",
+        "name": "FlorAI",
+        "url": "https://florai.cc/",
+        "logo": "https://florai.cc/assets/favicon.svg",
+        "email": "privacidade@aiuldaumor.resend.app",
+        "founder": { "@type": "Person", "name": "João Vitor Machado" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Belo Horizonte", "addressRegion": "MG", "addressCountry": "BR" },
+        "sameAs": ["https://play.google.com/store/apps/details?id=com.florai"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://florai.cc/#site",
+        "url": "https://florai.cc/",
+        "name": "FlorAI",
+        "inLanguage": "pt-BR",
+        "publisher": { "@id": "https://florai.cc/#organizacao" }
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://florai.cc/#app",
+        "name": "FlorAI",
+        "description": "Aplicativo brasileiro que identifica plantas por foto com inteligência artificial e mostra como cuidar de cada uma: luz, rega, temperatura e solo.",
+        "operatingSystem": "Android",
+        "applicationCategory": "LifestyleApplication",
+        "inLanguage": "pt-BR",
+        "url": "https://florai.cc/",
+        "installUrl": "https://play.google.com/store/apps/details?id=com.florai",
+        "publisher": { "@id": "https://florai.cc/#organizacao" },
+        "featureList": [
+          "Identificação de plantas por foto com IA",
+          "Cuidados por espécie: luz, rega, temperatura e solo",
+          "Coleção pessoal de plantas",
+          "Lembretes de rega (planos pagos)"
+        ],
+        "offers": [
+          { "@type": "Offer", "name": "Gratuito", "price": "0", "priceCurrency": "BRL" },
+          { "@type": "Offer", "name": "Básico", "price": "9.99", "priceCurrency": "BRL" },
+          { "@type": "Offer", "name": "Pro", "price": "19.99", "priceCurrency": "BRL" },
+          { "@type": "Offer", "name": "Premium", "price": "49.99", "priceCurrency": "BRL" }
+        ]
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://images.unsplash.com" />
@@ -64,6 +117,7 @@
       <a href="#como-funciona">Como funciona</a>
       <a href="#recursos">Recursos</a>
       <a href="#planos">Planos</a>
+      <a href="guia/">Guias</a>
     </nav>
     <a class="btn btn--primary btn--sm nav__cta" href="#comecar">Começar agora</a>
     <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
@@ -75,6 +129,7 @@
     <a href="#como-funciona">Como funciona</a>
     <a href="#recursos">Recursos</a>
     <a href="#planos">Planos</a>
+    <a href="guia/">Guias de plantas</a>
     <a class="btn btn--primary" href="#comecar">Começar agora <svg class="i"><use href="#i-arrow-right"/></svg></a>
   </div>
 </header>
@@ -493,9 +548,9 @@
   <div class="container">
     <div class="doctor__panel reveal">
       <div class="doctor__head">
-        <span class="badge-premium"><svg class="i"><use href="#i-sparkle"/></svg> Premium</span>
+        <span class="badge-premium"><svg class="i"><use href="#i-sparkle"/></svg> Em breve no Premium</span>
         <h2 class="h2">Médico de IA.</h2>
-        <p class="section__lead">Folhas manchadas, amareladas ou sem vida? Envie uma foto e receba uma análise dos sinais visíveis, com orientações sobre o que observar e o que fazer.</p>
+        <p class="section__lead">Folhas manchadas, amareladas ou sem vida? Em breve, você vai poder enviar uma foto e receber uma análise dos sinais visíveis, com orientações sobre o que observar e o que fazer.</p>
       </div>
 
       <div class="doctor__flow">
@@ -526,7 +581,7 @@
           </li>
         </ol>
       </div>
-      <p class="doctor__disclaimer">Exemplo ilustrativo. As análises do Médico de IA são orientações baseadas na imagem e não substituem a avaliação de um especialista.</p>
+      <p class="doctor__disclaimer">Recurso em desenvolvimento; exemplo ilustrativo. As análises do Médico de IA são orientações baseadas na imagem e não substituem a avaliação de um especialista.</p>
     </div>
   </div>
 </section>
@@ -553,7 +608,7 @@
       </article>
 
       <article class="plan reveal" style="--d:.08s">
-        <h3>Essencial</h3>
+        <h3>Básico</h3>
         <p class="plan__price"><b>R$ 9,99</b><span>/mês</span></p>
         <p class="plan__desc">Para montar o seu jardim.</p>
         <ul>
@@ -567,7 +622,7 @@
       </article>
 
       <article class="plan reveal" style="--d:.16s">
-        <h3>Plus</h3>
+        <h3>Pro</h3>
         <p class="plan__price"><b>R$ 19,99</b><span>/mês</span></p>
         <p class="plan__desc">Para quem já perdeu a conta.</p>
         <ul>
@@ -581,7 +636,7 @@
       </article>
 
       <article class="plan plan--premium reveal" style="--d:.24s">
-        <h3>Premium <span class="badge-premium badge-premium--sm"><svg class="i"><use href="#i-sparkle"/></svg> Médico de IA</span></h3>
+        <h3>Premium <span class="badge-premium badge-premium--sm"><svg class="i"><use href="#i-sparkle"/></svg> Médico de IA em breve</span></h3>
         <p class="plan__price"><b>R$ 49,99</b><span>/mês</span></p>
         <p class="plan__desc">A experiência completa.</p>
         <ul>
@@ -589,7 +644,7 @@
           <li><svg class="i"><use href="#i-check"/></svg> Plantas ilimitadas</li>
           <li><svg class="i"><use href="#i-check"/></svg> Coleções ilimitadas</li>
           <li><svg class="i"><use href="#i-check"/></svg> Alertas de rega</li>
-          <li class="hl"><svg class="i"><use href="#i-sparkle"/></svg> Médico de IA incluído</li>
+          <li class="hl"><svg class="i"><use href="#i-sparkle"/></svg> Médico de IA (em breve)</li>
         </ul>
         <a class="btn btn--primary btn--block" href="#comecar">Assinar Premium</a>
       </article>
@@ -607,7 +662,7 @@
     <div class="final__copy">
       <h2 class="display display--final reveal">Toda planta tem uma história.<br /><em>Comece descobrindo o nome dela.</em></h2>
       <div class="hero__ctas reveal" style="--d:.1s">
-        <a class="btn btn--primary btn--lg" href="#"><svg class="i"><use href="#i-camera"/></svg> Identificar minha primeira planta</a>
+        <a class="btn btn--primary btn--lg" href="https://play.google.com/store/apps/details?id=com.florai"><svg class="i"><use href="#i-camera"/></svg> Identificar minha primeira planta</a>
       </div>
       <p class="hero__note reveal" style="--d:.16s"><span class="dot"></span> Grátis para começar. Sem complicação.</p>
     </div>
@@ -651,6 +706,7 @@
       <a href="#como-funciona">Como funciona</a>
       <a href="#recursos">Recursos</a>
       <a href="#planos">Planos</a>
+      <a href="guia/">Guias de plantas</a>
       <a href="termos.html">Termos de Uso</a>
       <a href="privacidade.html">Privacidade</a>
     </nav>
