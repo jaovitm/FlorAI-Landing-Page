@@ -17,6 +17,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 SITE = "https://florai.cc"
 PLAY = "https://play.google.com/store/apps/details?id=com.florai"
+OG_IMAGE = SITE + "/assets/og-image.jpg"
 ASPCA = "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
 
 # Frase de entidade: repetida de forma idêntica nas páginas para que buscadores
@@ -153,6 +154,10 @@ def cabecalho(titulo, descricao, url, raiz, extra=""):
   <meta property="og:title" content="{escape(titulo)}" />
   <meta property="og:description" content="{escape(descricao)}" />
   <meta property="og:url" content="{url}" />
+  <meta property="og:image" content="{OG_IMAGE}" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" href="{raiz}assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -192,8 +197,8 @@ def rodape(raiz):
       <a href="{raiz}">Início</a>
       <a href="{raiz}guia/">Guias de plantas</a>
       <a href="{PLAY}">Google Play</a>
-      <a href="{raiz}termos.html">Termos de Uso</a>
-      <a href="{raiz}privacidade.html">Privacidade</a>
+      <a href="{raiz}termos">Termos de Uso</a>
+      <a href="{raiz}privacidade">Privacidade</a>
     </nav>
     <p class="footer__copy">© 2026 FlorAI.</p>
   </div>
@@ -251,6 +256,7 @@ def pagina_planta(p, por_slug, atualizado):
                 "datePublished": atualizado,
                 "dateModified": atualizado,
                 "mainEntityOfPage": url,
+                "image": OG_IMAGE,
                 "author": {"@id": SITE + "/#organizacao"},
                 "publisher": {"@id": SITE + "/#organizacao"},
                 "about": {
@@ -497,6 +503,7 @@ def pagina_artigo(a, rotulos, atualizado):
                 "datePublished": atualizado,
                 "dateModified": atualizado,
                 "mainEntityOfPage": url,
+                "image": OG_IMAGE,
                 "author": {"@id": SITE + "/#organizacao"},
                 "publisher": {"@id": SITE + "/#organizacao"},
             },
@@ -713,7 +720,8 @@ def pagina_indice(plantas, artigos, atualizado):
 # ---------------------------------------------------------------- sitemap e llms.txt
 
 def sitemap(slugs, atualizado):
-    urls = ["/", "/guia/"] + [f"/guia/{s}/" for s in slugs] + ["/termos.html", "/privacidade.html"]
+    # Endereços finais: o Cloudflare Pages redireciona *.html para a versão sem extensão.
+    urls = ["/", "/guia/"] + [f"/guia/{s}/" for s in slugs] + ["/termos", "/privacidade"]
     itens = "\n".join(
         f"  <url><loc>{SITE}{u}</loc><lastmod>{atualizado}</lastmod></url>" for u in urls
     )
@@ -760,8 +768,8 @@ def llms(plantas, artigos):
 
 - [Início]({SITE}/): apresentação do aplicativo, recursos e planos.
 - [Todos os guias]({SITE}/guia/): índice dos guias e perguntas frequentes gerais sobre rega, adubo e identificação.
-- [Termos de Uso]({SITE}/termos.html)
-- [Política de Privacidade]({SITE}/privacidade.html)
+- [Termos de Uso]({SITE}/termos)
+- [Política de Privacidade]({SITE}/privacidade)
 """
 
 

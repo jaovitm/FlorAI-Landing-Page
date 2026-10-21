@@ -67,5 +67,5 @@
 
 - [Início](https://florai.cc/): apresentação do aplicativo, recursos e planos.
 - [Todos os guias](https://florai.cc/guia/): índice dos guias e perguntas frequentes gerais sobre rega, adubo e identificação.
-- [Termos de Uso](https://florai.cc/termos.html)
-- [Política de Privacidade](https://florai.cc/privacidade.html)
+- [Termos de Uso](https://florai.cc/termos)
+- [Política de Privacidade](https://florai.cc/privacidade)
